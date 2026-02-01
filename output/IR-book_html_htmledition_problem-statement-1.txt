@@ -1,0 +1,53 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/problem-statement-1.html
+url_id: /IR-book/html/htmledition/problem-statement-1
+title: Problem statement
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/cardinality---the-number-of-clusters-1, /IR-book/html/htmledition/cluster-cardinality-in-k-means-1, /IR-book/html/htmledition/clustering-in-information-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/irbook
+links: http://nlp.stanford.edu/IR-book/html/htmledition/a-note-on-terminology-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/cardinality---the-number-of-clusters-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/clustering-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-representations-and-measures-of-relatedness-in-vector-spaces-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/flat-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-classification-1.html
+The objective function is often defined in terms of
+similarity or distance between documents. Below, we will see
+that the objective in -means clustering is to minimize the average distance
+between documents and their centroids or, equivalently, to
+maximize the similarity between documents and their centroids.
+The discussion of similarity measures and distance metrics
+in Chapter 14 (page 14.1 ) also
+applies to
+this chapter. As in 
+Chapter 14 , we use both similarity and distance
+to talk about relatedness between documents. For documents, the type of similarity we want is usually
+topic similarity or high values on the same dimensions in
+the vector space model. For example, documents about China
+have high values on dimensions like Chinese,
+Beijing, and Mao whereas documents about the
+UK tend to have high values for London,
+Britain and Queen. We approximate topic
+similarity with cosine similarity or Euclidean distance in
+vector space (Chapter 6 ).  If we intend to
+capture 
+similarity of a type other than topic, for example,
+similarity of language, then a
+different representation may be appropriate.  When computing
+topic similarity, stop words can be safely ignored, but they
+are important cues for separating clusters of English (in
+which the occurs frequently and la
+infrequently) and French documents (in which the
+occurs infrequently and la frequently). Subsections A note on terminology. Cardinality - the number of clusters Next: A note on terminology. Up: Flat clustering Previous: Clustering in information retrieval Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+For documents, the type of similarity we want is usually
+topic similarity or high values on the same dimensions in
+the vector space model. For example, documents about China
+have high values on dimensions like Chinese,
+Beijing, and Mao whereas documents about the
+UK tend to have high values for London,
+Britain and Queen. We approximate topic
+similarity with cosine similarity or Euclidean distance in
+vector space (Chapter 6 ).  If we intend to
+capture 
+similarity of a type other than topic, for example,
+similarity of language, then a
+different representation may be appropriate.  When computing
+topic similarity, stop words can be safely ignored, but they
+are important cues for separating clusters of English (in
+which the occurs frequently and la
+infrequently) and French documents (in which the
+occurs infrequently and la frequently). Subsections A note on terminology. Cardinality - the number of clusters Next: A note on terminology. Up: Flat clustering Previous: Clustering in information retrieval Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Subsections A note on terminology. Cardinality - the number of clusters Next: A note on terminology. Up: Flat clustering Previous: Clustering in information retrieval Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

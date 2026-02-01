@@ -1,0 +1,61 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1.html
+url_id: /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
+title: Support vector machines and machine learning on documents
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/text-classification-and-naive-bayes-1, /IR-book/information-retrieval-book
+links: http://nlp.stanford.edu/IR-book/html/htmledition/a-simple-example-of-machine-learned-scoring-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/choosing-what-kind-of-classifier-to-use-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/connections-to-text-summarization-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-zones-in-text-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-2.html, http://nlp.stanford.edu/IR-book/html/htmledition/experimental-results-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/extensions-to-the-svm-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/features-for-text-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/improving-classifier-performance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/large-and-difficult-category-taxonomies-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/machine-learning-methods-in-ad-hoc-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/multiclass-svms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/nonlinear-svms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-15.html, http://nlp.stanford.edu/IR-book/html/htmledition/result-ranking-by-machine-learning-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/separate-feature-spaces-for-document-zones-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/soft-margin-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/support-vector-machines-the-linearly-separable-case-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/upweighting-document-zones-1.html
+Improving classifier effectiveness has been an area of intensive
+machine-learning research over the last two decades, and this work has
+led to a new generation of state-of-the-art classifiers, such as support
+vector machines, boosted decision trees, regularized logistic
+regression, neural networks, and random forests.  Many of these methods,
+including support vector machines (SVMs), the main topic of this chapter, have
+been applied with success to information retrieval problems,
+particularly text classification.  
+An SVM
+is a kind
+of large-margin classifier: it is a
+vector space based machine learning method where the goal is
+to find a decision boundary between two classes that is 
+maximally far from any point
+in the training data (possibly discounting some points as outliers or noise). We will initially motivate and
+develop SVMs for the case of two-class data sets that are separable by a
+linear classifier 
+(Section 15.1 ), and then extend the model in
+Section 15.2 to
+non-separable data, multi-class problems, and nonlinear models,
+and also present some additional discussion of SVM performance.
+The chapter then moves to consider the practical deployment of text
+classifiers in Section 15.3 : what sorts of classifiers are
+appropriate when, and how can you exploit domain-specific text
+features in classification?  Finally, we will consider how the machine
+learning technology that we have been building for text classification
+can be applied back to the problem of learning how to rank documents
+in ad hoc retrieval (Section 15.4 ). While several machine
+learning methods have been applied to this task, use of SVMs has been
+prominent.    
+Support vector machines are not necessarily better than other
+machine learning methods (except perhaps in situations with little training data), but
+they perform at the state-of-the-art level and have much current
+theoretical and empirical appeal. Subsections Support vector machines: The linearly separable case Extensions to the SVM model Soft margin classification Multiclass SVMs Nonlinear SVMs Experimental results Issues in the classification of text documents Choosing what kind of classifier to use Improving classifier performance Large and difficult category taxonomies Features for text Document zones in text classification Upweighting document zones. Separate feature spaces for document zones. Connections to text summarization. Machine learning methods in ad hoc information retrieval A simple example of machine-learned scoring Result ranking by machine learning References and further reading Next: Support vector machines: The Up: irbook Previous: Exercises Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+We will initially motivate and
+develop SVMs for the case of two-class data sets that are separable by a
+linear classifier 
+(Section 15.1 ), and then extend the model in
+Section 15.2 to
+non-separable data, multi-class problems, and nonlinear models,
+and also present some additional discussion of SVM performance.
+The chapter then moves to consider the practical deployment of text
+classifiers in Section 15.3 : what sorts of classifiers are
+appropriate when, and how can you exploit domain-specific text
+features in classification?  Finally, we will consider how the machine
+learning technology that we have been building for text classification
+can be applied back to the problem of learning how to rank documents
+in ad hoc retrieval (Section 15.4 ). While several machine
+learning methods have been applied to this task, use of SVMs has been
+prominent.    
+Support vector machines are not necessarily better than other
+machine learning methods (except perhaps in situations with little training data), but
+they perform at the state-of-the-art level and have much current
+theoretical and empirical appeal. Subsections Support vector machines: The linearly separable case Extensions to the SVM model Soft margin classification Multiclass SVMs Nonlinear SVMs Experimental results Issues in the classification of text documents Choosing what kind of classifier to use Improving classifier performance Large and difficult category taxonomies Features for text Document zones in text classification Upweighting document zones. Separate feature spaces for document zones. Connections to text summarization. Machine learning methods in ad hoc information retrieval A simple example of machine-learned scoring Result ranking by machine learning References and further reading Next: Support vector machines: The Up: irbook Previous: Exercises Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Subsections Support vector machines: The linearly separable case Extensions to the SVM model Soft margin classification Multiclass SVMs Nonlinear SVMs Experimental results Issues in the classification of text documents Choosing what kind of classifier to use Improving classifier performance Large and difficult category taxonomies Features for text Document zones in text classification Upweighting document zones. Separate feature spaces for document zones. Connections to text summarization. Machine learning methods in ad hoc information retrieval A simple example of machine-learned scoring Result ranking by machine learning References and further reading Next: Support vector machines: The Up: irbook Previous: Exercises Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

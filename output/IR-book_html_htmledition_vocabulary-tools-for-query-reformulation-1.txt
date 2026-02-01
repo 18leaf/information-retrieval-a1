@@ -1,0 +1,16 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/vocabulary-tools-for-query-reformulation-1.html
+url_id: /IR-book/html/htmledition/vocabulary-tools-for-query-reformulation-1
+title: Vocabulary tools for query reformulation
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/global-methods-for-query-reformulation-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/query-expansion-1.html
+Various user supports in the search process can help the
+user see how their searches are or are not working. This includes
+information about words that were omitted from the query
+because they were on stop lists, what words were stemmed to, the number
+of hits on each term or phrase, and whether words were dynamically
+turned into phrases. The IR system might also suggest
+search terms by means of a thesaurus or a controlled vocabulary. A
+user can also be allowed to browse lists of the terms that are in the
+inverted index, and thus find good terms that appear in the collection. © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+© 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

@@ -1,0 +1,169 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/features-for-text-1.html
+url_id: /IR-book/html/htmledition/features-for-text-1
+title: Features for text
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/improving-classifier-performance-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1, /IR-book/html/htmledition/large-and-difficult-category-taxonomies-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-zones-in-text-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/improving-classifier-performance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/large-and-difficult-category-taxonomies-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/mutual-information-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html
+The default in both ad hoc retrieval and text classification is to use
+terms as features.  However, for text classification, a great deal of
+mileage can be achieved by designing additional features which are
+suited to a specific problem.  Unlike the case of IR query languages,
+since these features are internal to the 
+classifier, there is no problem of communicating these features to an
+end user.  This process is generally referred to as feature
+engineering .  At present, feature engineering remains a human craft,
+rather than something done by machine learning.  Good feature
+engineering can often markedly improve the performance of a text
+classifier.  It is especially beneficial in some of the most important
+applications of text classification, like spam and porn filtering. Classification problems will often contain large numbers of terms
+which can be conveniently grouped, and which have a similar vote in
+text classification problems.  Typical examples might be year mentions
+or strings of exclamation marks.  Or they may be more specialized
+tokens like ISBNs or chemical formulas.
+Often, using them directly in a classifier would greatly increase
+the vocabulary without providing classificatory power beyond
+knowing that, say, a chemical formula is present.
+In such cases,
+the number of features and feature sparseness can be reduced by
+matching such items with regular expressions and converting them into
+distinguished tokens.  Consequently, effectiveness and classifier
+speed are normally enhanced.
+Sometimes all numbers are converted into a single feature, 
+but often some value can be had by distinguishing
+different kinds of numbers, such as four digit numbers (which are
+usually years) versus other cardinal numbers versus real numbers with
+a decimal point.  Similar techniques can be applied to dates, ISBN
+numbers, sports game scores, and so on. Going in the other direction, it is often useful to
+increase the number of features by matching parts of words, and by
+matching selected multiword patterns that are particularly
+discriminative.  Parts of words are often matched by character -gram features.  Such features can be particularly good at providing
+classification clues for otherwise unknown words when the classifier
+is deployed.  For instance, an unknown word ending in -rase is
+likely to be an enzyme, even if it wasn't seen in the training data.
+Good multiword patterns are often found by looking for distinctively
+common word pairs (perhaps using a mutual information criterion
+between words, in a similar way to its use in Section 13.5.1 (page )
+for feature selection) and then using feature selection methods evaluated
+against classes.  They are useful when the components of a compound
+would themselves be misleading as classification cues.  For instance,
+this would be the case if the keyword ethnic was most
+indicative of the categories food and arts , the
+keyword cleansing was most indicative of the category home , but the collocation ethnic cleansing instead
+indicates the category world news .  Some text classifiers also
+make use of features from named entity recognizers (cf. page 10 ). Do techniques like stemming and lowercasing (vocabulary) help
+for text classification?  As always, the ultimate test is empirical
+evaluations conducted on an appropriate test collection.  But it is
+nevertheless useful to note that such techniques have a more
+restricted chance of being useful for classification.  For IR, you
+often need to collapse forms of a word like oxygenate and oxygenation , because the appearance of either in a document is
+a good clue that the document will be relevant to a query about
+oxygenation.  Given copious training
+data, stemming necessarily delivers no value for text classification.
+If several forms that stem together have a similar
+signal, the parameters estimated for all of them will have similar
+weights.  Techniques like stemming help only in compensating for data
+sparseness.  This can be a useful role (as noted at the start of this
+section), but often different forms of a word can convey significantly
+different cues about the correct document classification.  Overly
+aggressive stemming can easily degrade classification performance. Next: Document zones in text Up: Improving classifier performance Previous: Large and difficult category Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Classification problems will often contain large numbers of terms
+which can be conveniently grouped, and which have a similar vote in
+text classification problems.  Typical examples might be year mentions
+or strings of exclamation marks.  Or they may be more specialized
+tokens like ISBNs or chemical formulas.
+Often, using them directly in a classifier would greatly increase
+the vocabulary without providing classificatory power beyond
+knowing that, say, a chemical formula is present.
+In such cases,
+the number of features and feature sparseness can be reduced by
+matching such items with regular expressions and converting them into
+distinguished tokens.  Consequently, effectiveness and classifier
+speed are normally enhanced.
+Sometimes all numbers are converted into a single feature, 
+but often some value can be had by distinguishing
+different kinds of numbers, such as four digit numbers (which are
+usually years) versus other cardinal numbers versus real numbers with
+a decimal point.  Similar techniques can be applied to dates, ISBN
+numbers, sports game scores, and so on. Going in the other direction, it is often useful to
+increase the number of features by matching parts of words, and by
+matching selected multiword patterns that are particularly
+discriminative.  Parts of words are often matched by character -gram features.  Such features can be particularly good at providing
+classification clues for otherwise unknown words when the classifier
+is deployed.  For instance, an unknown word ending in -rase is
+likely to be an enzyme, even if it wasn't seen in the training data.
+Good multiword patterns are often found by looking for distinctively
+common word pairs (perhaps using a mutual information criterion
+between words, in a similar way to its use in Section 13.5.1 (page )
+for feature selection) and then using feature selection methods evaluated
+against classes.  They are useful when the components of a compound
+would themselves be misleading as classification cues.  For instance,
+this would be the case if the keyword ethnic was most
+indicative of the categories food and arts , the
+keyword cleansing was most indicative of the category home , but the collocation ethnic cleansing instead
+indicates the category world news .  Some text classifiers also
+make use of features from named entity recognizers (cf. page 10 ). Do techniques like stemming and lowercasing (vocabulary) help
+for text classification?  As always, the ultimate test is empirical
+evaluations conducted on an appropriate test collection.  But it is
+nevertheless useful to note that such techniques have a more
+restricted chance of being useful for classification.  For IR, you
+often need to collapse forms of a word like oxygenate and oxygenation , because the appearance of either in a document is
+a good clue that the document will be relevant to a query about
+oxygenation.  Given copious training
+data, stemming necessarily delivers no value for text classification.
+If several forms that stem together have a similar
+signal, the parameters estimated for all of them will have similar
+weights.  Techniques like stemming help only in compensating for data
+sparseness.  This can be a useful role (as noted at the start of this
+section), but often different forms of a word can convey significantly
+different cues about the correct document classification.  Overly
+aggressive stemming can easily degrade classification performance. Next: Document zones in text Up: Improving classifier performance Previous: Large and difficult category Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Going in the other direction, it is often useful to
+increase the number of features by matching parts of words, and by
+matching selected multiword patterns that are particularly
+discriminative.  Parts of words are often matched by character -gram features.  Such features can be particularly good at providing
+classification clues for otherwise unknown words when the classifier
+is deployed.  For instance, an unknown word ending in -rase is
+likely to be an enzyme, even if it wasn't seen in the training data.
+Good multiword patterns are often found by looking for distinctively
+common word pairs (perhaps using a mutual information criterion
+between words, in a similar way to its use in Section 13.5.1 (page )
+for feature selection) and then using feature selection methods evaluated
+against classes.  They are useful when the components of a compound
+would themselves be misleading as classification cues.  For instance,
+this would be the case if the keyword ethnic was most
+indicative of the categories food and arts , the
+keyword cleansing was most indicative of the category home , but the collocation ethnic cleansing instead
+indicates the category world news .  Some text classifiers also
+make use of features from named entity recognizers (cf. page 10 ). Do techniques like stemming and lowercasing (vocabulary) help
+for text classification?  As always, the ultimate test is empirical
+evaluations conducted on an appropriate test collection.  But it is
+nevertheless useful to note that such techniques have a more
+restricted chance of being useful for classification.  For IR, you
+often need to collapse forms of a word like oxygenate and oxygenation , because the appearance of either in a document is
+a good clue that the document will be relevant to a query about
+oxygenation.  Given copious training
+data, stemming necessarily delivers no value for text classification.
+If several forms that stem together have a similar
+signal, the parameters estimated for all of them will have similar
+weights.  Techniques like stemming help only in compensating for data
+sparseness.  This can be a useful role (as noted at the start of this
+section), but often different forms of a word can convey significantly
+different cues about the correct document classification.  Overly
+aggressive stemming can easily degrade classification performance. Next: Document zones in text Up: Improving classifier performance Previous: Large and difficult category Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Do techniques like stemming and lowercasing (vocabulary) help
+for text classification?  As always, the ultimate test is empirical
+evaluations conducted on an appropriate test collection.  But it is
+nevertheless useful to note that such techniques have a more
+restricted chance of being useful for classification.  For IR, you
+often need to collapse forms of a word like oxygenate and oxygenation , because the appearance of either in a document is
+a good clue that the document will be relevant to a query about
+oxygenation.  Given copious training
+data, stemming necessarily delivers no value for text classification.
+If several forms that stem together have a similar
+signal, the parameters estimated for all of them will have similar
+weights.  Techniques like stemming help only in compensating for data
+sparseness.  This can be a useful role (as noted at the start of this
+section), but often different forms of a word can convey significantly
+different cues about the correct document classification.  Overly
+aggressive stemming can easily degrade classification performance. Next: Document zones in text Up: Improving classifier performance Previous: Large and difficult category Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Document zones in text Up: Improving classifier performance Previous: Large and difficult category Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

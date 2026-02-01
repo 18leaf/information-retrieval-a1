@@ -1,0 +1,142 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/centroid-clustering-1.html
+url_id: /IR-book/html/htmledition/centroid-clustering-1
+title: Centroid clustering
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/group-average-agglomerative-clustering-1, /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/optimality-of-hac-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-4.html, http://nlp.stanford.edu/IR-book/html/htmledition/group-average-agglomerative-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-agglomerative-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/optimality-of-hac-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/single-link-and-complete-link-clustering-1.html
+Figure 17.11 shows the first three steps of a
+centroid clustering. 
+The first two iterations form the clusters with centroid and with centroid because the pairs and have the highest centroid similarities. In the
+third iteration, the highest
+centroid similarity is between and producing the
+cluster with centroid . Like GAAC,
+centroid clustering is not best-merge persistent and
+therefore (Exercise 17.10 ). In contrast to the other three HAC algorithms,
+centroid clustering is not monotonic. 
+So-called inversions can occur: Similarity can
+increase during clustering as in the example in
+Figure 17.12 , where we define similarity as negative distance.
+In the first merge, the similarity of and is .
+In the second merge, the similarity of the
+centroid of and (the circle) and is . This is an example of an
+inversion: similarity increases in this sequence of
+two clustering steps. In a monotonic HAC
+algorithm, similarity is monotonically decreasing from iteration to iteration. Increasing similarity in a series of HAC clustering steps
+contradicts the fundamental assumption that small
+clusters are more coherent than large clusters. An inversion
+in a dendrogram shows up as a horizontal merge line that is lower than the previous merge line.
+All merge lines in
+ and 17.5 are higher than
+their predecessors because single-link and complete-link
+clustering are monotonic clustering algorithms. Despite its non-monotonicity, centroid clustering is often used
+because its similarity measure - the similarity of two
+centroids - is conceptually simpler than the average of all
+pairwise similarities in GAAC. Figure 17.11 is all one needs to
+understand centroid clustering. There is no equally simple
+graph that would explain how GAAC works. Exercises. For a fixed set of documents there are up to distinct similarities between clusters in single-link and
+complete-link clustering. How many distinct cluster
+similarities are there in GAAC and centroid clustering? Next: Optimality of HAC Up: Hierarchical clustering Previous: Group-average agglomerative clustering Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Like GAAC,
+centroid clustering is not best-merge persistent and
+therefore (Exercise 17.10 ). In contrast to the other three HAC algorithms,
+centroid clustering is not monotonic. 
+So-called inversions can occur: Similarity can
+increase during clustering as in the example in
+Figure 17.12 , where we define similarity as negative distance.
+In the first merge, the similarity of and is .
+In the second merge, the similarity of the
+centroid of and (the circle) and is . This is an example of an
+inversion: similarity increases in this sequence of
+two clustering steps. In a monotonic HAC
+algorithm, similarity is monotonically decreasing from iteration to iteration. Increasing similarity in a series of HAC clustering steps
+contradicts the fundamental assumption that small
+clusters are more coherent than large clusters. An inversion
+in a dendrogram shows up as a horizontal merge line that is lower than the previous merge line.
+All merge lines in
+ and 17.5 are higher than
+their predecessors because single-link and complete-link
+clustering are monotonic clustering algorithms. Despite its non-monotonicity, centroid clustering is often used
+because its similarity measure - the similarity of two
+centroids - is conceptually simpler than the average of all
+pairwise similarities in GAAC. Figure 17.11 is all one needs to
+understand centroid clustering. There is no equally simple
+graph that would explain how GAAC works. Exercises. For a fixed set of documents there are up to distinct similarities between clusters in single-link and
+complete-link clustering. How many distinct cluster
+similarities are there in GAAC and centroid clustering? Next: Optimality of HAC Up: Hierarchical clustering Previous: Group-average agglomerative clustering Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+In contrast to the other three HAC algorithms,
+centroid clustering is not monotonic. 
+So-called inversions can occur: Similarity can
+increase during clustering as in the example in
+Figure 17.12 , where we define similarity as negative distance.
+In the first merge, the similarity of and is .
+In the second merge, the similarity of the
+centroid of and (the circle) and is . This is an example of an
+inversion: similarity increases in this sequence of
+two clustering steps. In a monotonic HAC
+algorithm, similarity is monotonically decreasing from iteration to iteration. Increasing similarity in a series of HAC clustering steps
+contradicts the fundamental assumption that small
+clusters are more coherent than large clusters. An inversion
+in a dendrogram shows up as a horizontal merge line that is lower than the previous merge line.
+All merge lines in
+ and 17.5 are higher than
+their predecessors because single-link and complete-link
+clustering are monotonic clustering algorithms. Despite its non-monotonicity, centroid clustering is often used
+because its similarity measure - the similarity of two
+centroids - is conceptually simpler than the average of all
+pairwise similarities in GAAC. Figure 17.11 is all one needs to
+understand centroid clustering. There is no equally simple
+graph that would explain how GAAC works. Exercises. For a fixed set of documents there are up to distinct similarities between clusters in single-link and
+complete-link clustering. How many distinct cluster
+similarities are there in GAAC and centroid clustering? Next: Optimality of HAC Up: Hierarchical clustering Previous: Group-average agglomerative clustering Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+In contrast to the other three HAC algorithms,
+centroid clustering is not monotonic. 
+So-called inversions can occur: Similarity can
+increase during clustering as in the example in
+Figure 17.12 , where we define similarity as negative distance.
+In the first merge, the similarity of and is .
+In the second merge, the similarity of the
+centroid of and (the circle) and is . This is an example of an
+inversion: similarity increases in this sequence of
+two clustering steps. In a monotonic HAC
+algorithm, similarity is monotonically decreasing from iteration to iteration. Increasing similarity in a series of HAC clustering steps
+contradicts the fundamental assumption that small
+clusters are more coherent than large clusters. An inversion
+in a dendrogram shows up as a horizontal merge line that is lower than the previous merge line.
+All merge lines in
+ and 17.5 are higher than
+their predecessors because single-link and complete-link
+clustering are monotonic clustering algorithms. Despite its non-monotonicity, centroid clustering is often used
+because its similarity measure - the similarity of two
+centroids - is conceptually simpler than the average of all
+pairwise similarities in GAAC. Figure 17.11 is all one needs to
+understand centroid clustering. There is no equally simple
+graph that would explain how GAAC works. Exercises. For a fixed set of documents there are up to distinct similarities between clusters in single-link and
+complete-link clustering. How many distinct cluster
+similarities are there in GAAC and centroid clustering? Next: Optimality of HAC Up: Hierarchical clustering Previous: Group-average agglomerative clustering Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Increasing similarity in a series of HAC clustering steps
+contradicts the fundamental assumption that small
+clusters are more coherent than large clusters. An inversion
+in a dendrogram shows up as a horizontal merge line that is lower than the previous merge line.
+All merge lines in
+ and 17.5 are higher than
+their predecessors because single-link and complete-link
+clustering are monotonic clustering algorithms. Despite its non-monotonicity, centroid clustering is often used
+because its similarity measure - the similarity of two
+centroids - is conceptually simpler than the average of all
+pairwise similarities in GAAC. Figure 17.11 is all one needs to
+understand centroid clustering. There is no equally simple
+graph that would explain how GAAC works. Exercises. For a fixed set of documents there are up to distinct similarities between clusters in single-link and
+complete-link clustering. How many distinct cluster
+similarities are there in GAAC and centroid clustering? Next: Optimality of HAC Up: Hierarchical clustering Previous: Group-average agglomerative clustering Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Despite its non-monotonicity, centroid clustering is often used
+because its similarity measure - the similarity of two
+centroids - is conceptually simpler than the average of all
+pairwise similarities in GAAC. Figure 17.11 is all one needs to
+understand centroid clustering. There is no equally simple
+graph that would explain how GAAC works. Exercises. For a fixed set of documents there are up to distinct similarities between clusters in single-link and
+complete-link clustering. How many distinct cluster
+similarities are there in GAAC and centroid clustering? Next: Optimality of HAC Up: Hierarchical clustering Previous: Group-average agglomerative clustering Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Exercises. For a fixed set of documents there are up to distinct similarities between clusters in single-link and
+complete-link clustering. How many distinct cluster
+similarities are there in GAAC and centroid clustering? Next: Optimality of HAC Up: Hierarchical clustering Previous: Group-average agglomerative clustering Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Optimality of HAC Up: Hierarchical clustering Previous: Group-average agglomerative clustering Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

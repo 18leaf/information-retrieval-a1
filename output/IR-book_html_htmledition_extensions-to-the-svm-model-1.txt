@@ -1,0 +1,7 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/extensions-to-the-svm-model-1.html
+url_id: /IR-book/html/htmledition/extensions-to-the-svm-model-1
+title: Extensions to the SVM model
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/experimental-results-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/multiclass-svms-1, /IR-book/html/htmledition/nonlinear-svms-1, /IR-book/html/htmledition/soft-margin-classification-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1, /IR-book/html/htmledition/support-vector-machines-the-linearly-separable-case-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/experimental-results-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/multiclass-svms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/nonlinear-svms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/soft-margin-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/support-vector-machines-the-linearly-separable-case-1.html
+Subsections Soft margin classification Multiclass SVMs Nonlinear SVMs Experimental results © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

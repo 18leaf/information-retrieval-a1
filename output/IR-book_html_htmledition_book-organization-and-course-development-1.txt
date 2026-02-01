@@ -1,0 +1,538 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/book-organization-and-course-development-1.html
+url_id: /IR-book/html/htmledition/book-organization-and-course-development-1
+title: Book organization and course development
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/preface-1, /IR-book/html/htmledition/prerequisites-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/computing-scores-in-a-complete-search-system-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/flat-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-construction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/language-models-for-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/link-analysis-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/matrix-decompositions-and-latent-semantic-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/preface-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/prerequisites-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-query-expansion-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/text-classification-and-naive-bayes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-crawling-and-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-search-basics-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html
+This book is the result of a series of courses we have
+taught at Stanford University and at the University of
+Stuttgart, in a range of durations including a single
+quarter, one semester and two quarters.  These courses were
+aimed at early-stage graduate students in computer science,
+but we have also had enrollment from upper-class computer
+science undergraduates, as well as students from law,
+medical informatics, statistics, linguistics and various
+engineering disciplines.  The key design principle for this
+book, therefore, was to cover what we believe to be
+important in a one-term graduate course on information
+retrieval.  An additional principle is to build each chapter
+around material that we believe can be covered in a single
+lecture of 75 to 90 minutes. The first eight chapters of the book are devoted to the
+basics of information retrieval, and in particular the heart
+of search engines; we consider this material to be core to
+any course on information retrieval.  Chapter 1 introduces inverted indexes, and shows how simple Boolean
+queries can be processed using such indexes.
+Chapter 2 builds on this introduction by
+detailing the manner in which documents are preprocessed
+before indexing and by discussing how inverted indexes are
+augmented in various ways for functionality and
+speed. Chapter 3 discusses search structures for
+dictionaries and how to process queries that have spelling
+errors and other imprecise matches to the vocabulary in the
+document collection being searched.
+Chapter 4 describes a number of algorithms for
+constructing the inverted index from a text collection with
+particular attention to highly scalable and distributed
+algorithms that can be applied to very large collections.
+Chapter 5 covers techniques for compressing
+dictionaries and inverted indexes.
+These techniques are critical
+for achieving subsecond response times to user queries in
+large search engines.
+The indexes and queries considered in
+introicompress only deal with Boolean
+retrieval , in which a document either matches a query, or does
+not. A desire to measure the extent to which a document
+matches a query, or the score of a document for a query, motivates the development of term weighting and the
+computation of scores in Chapters 6 7 , leading
+to the idea of a list of documents that are rank-ordered for
+a query.  Chapter 8 focuses on the evaluation of
+an information retrieval system based on the relevance of
+the documents it retrieves, allowing us to compare the
+relative performances of different systems on benchmark
+document collections and queries. queryexpansionlink
+build on the foundation of the first eight chapters to cover
+a variety of more advanced topics.
+  Chapter 9 discusses methods by which retrieval can be enhanced through
+the use of techniques like relevance feedback and query
+expansion, which aim at increasing the likelihood of
+retrieving relevant documents. Chapter 10 considers
+information retrieval from documents that are structured
+with markup languages like XML and HTML. We treat structured
+retrieval by
+reducing it to the vector space scoring methods developed in
+Chapter 6 .  Chapters 11 12 invoke
+probability theory to compute scores for documents on
+queries.  Chapter 11 develops traditional
+probabilistic information retrieval, which provides a
+framework for computing the probability of relevance of a
+document, given a set of query terms. This probability may
+then be used as a score in ranking.  Chapter 12 illustrates an alternative, wherein for each document in a
+collection, we build a language model from which one can
+estimate a probability that the language model generates a
+given query. This probability is another quantity with which we can rank-order
+documents. nbayeshierclust
+give a treatment of various forms of machine learning and
+numerical methods in
+information retrieval.  nbayessvm treat the
+problem of classifying documents into a set of known
+categories, given a set of documents along with the classes
+they belong to.
+Chapter 13 motivates statistical classification as one
+of the key technologies needed for a successful search
+engine, introduces Naive Bayes, a conceptually simple and
+efficient text classification method, and outlines the
+standard methodology for evaluating text classifiers.
+Chapter 14 employs
+the vector space model from Chapter 6 and introduces
+two classification methods, Rocchio and kNN, that operate on document vectors.
+It also presents the bias-variance tradeoff as an important
+characterization of learning problems that provides criteria
+for
+selecting
+an appropriate method for a text classification problem.
+Chapter 15 introduces support vector machines, which many
+researchers currently view as the most effective text
+classification method.
+We also develop connections
+in this chapter between the problem of classification and seemingly disparate
+topics such as the induction of scoring functions from a set
+of training examples. flatclust
+lsi
+consider the problem of
+inducing clusters of related documents from a collection.
+In Chapter 16 , we first give an overview of a number of
+important applications of clustering in information
+retrieval. We then describe two flat clustering algorithms: the -means
+algorithm, an efficient and widely used document clustering
+method; and the
+Expectation-Maximization algorithm, which is computationally
+more expensive, but
+also more flexible.
+Chapter 17 motivates the need for hierarchically structured clusterings
+(instead of flat clusterings) in many applications in
+information retrieval and
+introduces a number of clustering
+algorithms that produce a hierarchy of clusters. The chapter
+also addresses the difficult problem of automatically
+computing labels for clusters.
+  Chapter 18 develops
+methods from linear algebra that constitute an extension of
+clustering, and also offer intriguing prospects for
+algebraic methods in information retrieval, which have been
+pursued in the approach of latent semantic indexing. webcharlink treat the problem of web search.  We give in Chapter 19 a summary of the basic challenges in web search, together with a set of techniques that are pervasive in web information retrieval.  Next, Chapter 20 describes the architecture and requirements of a basic web crawler.  Finally, Chapter 21 considers the power of link analysis in web search, using in the process several methods from linear algebra and advanced probability theory. This book is not comprehensive in covering all topics
+related to information retrieval.  We have put aside a
+number of topics, which we deemed outside the scope of what
+we wished to cover in an introduction to information
+retrieval class.  Nevertheless, for people interested in
+these topics, we provide a few pointers to mainly textbook
+coverage here. Cross-language IR ( Grossman and Frieder, 2004 , ch. 4) and ( Oard and Dorr, 1996 ). Image and Multimedia IR ( Grossman and Frieder, 2004 , ch. 4),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 6),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 11),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 12),
+( del Bimbo, 1999 ),
+( Lew, 2001 ), and
+( Smeulders et al., 2000 ). Speech retrieval ( Coden et al., 2002 ). Music Retrieval ( Downie, 2006 ) and http://www.ismir.net/ . User interfaces for IR ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 10). Parallel and Peer-to-Peer IR ( Grossman and Frieder, 2004 , ch. 7),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 9), and ( Aberer, 2001 ). Digital libraries ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 15) and ( Lesk, 2004 ). Information science perspective ( Korfhage, 1997 ), ( Meadow et al., 1999 ), and ( Ingwersen and Järvelin, 2005 ). Logic-based approaches to IR ( van Rijsbergen, 1989 ). Natural Language Processing techniques ( Manning and Schütze, 1999 ), ( Jurafsky and Martin, 2008 ), and ( Lewis and Jones, 1996 ). Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+The first eight chapters of the book are devoted to the
+basics of information retrieval, and in particular the heart
+of search engines; we consider this material to be core to
+any course on information retrieval.  Chapter 1 introduces inverted indexes, and shows how simple Boolean
+queries can be processed using such indexes.
+Chapter 2 builds on this introduction by
+detailing the manner in which documents are preprocessed
+before indexing and by discussing how inverted indexes are
+augmented in various ways for functionality and
+speed. Chapter 3 discusses search structures for
+dictionaries and how to process queries that have spelling
+errors and other imprecise matches to the vocabulary in the
+document collection being searched.
+Chapter 4 describes a number of algorithms for
+constructing the inverted index from a text collection with
+particular attention to highly scalable and distributed
+algorithms that can be applied to very large collections.
+Chapter 5 covers techniques for compressing
+dictionaries and inverted indexes.
+These techniques are critical
+for achieving subsecond response times to user queries in
+large search engines.
+The indexes and queries considered in
+introicompress only deal with Boolean
+retrieval , in which a document either matches a query, or does
+not. A desire to measure the extent to which a document
+matches a query, or the score of a document for a query, motivates the development of term weighting and the
+computation of scores in Chapters 6 7 , leading
+to the idea of a list of documents that are rank-ordered for
+a query.  Chapter 8 focuses on the evaluation of
+an information retrieval system based on the relevance of
+the documents it retrieves, allowing us to compare the
+relative performances of different systems on benchmark
+document collections and queries. queryexpansionlink
+build on the foundation of the first eight chapters to cover
+a variety of more advanced topics.
+  Chapter 9 discusses methods by which retrieval can be enhanced through
+the use of techniques like relevance feedback and query
+expansion, which aim at increasing the likelihood of
+retrieving relevant documents. Chapter 10 considers
+information retrieval from documents that are structured
+with markup languages like XML and HTML. We treat structured
+retrieval by
+reducing it to the vector space scoring methods developed in
+Chapter 6 .  Chapters 11 12 invoke
+probability theory to compute scores for documents on
+queries.  Chapter 11 develops traditional
+probabilistic information retrieval, which provides a
+framework for computing the probability of relevance of a
+document, given a set of query terms. This probability may
+then be used as a score in ranking.  Chapter 12 illustrates an alternative, wherein for each document in a
+collection, we build a language model from which one can
+estimate a probability that the language model generates a
+given query. This probability is another quantity with which we can rank-order
+documents. nbayeshierclust
+give a treatment of various forms of machine learning and
+numerical methods in
+information retrieval.  nbayessvm treat the
+problem of classifying documents into a set of known
+categories, given a set of documents along with the classes
+they belong to.
+Chapter 13 motivates statistical classification as one
+of the key technologies needed for a successful search
+engine, introduces Naive Bayes, a conceptually simple and
+efficient text classification method, and outlines the
+standard methodology for evaluating text classifiers.
+Chapter 14 employs
+the vector space model from Chapter 6 and introduces
+two classification methods, Rocchio and kNN, that operate on document vectors.
+It also presents the bias-variance tradeoff as an important
+characterization of learning problems that provides criteria
+for
+selecting
+an appropriate method for a text classification problem.
+Chapter 15 introduces support vector machines, which many
+researchers currently view as the most effective text
+classification method.
+We also develop connections
+in this chapter between the problem of classification and seemingly disparate
+topics such as the induction of scoring functions from a set
+of training examples. flatclust
+lsi
+consider the problem of
+inducing clusters of related documents from a collection.
+In Chapter 16 , we first give an overview of a number of
+important applications of clustering in information
+retrieval. We then describe two flat clustering algorithms: the -means
+algorithm, an efficient and widely used document clustering
+method; and the
+Expectation-Maximization algorithm, which is computationally
+more expensive, but
+also more flexible.
+Chapter 17 motivates the need for hierarchically structured clusterings
+(instead of flat clusterings) in many applications in
+information retrieval and
+introduces a number of clustering
+algorithms that produce a hierarchy of clusters. The chapter
+also addresses the difficult problem of automatically
+computing labels for clusters.
+  Chapter 18 develops
+methods from linear algebra that constitute an extension of
+clustering, and also offer intriguing prospects for
+algebraic methods in information retrieval, which have been
+pursued in the approach of latent semantic indexing. webcharlink treat the problem of web search.  We give in Chapter 19 a summary of the basic challenges in web search, together with a set of techniques that are pervasive in web information retrieval.  Next, Chapter 20 describes the architecture and requirements of a basic web crawler.  Finally, Chapter 21 considers the power of link analysis in web search, using in the process several methods from linear algebra and advanced probability theory. This book is not comprehensive in covering all topics
+related to information retrieval.  We have put aside a
+number of topics, which we deemed outside the scope of what
+we wished to cover in an introduction to information
+retrieval class.  Nevertheless, for people interested in
+these topics, we provide a few pointers to mainly textbook
+coverage here. Cross-language IR ( Grossman and Frieder, 2004 , ch. 4) and ( Oard and Dorr, 1996 ). Image and Multimedia IR ( Grossman and Frieder, 2004 , ch. 4),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 6),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 11),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 12),
+( del Bimbo, 1999 ),
+( Lew, 2001 ), and
+( Smeulders et al., 2000 ). Speech retrieval ( Coden et al., 2002 ). Music Retrieval ( Downie, 2006 ) and http://www.ismir.net/ . User interfaces for IR ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 10). Parallel and Peer-to-Peer IR ( Grossman and Frieder, 2004 , ch. 7),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 9), and ( Aberer, 2001 ). Digital libraries ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 15) and ( Lesk, 2004 ). Information science perspective ( Korfhage, 1997 ), ( Meadow et al., 1999 ), and ( Ingwersen and Järvelin, 2005 ). Logic-based approaches to IR ( van Rijsbergen, 1989 ). Natural Language Processing techniques ( Manning and Schütze, 1999 ), ( Jurafsky and Martin, 2008 ), and ( Lewis and Jones, 1996 ). Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+queryexpansionlink
+build on the foundation of the first eight chapters to cover
+a variety of more advanced topics.
+  Chapter 9 discusses methods by which retrieval can be enhanced through
+the use of techniques like relevance feedback and query
+expansion, which aim at increasing the likelihood of
+retrieving relevant documents. Chapter 10 considers
+information retrieval from documents that are structured
+with markup languages like XML and HTML. We treat structured
+retrieval by
+reducing it to the vector space scoring methods developed in
+Chapter 6 .  Chapters 11 12 invoke
+probability theory to compute scores for documents on
+queries.  Chapter 11 develops traditional
+probabilistic information retrieval, which provides a
+framework for computing the probability of relevance of a
+document, given a set of query terms. This probability may
+then be used as a score in ranking.  Chapter 12 illustrates an alternative, wherein for each document in a
+collection, we build a language model from which one can
+estimate a probability that the language model generates a
+given query. This probability is another quantity with which we can rank-order
+documents. nbayeshierclust
+give a treatment of various forms of machine learning and
+numerical methods in
+information retrieval.  nbayessvm treat the
+problem of classifying documents into a set of known
+categories, given a set of documents along with the classes
+they belong to.
+Chapter 13 motivates statistical classification as one
+of the key technologies needed for a successful search
+engine, introduces Naive Bayes, a conceptually simple and
+efficient text classification method, and outlines the
+standard methodology for evaluating text classifiers.
+Chapter 14 employs
+the vector space model from Chapter 6 and introduces
+two classification methods, Rocchio and kNN, that operate on document vectors.
+It also presents the bias-variance tradeoff as an important
+characterization of learning problems that provides criteria
+for
+selecting
+an appropriate method for a text classification problem.
+Chapter 15 introduces support vector machines, which many
+researchers currently view as the most effective text
+classification method.
+We also develop connections
+in this chapter between the problem of classification and seemingly disparate
+topics such as the induction of scoring functions from a set
+of training examples. flatclust
+lsi
+consider the problem of
+inducing clusters of related documents from a collection.
+In Chapter 16 , we first give an overview of a number of
+important applications of clustering in information
+retrieval. We then describe two flat clustering algorithms: the -means
+algorithm, an efficient and widely used document clustering
+method; and the
+Expectation-Maximization algorithm, which is computationally
+more expensive, but
+also more flexible.
+Chapter 17 motivates the need for hierarchically structured clusterings
+(instead of flat clusterings) in many applications in
+information retrieval and
+introduces a number of clustering
+algorithms that produce a hierarchy of clusters. The chapter
+also addresses the difficult problem of automatically
+computing labels for clusters.
+  Chapter 18 develops
+methods from linear algebra that constitute an extension of
+clustering, and also offer intriguing prospects for
+algebraic methods in information retrieval, which have been
+pursued in the approach of latent semantic indexing. webcharlink treat the problem of web search.  We give in Chapter 19 a summary of the basic challenges in web search, together with a set of techniques that are pervasive in web information retrieval.  Next, Chapter 20 describes the architecture and requirements of a basic web crawler.  Finally, Chapter 21 considers the power of link analysis in web search, using in the process several methods from linear algebra and advanced probability theory. This book is not comprehensive in covering all topics
+related to information retrieval.  We have put aside a
+number of topics, which we deemed outside the scope of what
+we wished to cover in an introduction to information
+retrieval class.  Nevertheless, for people interested in
+these topics, we provide a few pointers to mainly textbook
+coverage here. Cross-language IR ( Grossman and Frieder, 2004 , ch. 4) and ( Oard and Dorr, 1996 ). Image and Multimedia IR ( Grossman and Frieder, 2004 , ch. 4),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 6),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 11),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 12),
+( del Bimbo, 1999 ),
+( Lew, 2001 ), and
+( Smeulders et al., 2000 ). Speech retrieval ( Coden et al., 2002 ). Music Retrieval ( Downie, 2006 ) and http://www.ismir.net/ . User interfaces for IR ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 10). Parallel and Peer-to-Peer IR ( Grossman and Frieder, 2004 , ch. 7),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 9), and ( Aberer, 2001 ). Digital libraries ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 15) and ( Lesk, 2004 ). Information science perspective ( Korfhage, 1997 ), ( Meadow et al., 1999 ), and ( Ingwersen and Järvelin, 2005 ). Logic-based approaches to IR ( van Rijsbergen, 1989 ). Natural Language Processing techniques ( Manning and Schütze, 1999 ), ( Jurafsky and Martin, 2008 ), and ( Lewis and Jones, 1996 ). Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+This probability is another quantity with which we can rank-order
+documents. nbayeshierclust
+give a treatment of various forms of machine learning and
+numerical methods in
+information retrieval.  nbayessvm treat the
+problem of classifying documents into a set of known
+categories, given a set of documents along with the classes
+they belong to.
+Chapter 13 motivates statistical classification as one
+of the key technologies needed for a successful search
+engine, introduces Naive Bayes, a conceptually simple and
+efficient text classification method, and outlines the
+standard methodology for evaluating text classifiers.
+Chapter 14 employs
+the vector space model from Chapter 6 and introduces
+two classification methods, Rocchio and kNN, that operate on document vectors.
+It also presents the bias-variance tradeoff as an important
+characterization of learning problems that provides criteria
+for
+selecting
+an appropriate method for a text classification problem.
+Chapter 15 introduces support vector machines, which many
+researchers currently view as the most effective text
+classification method.
+We also develop connections
+in this chapter between the problem of classification and seemingly disparate
+topics such as the induction of scoring functions from a set
+of training examples. flatclust
+lsi
+consider the problem of
+inducing clusters of related documents from a collection.
+In Chapter 16 , we first give an overview of a number of
+important applications of clustering in information
+retrieval. We then describe two flat clustering algorithms: the -means
+algorithm, an efficient and widely used document clustering
+method; and the
+Expectation-Maximization algorithm, which is computationally
+more expensive, but
+also more flexible.
+Chapter 17 motivates the need for hierarchically structured clusterings
+(instead of flat clusterings) in many applications in
+information retrieval and
+introduces a number of clustering
+algorithms that produce a hierarchy of clusters. The chapter
+also addresses the difficult problem of automatically
+computing labels for clusters.
+  Chapter 18 develops
+methods from linear algebra that constitute an extension of
+clustering, and also offer intriguing prospects for
+algebraic methods in information retrieval, which have been
+pursued in the approach of latent semantic indexing. webcharlink treat the problem of web search.  We give in Chapter 19 a summary of the basic challenges in web search, together with a set of techniques that are pervasive in web information retrieval.  Next, Chapter 20 describes the architecture and requirements of a basic web crawler.  Finally, Chapter 21 considers the power of link analysis in web search, using in the process several methods from linear algebra and advanced probability theory. This book is not comprehensive in covering all topics
+related to information retrieval.  We have put aside a
+number of topics, which we deemed outside the scope of what
+we wished to cover in an introduction to information
+retrieval class.  Nevertheless, for people interested in
+these topics, we provide a few pointers to mainly textbook
+coverage here. Cross-language IR ( Grossman and Frieder, 2004 , ch. 4) and ( Oard and Dorr, 1996 ). Image and Multimedia IR ( Grossman and Frieder, 2004 , ch. 4),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 6),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 11),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 12),
+( del Bimbo, 1999 ),
+( Lew, 2001 ), and
+( Smeulders et al., 2000 ). Speech retrieval ( Coden et al., 2002 ). Music Retrieval ( Downie, 2006 ) and http://www.ismir.net/ . User interfaces for IR ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 10). Parallel and Peer-to-Peer IR ( Grossman and Frieder, 2004 , ch. 7),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 9), and ( Aberer, 2001 ). Digital libraries ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 15) and ( Lesk, 2004 ). Information science perspective ( Korfhage, 1997 ), ( Meadow et al., 1999 ), and ( Ingwersen and Järvelin, 2005 ). Logic-based approaches to IR ( van Rijsbergen, 1989 ). Natural Language Processing techniques ( Manning and Schütze, 1999 ), ( Jurafsky and Martin, 2008 ), and ( Lewis and Jones, 1996 ). Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+nbayeshierclust
+give a treatment of various forms of machine learning and
+numerical methods in
+information retrieval.  nbayessvm treat the
+problem of classifying documents into a set of known
+categories, given a set of documents along with the classes
+they belong to.
+Chapter 13 motivates statistical classification as one
+of the key technologies needed for a successful search
+engine, introduces Naive Bayes, a conceptually simple and
+efficient text classification method, and outlines the
+standard methodology for evaluating text classifiers.
+Chapter 14 employs
+the vector space model from Chapter 6 and introduces
+two classification methods, Rocchio and kNN, that operate on document vectors.
+It also presents the bias-variance tradeoff as an important
+characterization of learning problems that provides criteria
+for
+selecting
+an appropriate method for a text classification problem.
+Chapter 15 introduces support vector machines, which many
+researchers currently view as the most effective text
+classification method.
+We also develop connections
+in this chapter between the problem of classification and seemingly disparate
+topics such as the induction of scoring functions from a set
+of training examples. flatclust
+lsi
+consider the problem of
+inducing clusters of related documents from a collection.
+In Chapter 16 , we first give an overview of a number of
+important applications of clustering in information
+retrieval. We then describe two flat clustering algorithms: the -means
+algorithm, an efficient and widely used document clustering
+method; and the
+Expectation-Maximization algorithm, which is computationally
+more expensive, but
+also more flexible.
+Chapter 17 motivates the need for hierarchically structured clusterings
+(instead of flat clusterings) in many applications in
+information retrieval and
+introduces a number of clustering
+algorithms that produce a hierarchy of clusters. The chapter
+also addresses the difficult problem of automatically
+computing labels for clusters.
+  Chapter 18 develops
+methods from linear algebra that constitute an extension of
+clustering, and also offer intriguing prospects for
+algebraic methods in information retrieval, which have been
+pursued in the approach of latent semantic indexing. webcharlink treat the problem of web search.  We give in Chapter 19 a summary of the basic challenges in web search, together with a set of techniques that are pervasive in web information retrieval.  Next, Chapter 20 describes the architecture and requirements of a basic web crawler.  Finally, Chapter 21 considers the power of link analysis in web search, using in the process several methods from linear algebra and advanced probability theory. This book is not comprehensive in covering all topics
+related to information retrieval.  We have put aside a
+number of topics, which we deemed outside the scope of what
+we wished to cover in an introduction to information
+retrieval class.  Nevertheless, for people interested in
+these topics, we provide a few pointers to mainly textbook
+coverage here. Cross-language IR ( Grossman and Frieder, 2004 , ch. 4) and ( Oard and Dorr, 1996 ). Image and Multimedia IR ( Grossman and Frieder, 2004 , ch. 4),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 6),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 11),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 12),
+( del Bimbo, 1999 ),
+( Lew, 2001 ), and
+( Smeulders et al., 2000 ). Speech retrieval ( Coden et al., 2002 ). Music Retrieval ( Downie, 2006 ) and http://www.ismir.net/ . User interfaces for IR ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 10). Parallel and Peer-to-Peer IR ( Grossman and Frieder, 2004 , ch. 7),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 9), and ( Aberer, 2001 ). Digital libraries ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 15) and ( Lesk, 2004 ). Information science perspective ( Korfhage, 1997 ), ( Meadow et al., 1999 ), and ( Ingwersen and Järvelin, 2005 ). Logic-based approaches to IR ( van Rijsbergen, 1989 ). Natural Language Processing techniques ( Manning and Schütze, 1999 ), ( Jurafsky and Martin, 2008 ), and ( Lewis and Jones, 1996 ). Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+flatclust
+lsi
+consider the problem of
+inducing clusters of related documents from a collection.
+In Chapter 16 , we first give an overview of a number of
+important applications of clustering in information
+retrieval. We then describe two flat clustering algorithms: the -means
+algorithm, an efficient and widely used document clustering
+method; and the
+Expectation-Maximization algorithm, which is computationally
+more expensive, but
+also more flexible.
+Chapter 17 motivates the need for hierarchically structured clusterings
+(instead of flat clusterings) in many applications in
+information retrieval and
+introduces a number of clustering
+algorithms that produce a hierarchy of clusters. The chapter
+also addresses the difficult problem of automatically
+computing labels for clusters.
+  Chapter 18 develops
+methods from linear algebra that constitute an extension of
+clustering, and also offer intriguing prospects for
+algebraic methods in information retrieval, which have been
+pursued in the approach of latent semantic indexing. webcharlink treat the problem of web search.  We give in Chapter 19 a summary of the basic challenges in web search, together with a set of techniques that are pervasive in web information retrieval.  Next, Chapter 20 describes the architecture and requirements of a basic web crawler.  Finally, Chapter 21 considers the power of link analysis in web search, using in the process several methods from linear algebra and advanced probability theory. This book is not comprehensive in covering all topics
+related to information retrieval.  We have put aside a
+number of topics, which we deemed outside the scope of what
+we wished to cover in an introduction to information
+retrieval class.  Nevertheless, for people interested in
+these topics, we provide a few pointers to mainly textbook
+coverage here. Cross-language IR ( Grossman and Frieder, 2004 , ch. 4) and ( Oard and Dorr, 1996 ). Image and Multimedia IR ( Grossman and Frieder, 2004 , ch. 4),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 6),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 11),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 12),
+( del Bimbo, 1999 ),
+( Lew, 2001 ), and
+( Smeulders et al., 2000 ). Speech retrieval ( Coden et al., 2002 ). Music Retrieval ( Downie, 2006 ) and http://www.ismir.net/ . User interfaces for IR ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 10). Parallel and Peer-to-Peer IR ( Grossman and Frieder, 2004 , ch. 7),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 9), and ( Aberer, 2001 ). Digital libraries ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 15) and ( Lesk, 2004 ). Information science perspective ( Korfhage, 1997 ), ( Meadow et al., 1999 ), and ( Ingwersen and Järvelin, 2005 ). Logic-based approaches to IR ( van Rijsbergen, 1989 ). Natural Language Processing techniques ( Manning and Schütze, 1999 ), ( Jurafsky and Martin, 2008 ), and ( Lewis and Jones, 1996 ). Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+webcharlink treat the problem of web search.  We give in Chapter 19 a summary of the basic challenges in web search, together with a set of techniques that are pervasive in web information retrieval.  Next, Chapter 20 describes the architecture and requirements of a basic web crawler.  Finally, Chapter 21 considers the power of link analysis in web search, using in the process several methods from linear algebra and advanced probability theory. This book is not comprehensive in covering all topics
+related to information retrieval.  We have put aside a
+number of topics, which we deemed outside the scope of what
+we wished to cover in an introduction to information
+retrieval class.  Nevertheless, for people interested in
+these topics, we provide a few pointers to mainly textbook
+coverage here. Cross-language IR ( Grossman and Frieder, 2004 , ch. 4) and ( Oard and Dorr, 1996 ). Image and Multimedia IR ( Grossman and Frieder, 2004 , ch. 4),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 6),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 11),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 12),
+( del Bimbo, 1999 ),
+( Lew, 2001 ), and
+( Smeulders et al., 2000 ). Speech retrieval ( Coden et al., 2002 ). Music Retrieval ( Downie, 2006 ) and http://www.ismir.net/ . User interfaces for IR ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 10). Parallel and Peer-to-Peer IR ( Grossman and Frieder, 2004 , ch. 7),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 9), and ( Aberer, 2001 ). Digital libraries ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 15) and ( Lesk, 2004 ). Information science perspective ( Korfhage, 1997 ), ( Meadow et al., 1999 ), and ( Ingwersen and Järvelin, 2005 ). Logic-based approaches to IR ( van Rijsbergen, 1989 ). Natural Language Processing techniques ( Manning and Schütze, 1999 ), ( Jurafsky and Martin, 2008 ), and ( Lewis and Jones, 1996 ). Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+This book is not comprehensive in covering all topics
+related to information retrieval.  We have put aside a
+number of topics, which we deemed outside the scope of what
+we wished to cover in an introduction to information
+retrieval class.  Nevertheless, for people interested in
+these topics, we provide a few pointers to mainly textbook
+coverage here. Cross-language IR ( Grossman and Frieder, 2004 , ch. 4) and ( Oard and Dorr, 1996 ). Image and Multimedia IR ( Grossman and Frieder, 2004 , ch. 4),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 6),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 11),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 12),
+( del Bimbo, 1999 ),
+( Lew, 2001 ), and
+( Smeulders et al., 2000 ). Speech retrieval ( Coden et al., 2002 ). Music Retrieval ( Downie, 2006 ) and http://www.ismir.net/ . User interfaces for IR ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 10). Parallel and Peer-to-Peer IR ( Grossman and Frieder, 2004 , ch. 7),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 9), and ( Aberer, 2001 ). Digital libraries ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 15) and ( Lesk, 2004 ). Information science perspective ( Korfhage, 1997 ), ( Meadow et al., 1999 ), and ( Ingwersen and Järvelin, 2005 ). Logic-based approaches to IR ( van Rijsbergen, 1989 ). Natural Language Processing techniques ( Manning and Schütze, 1999 ), ( Jurafsky and Martin, 2008 ), and ( Lewis and Jones, 1996 ). Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Cross-language IR ( Grossman and Frieder, 2004 , ch. 4) and ( Oard and Dorr, 1996 ). Image and Multimedia IR ( Grossman and Frieder, 2004 , ch. 4),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 6),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 11),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 12),
+( del Bimbo, 1999 ),
+( Lew, 2001 ), and
+( Smeulders et al., 2000 ). Speech retrieval ( Coden et al., 2002 ). Music Retrieval ( Downie, 2006 ) and http://www.ismir.net/ . User interfaces for IR ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 10). Parallel and Peer-to-Peer IR ( Grossman and Frieder, 2004 , ch. 7),
+( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 9), and ( Aberer, 2001 ). Digital libraries ( Baeza-Yates and Ribeiro-Neto, 1999 , ch. 15) and ( Lesk, 2004 ). Information science perspective ( Korfhage, 1997 ), ( Meadow et al., 1999 ), and ( Ingwersen and Järvelin, 2005 ). Logic-based approaches to IR ( van Rijsbergen, 1989 ). Natural Language Processing techniques ( Manning and Schütze, 1999 ), ( Jurafsky and Martin, 2008 ), and ( Lewis and Jones, 1996 ). Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Prerequisites Up: Preface Previous: Preface Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

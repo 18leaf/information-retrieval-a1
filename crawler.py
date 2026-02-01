@@ -1,16 +1,3 @@
-"""
-        current_expanded_node = self.attempt_parse_and_build_expanded_node(parent_node=parent_node, current_node=frontier_queue.pop())
-
-📋 TODO: Write your code to implement this crawler. Name the file crawler.py. Ideally, make it a class with the following methods:
-
-__init__: Initialize the crawler with the seed URL and other parameters.
-is_url_ok_to_follow: Check if the URL is okay to follow.
-save_page: Save the crawled page to a file.
-extract_info: Extract the title and text from the HTML content.
-discover_urls: Extract all the URLs from the HTML content, validate them, and add new ones to the frontier queue.
-crawl: Start crawling the URLs.
-
-"""
 import time
 import re
 from collections import deque
@@ -23,7 +10,6 @@ from urllib.request import urlopen
 
 from bs4 import BeautifulSoup
 
-# Path.cwd() -> as root by default
 
 @dataclass
 class FrontierNode:
@@ -60,7 +46,7 @@ class ExpandedNode(FrontierNode):
 
 
 class Crawler:
-    # seed input can be a bare domain, domain+path, or full URL
+    # seed input can be a bare domain (nlp.stanford.edu), domain+path, or full URL
     seed_domain: str
     seed_url: str
     # Frontier = nodes that are discovered, but not expanded (not saved to file). They might have children, might be leaf nodes
@@ -81,7 +67,6 @@ class Crawler:
         if seed_input.startswith("http://") or seed_input.startswith("https://"):
             parsed = urlparse(seed_input)
             self.seed_domain = parsed.netloc.lower()
-            # keep original case of path (servers can be case-sensitive)
             self.seed_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
             if parsed.query:
                 self.seed_url += f"?{parsed.query}"
@@ -89,13 +74,10 @@ class Crawler:
             # domain or domain+path
             parsed = urlparse("https://" + seed_input)
             self.seed_domain = parsed.netloc.lower()
-            # preserve original path case by slicing from original input when possible
-            # (urlparse doesn't lowercase path, but we also avoid lowercasing seed_input)
             self.seed_url = "https://" + seed_input
 
-        # Validation regex: restrict to same domain (scheme+host); path filtering happens elsewhere.
         self.okay_url_regex = re.compile(
-            rf"^https?://{re.escape(self.seed_domain)}(?:/.*)?$",
+            rf"^https?://{re.escape(self.seed_domain)}/.*\.(?:html?|htm)$",
             re.IGNORECASE,
         )
         if save_path is Path.cwd():
@@ -143,20 +125,25 @@ class Crawler:
 
 
     def is_url_ok_to_follow(regex: re.Pattern, url: str) -> bool:
-        # Must match allowed domain pattern
+        # regex = domain + extensions
         if not regex.match(url):
             return False
 
         parsed = urlparse(url)
-        # only http(s)
+        #  https/http allowed
         if parsed.scheme not in ("http", "https"):
             return False
-        # ignore empty / fragment-only
+        # ignore empty
         if url.strip() == "":
             return False
+
+        # pdfs were a problem eaerlier, ignore them
+        path_lower = (parsed.path or "").lower()
+        if path_lower.endswith(".pdf"):
+            return False
+
         return True
 
-    # cache the raw page bytes
     def save_page(self, node: ExpandedNode) -> bool:
         # write path = url_id + .txt file
 
@@ -170,11 +157,14 @@ class Crawler:
 
     # helper function to construct a uri id that can name the file and represent that URI as a node of a graph
     # goal: remove scheme+domain, drop common suffix (.html/.htm/etc), keep only the path as the stable node id
-    # Example:
-    #   https://nlp.stanford.edu/IR-book/information-retrieval-book.html
-    # becomes:
-    #   /IR-book/information-retrieval-book
+    # https://nlp.stanford.edu/IR-book/information-retrieval-book.html
+    # TO
+    # /IR-book/information-retrieval-book
     def construct_uri_id(regex: re.Pattern[str], uri: str) -> str:
+        # my original apprach was to use a regex pattern match, which
+        # I tried to use (https://domaing)/(path_to).html
+        # and matching the 2nd, but this did not work well at all
+        # got some LLM help here
         parsed = urlparse(uri)
         path = unquote(parsed.path or "/")
 
@@ -198,6 +188,7 @@ class Crawler:
     # returns either bs4 parser or None
     def fetch_url(url: str) -> BeautifulSoup | None:
         # load url, get status_code
+        # i wrote hte try block, got ChatGTP ot generate exception handling
         try:
             page = urlopen(url, timeout=15)
             status_code = page.getcode()
@@ -218,7 +209,6 @@ class Crawler:
         html = raw.decode("utf-8", errors="replace")
         return BeautifulSoup(html, "html.parser")
 
-    # Return expanded node if works, else None
     # returns a title, content pair, or None
     def extract_info(html: BeautifulSoup) -> tuple[str, str] | None:
         # extract title and text from HTML contents
@@ -246,7 +236,6 @@ class Crawler:
 
 
     def discover_urls(self, html: BeautifulSoup, base_url: str) -> set[str]:
-        # Extract hrefs, normalize to absolute URLs, drop fragments, filter to same domain.
         raw_links = html.select("a[href]")
         links: set[str] = set()
 
@@ -255,6 +244,7 @@ class Crawler:
             if not isinstance(href, str):
                 continue
 
+            # i stopped at get href, used an LLM for more filtering/urljon/parse.
             href = href.strip()
             if href == "" or href.startswith("#"):
                 continue
@@ -265,13 +255,17 @@ class Crawler:
             parsed = urlparse(abs_url)
             abs_url = parsed._replace(fragment="").geturl()
 
+            # Only follow .htm/.html pages
             if Crawler.is_url_ok_to_follow(self.okay_url_regex, abs_url):
                 links.add(abs_url)
 
         return links
 
     def crawl(self):
-        # BFS frontier (queue), prevent cycles/re-expansion, update parents whenever edges are discovered.
+        # BFS frontier qeuue.
+        # prevent cycles (update the parents in Expadned nOde that already exists to preserve that discovered information)
+        # this graph is key based (url_id)
+        # nodes store mapping of url_id -> Actual Page Info Extracted + saved
         graph_dict: dict[str, set[str]] = {}
         nodes: dict[str, ExpandedNode] = {}
 
@@ -282,27 +276,31 @@ class Crawler:
         root_url = self.seed_url
         root_id = Crawler.construct_uri_id(self.okay_url_regex, root_url)
 
-        # Seed node placeholder so parents/edges can reference it
+        # save root node, add to graph + node referenced by graph (keybased)
         nodes[root_id] = ExpandedNode(url=root_url, url_id=root_id)
         graph_dict.setdefault(root_id, set())
 
-        # enqueue seed (BFS)
+
         frontier_queue.append(FrontierNode(url=root_url))
         enqueued_ids.add(root_id)
 
-        max_expansions = 3  # keep your current architecture/limit for now
+        # Help from LLM here.
+        # Used for testing.. My original approach just had a for i in range(n)
+        # loop, LLM suggested this for more control
+        max_expansions = 300
         expansions = 0
 
         while frontier_queue and expansions < max_expansions:
+            # timer betwen requests
             time.sleep(1)
 
             current_frontier = frontier_queue.popleft()
             current_id = Crawler.construct_uri_id(self.okay_url_regex, current_frontier.url)
 
+            # skip already explored pages
             if current_id in expanded_ids:
                 continue
 
-            # Expand current page
             current_node = self.attempt_parse_and_build_expanded_node(
                 parent_node=None,
                 current_node=current_frontier,
@@ -310,49 +308,50 @@ class Crawler:
             if current_node is None:
                 continue
 
-            # Preserve any parents that might have been recorded before expansion
+            # Any parent node that existed before expanding should be kept
             if current_id in nodes:
                 current_node.parents |= nodes[current_id].parents
 
+            # save ExpandedNode
             nodes[current_node.url_id] = current_node
             expanded_ids.add(current_node.url_id)
 
-            # Ensure adjacency set exists
+            # add set if not exists
             graph_dict.setdefault(current_node.url_id, set())
 
-            # Save page
+            # save to files
             self.save_page(current_node)
 
-            # Process children
+            # Process children (construl uri for graph + add edges), remove self-loops
             for child_url in current_node.links:
                 child_id = Crawler.construct_uri_id(self.okay_url_regex, child_url)
 
                 # no self-loop
+                # LLM suggested this
                 if child_id == current_node.url_id:
                     continue
 
                 # add edge current -> child
                 graph_dict[current_node.url_id].add(child_id)
 
-                # ensure child node exists so we can update parents now (even before it's expanded)
+                # ensure child node exists so we can update parents whenever.. This only matters on first discovery of fronteier, but allows adds later
                 if child_id not in nodes:
                     nodes[child_id] = ExpandedNode(url=child_url, url_id=child_id)
 
                 # update child parents
                 nodes[child_id].parents.add(current_node.url_id)
 
-                # enqueue if not seen (BFS), preventing cycles/repeats
+                # add only if not in queue already
                 if child_id not in expanded_ids and child_id not in enqueued_ids:
                     frontier_queue.append(FrontierNode(url=child_url))
                     enqueued_ids.add(child_id)
 
             expansions += 1
-
         self.graph_dict = graph_dict
         return graph_dict
 
 SEED_URL = "nlp.stanford.edu/IR-book/information-retrieval-book.html"
-crawler = Crawler(SEED_URL)
+crawler = Crawler(SEED_URL, save_path=Path.cwd() / "output")
 crawled_graph = crawler.crawl()
 for key, value in crawled_graph.items():
     print(key)

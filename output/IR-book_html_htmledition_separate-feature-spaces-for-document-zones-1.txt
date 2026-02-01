@@ -1,0 +1,7 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/separate-feature-spaces-for-document-zones-1.html
+url_id: /IR-book/html/htmledition/separate-feature-spaces-for-document-zones-1
+title: Separate feature spaces for document zones.
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/document-zones-in-text-classification-1, /IR-book/html/htmledition/improving-classifier-performance-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1, /IR-book/html/htmledition/upweighting-document-zones-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/connections-to-text-summarization-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-zones-in-text-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/upweighting-document-zones-1.html
+Next: Connections to text summarization. Up: Document zones in text Previous: Upweighting document zones. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

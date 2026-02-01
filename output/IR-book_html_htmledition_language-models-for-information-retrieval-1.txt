@@ -1,0 +1,36 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/language-models-for-information-retrieval-1.html
+url_id: /IR-book/html/htmledition/language-models-for-information-retrieval-1
+title: Language models for information retrieval
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/probabilistic-information-retrieval-1, /IR-book/information-retrieval-book
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/estimating-the-query-generation-probability-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/extended-language-modeling-approaches-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/finite-automata-and-language-models-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/language-modeling-versus-other-approaches-in-ir-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/language-models-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/multinomial-distributions-over-words-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/ponte-and-crofts-experiments-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-11.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-12.html, http://nlp.stanford.edu/IR-book/html/htmledition/term-frequency-and-weighting-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-query-likelihood-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/types-of-language-models-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/using-query-likelihood-language-models-in-ir-1.html
+A common suggestion to users for coming up with good
+queries is to think of words that would likely appear in a relevant
+document, and to use those words as the query.  The language modeling
+approach to IR directly models that idea: a document is a good match to
+a query if the document model is likely to generate the query, which
+will in turn happen if the document contains the query words often.
+This approach thus provides a different realization of some of the
+basic ideas for document ranking which we saw in Section 6.2 (page ). 
+Instead of overtly modeling the probability of relevance of a
+document to a query , as in the traditional probabilistic approach to IR
+(Chapter 11 ), the basic language modeling approach 
+instead builds a 
+probabilistic language model from each
+document , and ranks 
+documents based on the probability of the model generating the
+query: . In this chapter, we first introduce the concept of language models
+(Section 12.1 ) and then describe the basic and most commonly
+used language modeling approach to IR, the Query Likelihood Model
+(Section 12.2 ).  After some comparisons between the language modeling
+approach and other approaches to IR (Section 12.3 ), we
+finish by briefly describing various extensions to the language
+modeling approach (Section 12.4 ). Subsections Language models Finite automata and language models Types of language models Multinomial distributions over words The query likelihood model Using query likelihood language models in IR Estimating the query generation probability Ponte and Croft's Experiments Language modeling versus other approaches in IR Extended language modeling approaches References and further reading Next: Language models Up: irbook Previous: References and further reading Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+In this chapter, we first introduce the concept of language models
+(Section 12.1 ) and then describe the basic and most commonly
+used language modeling approach to IR, the Query Likelihood Model
+(Section 12.2 ).  After some comparisons between the language modeling
+approach and other approaches to IR (Section 12.3 ), we
+finish by briefly describing various extensions to the language
+modeling approach (Section 12.4 ). Subsections Language models Finite automata and language models Types of language models Multinomial distributions over words The query likelihood model Using query likelihood language models in IR Estimating the query generation probability Ponte and Croft's Experiments Language modeling versus other approaches in IR Extended language modeling approaches References and further reading Next: Language models Up: irbook Previous: References and further reading Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Subsections Language models Finite automata and language models Types of language models Multinomial distributions over words The query likelihood model Using query likelihood language models in IR Estimating the query generation probability Ponte and Croft's Experiments Language modeling versus other approaches in IR Extended language modeling approaches References and further reading Next: Language models Up: irbook Previous: References and further reading Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

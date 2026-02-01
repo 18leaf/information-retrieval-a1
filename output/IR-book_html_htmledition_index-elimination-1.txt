@@ -1,0 +1,7 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/index-elimination-1.html
+url_id: /IR-book/html/htmledition/index-elimination-1
+title: Index elimination
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/champion-lists-1, /IR-book/html/htmledition/computing-scores-in-a-complete-search-system-1, /IR-book/html/htmledition/irbook
+links: http://nlp.stanford.edu/IR-book/html/htmledition/champion-lists-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/efficient-scoring-and-ranking-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/inexact-top-k-document-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/tiered-indexes-1.html
+Next: Champion lists Up: Efficient scoring and ranking Previous: Inexact top K document Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

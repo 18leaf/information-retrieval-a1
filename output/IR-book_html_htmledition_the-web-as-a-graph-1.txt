@@ -1,0 +1,6 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/the-web-as-a-graph-1.html
+url_id: /IR-book/html/htmledition/the-web-as-a-graph-1
+title: The Web as a graph
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/anchor-text-and-the-web-graph-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/link-analysis-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/anchor-text-and-the-web-graph-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/link-analysis-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-web-graph-1.html

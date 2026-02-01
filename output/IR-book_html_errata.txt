@@ -1,0 +1,8 @@
+url: http://nlp.stanford.edu/IR-book/html/errata.html
+url_id: /IR-book/html/errata
+title: Introduction to Information Retrieval: Errata
+read_at: 02/01/2026
+parents: /IR-book/information-retrieval-book
+links: 
+This page lists errata for Introduction to Information Retrieval by Christopher D. Manning, Prabhakar Raghavan and Hinrich Schütze.
+Entries are of the form: p. x, line y, change "A" to "B" Page numbers are with respect to the printed book = irbookprint.pdf . Line counts ignore figures, equations and other displayed material. Negative line counts are from the bottom of the page.

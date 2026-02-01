@@ -1,0 +1,14 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/the-prp-with-retrieval-costs-1.html
+url_id: /IR-book/html/htmledition/the-prp-with-retrieval-costs-1
+title: The PRP with retrieval costs
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/probabilistic-information-retrieval-1, /IR-book/html/htmledition/the-binary-independence-model-1, /IR-book/html/htmledition/the-probability-ranking-principle-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/a-broader-perspective-system-quality-and-user-utility-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-10-loss-case-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-binary-independence-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-probability-ranking-principle-1.html
+Suppose, instead, that we assume a model
+of retrieval costs. Let be the cost of not retrieving
+a relevant document and the cost of retrieval of a
+nonrelevant document. Then the Probability Ranking
+Principle says that
+if for a specific document and
+for all documents not yet retrieved (62) then is the next document to be retrieved. Such a model gives a formal framework where we can model differential costs of false positives and false negatives and even system performance issues at the modeling stage, rather than simply at the evaluation stage, as we did in Section 8.6 (page ).  However, we will not further consider loss/utility models in this chapter. © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+© 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

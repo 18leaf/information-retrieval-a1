@@ -1,0 +1,20 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/accents-and-diacritics-1.html
+url_id: /IR-book/html/htmledition/accents-and-diacritics-1
+title: Accents and diacritics.
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/determining-the-vocabulary-of-terms-1, /IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/capitalizationcase-folding-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1.html
+Diacritics on characters in English have a fairly marginal status, and
+we might well want cliché and cliche to match, or naive and naïve .  This can be done by normalizing
+tokens to remove diacritics.  In many other languages, diacritics are a
+regular part of the writing system and distinguish different sounds.
+Occasionally words are distinguished only by their
+accents. For instance, in Spanish, peña is `a cliff', while pena is `sorrow'. Nevertheless, the important question is usually not
+prescriptive or linguistic but is a question of how users are likely to
+write queries 
+for these words. In many cases, users will enter queries for words
+without diacritics, whether for reasons of speed, laziness, limited software,
+or habits born of the days when it was hard to use non-ASCII text on
+many computer systems.  In these cases, it might be best to
+equate all words to a form without diacritics. © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+© 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

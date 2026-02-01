@@ -1,0 +1,7 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-2.html
+url_id: /IR-book/html/htmledition/boolean-retrieval-2
+title: Boolean retrieval
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/computing-scores-in-a-complete-search-system-1, /IR-book/html/htmledition/irbook
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-scoring-and-query-operator-interaction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/wildcard-queries-2.html
+© 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

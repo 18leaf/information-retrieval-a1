@@ -1,0 +1,8 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/tiered-indexes-1.html
+url_id: /IR-book/html/htmledition/tiered-indexes-1
+title: Tiered indexes
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/computing-scores-in-a-complete-search-system-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/index-elimination-1, /IR-book/html/htmledition/index-size-and-estimation-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/query-term-proximity-1, /IR-book/html/htmledition/static-quality-scores-and-ordering-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/components-of-an-information-retrieval-system-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-elimination-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/query-term-proximity-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/tf-idf-weighting-1.html
+Tiered indexes.If we fail to get results from tier 1, query processing ``falls back'' to tier 2, and so on.  Within each tier, postings are ordered by document ID. Next: Query-term proximity Up: Components of an information Previous: Components of an information Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Query-term proximity Up: Components of an information Previous: Components of an information Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

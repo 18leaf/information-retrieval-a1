@@ -1,0 +1,109 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/feature-selection-1.html
+url_id: /IR-book/html/htmledition/feature-selection-1
+title: Feature selection
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/a-variant-of-the-multinomial-model-1, /IR-book/html/htmledition/comparison-of-feature-selection-methods-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/text-classification-and-naive-bayes-1, /IR-book/html/htmledition/time-complexity-and-optimality-of-knn-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/a-variant-of-the-multinomial-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/assessing-as-a-feature-selection-methodassessing-chi-square-as-a-feature-selection-method-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/comparison-of-feature-selection-methods-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/feature-selection-for-multiple-classifiers-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/feature-selectionchi2-feature-selection-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/frequency-based-feature-selection-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/mutual-information-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/text-classification-and-naive-bayes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-bias-variance-tradeoff-1.html
+Figure: Basic feature selection algorithm for selecting the best features. We can view feature selection as a method for replacing a
+complex classifier (using all features) with a
+simpler one (using a subset of the
+features). It may appear counterintuitive at first that a
+seemingly weaker classifier is advantageous in statistical text
+classification,
+but when discussing the bias-variance tradeoff in
+Section 14.6 (page ), we will see
+that weaker models are often preferable when limited
+training data are available. The basic feature selection algorithm is shown in
+Figure 13.6 . 
+For a given class ,
+we compute a utility measure for each
+term of the vocabulary and select the terms that have the highest values of . All
+other terms are discarded and not used in classification. We will
+introduce three different utility measures in this section: mutual information, ; the test, ; and frequency, . Of the two NB models, the Bernoulli model is particularly
+sensitive to noise features. A Bernoulli NB classifier
+requires some form of feature selection or else its accuracy will
+be low. This section mainly addresses feature selection for two-class
+classification tasks like
+China versus
+not-China. Section 13.5.5 briefly discusses
+optimizations for systems with more than two
+classes . Subsections Mutual
+  information Feature selectionChi2 Feature selection Assessing as a feature selection
+    methodAssessing chi-square as a feature
+    selection method Frequency-based feature
+  selection Feature selection for multiple classifiers Comparison of feature selection methods Next: Mutual information Up: Text classification and Naive Previous: A variant of the Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+We can view feature selection as a method for replacing a
+complex classifier (using all features) with a
+simpler one (using a subset of the
+features). It may appear counterintuitive at first that a
+seemingly weaker classifier is advantageous in statistical text
+classification,
+but when discussing the bias-variance tradeoff in
+Section 14.6 (page ), we will see
+that weaker models are often preferable when limited
+training data are available. The basic feature selection algorithm is shown in
+Figure 13.6 . 
+For a given class ,
+we compute a utility measure for each
+term of the vocabulary and select the terms that have the highest values of . All
+other terms are discarded and not used in classification. We will
+introduce three different utility measures in this section: mutual information, ; the test, ; and frequency, . Of the two NB models, the Bernoulli model is particularly
+sensitive to noise features. A Bernoulli NB classifier
+requires some form of feature selection or else its accuracy will
+be low. This section mainly addresses feature selection for two-class
+classification tasks like
+China versus
+not-China. Section 13.5.5 briefly discusses
+optimizations for systems with more than two
+classes . Subsections Mutual
+  information Feature selectionChi2 Feature selection Assessing as a feature selection
+    methodAssessing chi-square as a feature
+    selection method Frequency-based feature
+  selection Feature selection for multiple classifiers Comparison of feature selection methods Next: Mutual information Up: Text classification and Naive Previous: A variant of the Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+The basic feature selection algorithm is shown in
+Figure 13.6 . 
+For a given class ,
+we compute a utility measure for each
+term of the vocabulary and select the terms that have the highest values of . All
+other terms are discarded and not used in classification. We will
+introduce three different utility measures in this section: mutual information, ; the test, ; and frequency, . Of the two NB models, the Bernoulli model is particularly
+sensitive to noise features. A Bernoulli NB classifier
+requires some form of feature selection or else its accuracy will
+be low. This section mainly addresses feature selection for two-class
+classification tasks like
+China versus
+not-China. Section 13.5.5 briefly discusses
+optimizations for systems with more than two
+classes . Subsections Mutual
+  information Feature selectionChi2 Feature selection Assessing as a feature selection
+    methodAssessing chi-square as a feature
+    selection method Frequency-based feature
+  selection Feature selection for multiple classifiers Comparison of feature selection methods Next: Mutual information Up: Text classification and Naive Previous: A variant of the Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Of the two NB models, the Bernoulli model is particularly
+sensitive to noise features. A Bernoulli NB classifier
+requires some form of feature selection or else its accuracy will
+be low. This section mainly addresses feature selection for two-class
+classification tasks like
+China versus
+not-China. Section 13.5.5 briefly discusses
+optimizations for systems with more than two
+classes . Subsections Mutual
+  information Feature selectionChi2 Feature selection Assessing as a feature selection
+    methodAssessing chi-square as a feature
+    selection method Frequency-based feature
+  selection Feature selection for multiple classifiers Comparison of feature selection methods Next: Mutual information Up: Text classification and Naive Previous: A variant of the Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+This section mainly addresses feature selection for two-class
+classification tasks like
+China versus
+not-China. Section 13.5.5 briefly discusses
+optimizations for systems with more than two
+classes . Subsections Mutual
+  information Feature selectionChi2 Feature selection Assessing as a feature selection
+    methodAssessing chi-square as a feature
+    selection method Frequency-based feature
+  selection Feature selection for multiple classifiers Comparison of feature selection methods Next: Mutual information Up: Text classification and Naive Previous: A variant of the Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Subsections Mutual
+  information Feature selectionChi2 Feature selection Assessing as a feature selection
+    methodAssessing chi-square as a feature
+    selection method Frequency-based feature
+  selection Feature selection for multiple classifiers Comparison of feature selection methods Next: Mutual information Up: Text classification and Naive Previous: A variant of the Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

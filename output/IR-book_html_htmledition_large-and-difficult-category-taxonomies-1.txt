@@ -1,0 +1,82 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/large-and-difficult-category-taxonomies-1.html
+url_id: /IR-book/html/htmledition/large-and-difficult-category-taxonomies-1
+title: Large and difficult category taxonomies
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1, /IR-book/html/htmledition/the-text-classification-problem-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/features-for-text-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/improving-classifier-performance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-15.html
+If a text classification problem consists of a small number of
+well-separated categories, then many classification algorithms are
+likely to work well.  But many real classification problems consist of
+a very large number of often very similar categories. The reader might
+think of examples like web directories (the Yahoo! Directory or the
+Open Directory Project), library classification schemes (Dewey Decimal
+or Library of Congress) or the classification schemes used in legal or
+medical applications.  For instance, the Yahoo! Directory consists of over 200,000 categories in a deep hierarchy.  Accurate classification over large sets of
+closely related classes is inherently difficult. Most large sets of categories have a hierarchical structure, and
+attempting to exploit the hierarchy by doing hierarchical classification is a 
+promising approach.  
+However, at present the effectiveness gains from doing this
+rather than just working with the classes that are the leaves of the
+hierarchy remain modest. But the technique can be very useful simply to improve
+the scalability of building classifiers over large hierarchies.  
+Another simple way to improve the scalability of
+classifiers over large hierarchies is the use of aggressive feature
+selection. 
+We provide references to some work on hierarchical classification
+in Section 15.5 . A general result in machine learning is that you can
+always get a small boost in classification accuracy by combining
+multiple classifiers, provided only that the mistakes that they make
+are at least somewhat independent.  There is now a large literature on
+techniques such as voting, bagging, and boosting multiple
+classifiers.  Again, there are some pointers in the references.
+Nevertheless, ultimately a hybrid automatic/manual solution may be
+needed to achieve sufficient classification accuracy.  A common
+approach in such situations is to run a classifier first, and to
+accept all its high confidence decisions, but to put low confidence
+decisions in a queue for manual review.  Such a process also
+automatically leads to the production of new training data which can
+be used in future
+versions of the machine learning classifier.  However, note that this
+is a case in point where the resulting training data is clearly not randomly sampled from the space of documents. Next: Features for text Up: Improving classifier performance Previous: Improving classifier performance Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Most large sets of categories have a hierarchical structure, and
+attempting to exploit the hierarchy by doing hierarchical classification is a 
+promising approach.  
+However, at present the effectiveness gains from doing this
+rather than just working with the classes that are the leaves of the
+hierarchy remain modest. But the technique can be very useful simply to improve
+the scalability of building classifiers over large hierarchies.  
+Another simple way to improve the scalability of
+classifiers over large hierarchies is the use of aggressive feature
+selection. 
+We provide references to some work on hierarchical classification
+in Section 15.5 . A general result in machine learning is that you can
+always get a small boost in classification accuracy by combining
+multiple classifiers, provided only that the mistakes that they make
+are at least somewhat independent.  There is now a large literature on
+techniques such as voting, bagging, and boosting multiple
+classifiers.  Again, there are some pointers in the references.
+Nevertheless, ultimately a hybrid automatic/manual solution may be
+needed to achieve sufficient classification accuracy.  A common
+approach in such situations is to run a classifier first, and to
+accept all its high confidence decisions, but to put low confidence
+decisions in a queue for manual review.  Such a process also
+automatically leads to the production of new training data which can
+be used in future
+versions of the machine learning classifier.  However, note that this
+is a case in point where the resulting training data is clearly not randomly sampled from the space of documents. Next: Features for text Up: Improving classifier performance Previous: Improving classifier performance Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+A general result in machine learning is that you can
+always get a small boost in classification accuracy by combining
+multiple classifiers, provided only that the mistakes that they make
+are at least somewhat independent.  There is now a large literature on
+techniques such as voting, bagging, and boosting multiple
+classifiers.  Again, there are some pointers in the references.
+Nevertheless, ultimately a hybrid automatic/manual solution may be
+needed to achieve sufficient classification accuracy.  A common
+approach in such situations is to run a classifier first, and to
+accept all its high confidence decisions, but to put low confidence
+decisions in a queue for manual review.  Such a process also
+automatically leads to the production of new training data which can
+be used in future
+versions of the machine learning classifier.  However, note that this
+is a case in point where the resulting training data is clearly not randomly sampled from the space of documents. Next: Features for text Up: Improving classifier performance Previous: Improving classifier performance Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Features for text Up: Improving classifier performance Previous: Improving classifier performance Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

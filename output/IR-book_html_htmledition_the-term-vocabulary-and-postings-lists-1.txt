@@ -1,0 +1,28 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1.html
+url_id: /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
+title: The term vocabulary and postings lists
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/irbook, /IR-book/information-retrieval-book
+links: http://nlp.stanford.edu/IR-book/html/htmledition/accents-and-diacritics-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/biword-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/capitalizationcase-folding-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/choosing-a-document-unit-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/combination-schemes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/determining-the-vocabulary-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-delineation-and-character-sequence-decoding-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dropping-common-terms-stop-words-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/faster-postings-list-intersection-via-skip-pointers-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-construction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/obtaining-the-character-sequence-in-a-document-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-issues-in-english-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-languages-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-index-size-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-postings-and-phrase-queries-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-2.html, http://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html
+Recall the major steps in inverted index construction: Collect the documents to be indexed. Tokenize the text. Do linguistic preprocessing of tokens. Index the documents that each term occurs in. In this chapter we first briefly mention how the basic unit of a
+document can be defined and how the character sequence that it comprises
+is determined (Section 2.1 ). We then examine
+in detail some of the 
+substantive linguistic issues of tokenization and linguistic
+preprocessing, which determine the vocabulary of terms which a system uses
+(Section 2.2 ).  Tokenization is the process of
+chopping character streams 
+into tokens , while linguistic
+preprocessing then deals 
+with building equivalence classes of tokens which are the set of terms that are 
+indexed.  Indexing itself is covered 
+in Chapters 1 4 .
+Then we return to the implementation of postings lists.
+In Section 2.3 , we examine an extended
+postings list data structure that supports faster querying, while 
+Section 2.4 covers building postings data structures suitable for 
+handling phrase and proximity queries, of the sort that commonly appear in
+both extended Boolean models and on the web. Subsections Document delineation and character sequence
+  decoding Obtaining the character sequence in a document Choosing a document unit Determining the vocabulary of terms Tokenization Dropping common terms: stop words Normalization (equivalence classing of terms) Accents and diacritics. Capitalization/case-folding. Other issues in English. Other languages. Stemming and lemmatization Faster postings list intersection via skip pointers Positional postings and phrase queries Biword indexes Positional indexes Positional index size. Combination schemes References and further reading Next: Document delineation and character Up: irbook Previous: References and further reading Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Subsections Document delineation and character sequence
+  decoding Obtaining the character sequence in a document Choosing a document unit Determining the vocabulary of terms Tokenization Dropping common terms: stop words Normalization (equivalence classing of terms) Accents and diacritics. Capitalization/case-folding. Other issues in English. Other languages. Stemming and lemmatization Faster postings list intersection via skip pointers Positional postings and phrase queries Biword indexes Positional indexes Positional index size. Combination schemes References and further reading Next: Document delineation and character Up: irbook Previous: References and further reading Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

@@ -1,0 +1,14 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/book-layout-1.html
+url_id: /IR-book/html/htmledition/book-layout-1
+title: Book layout
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/irbook
+links: http://nlp.stanford.edu/IR-book/html/htmledition/acknowledgments-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/preface-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/prerequisites-1.html
+Worked examples in the text appear with
+a pencil sign next to them in the left margin.  Advanced or
+difficult material appears in sections or subsections
+indicated with scissors in the margin.
+Exercises are marked in the margin with a question mark.
+The level of difficulty of exercises is indicated as
+easy (), medium (), or difficult (). © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+© 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

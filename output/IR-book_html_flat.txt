@@ -1,0 +1,7 @@
+url: http://nlp.stanford.edu/IR-book/html/flat.html
+url_id: /IR-book/html/flat
+title: Flat Clustering
+read_at: 02/01/2026
+parents: /IR-book/information-retrieval-book
+links: 
+Under construction ... Clustering software LingPipe Cluster 3.0 Search result clustering: Nutch , Carrot Oracle

@@ -1,0 +1,235 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/acknowledgments-1.html
+url_id: /IR-book/html/htmledition/acknowledgments-1
+title: Acknowledgments
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/book-layout-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/preface-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/book-layout-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/preface-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-and-contact-information-1.html
+We would like to thank Cambridge University Press for
+allowing us to make the draft book available online, which
+facilitated much of the feedback we have received while
+writing the book. We also thank Lauren Cowles, who has been
+an outstanding editor, providing several rounds of comments
+on each chapter, on matters of style, organization, and
+coverage, as well as detailed comments on the subject matter
+of the book. To the extent that we have achieved our goals
+in writing this book, she deserves an important part of the credit. We are very grateful to the many people who have given us comments,
+suggestions, and corrections based on draft versions of this
+book. We thank for providing various corrections and comments:
+ Cheryl Aasheim, Josh Attenberg, Daniel Beck, Luc Bélanger,
+ Georg Buscher,
+ Tom Breuel, Daniel Burckhardt,
+ Fazli Can,
+ Dinquan Chen, Stephen Clark, Ernest Davis, Pedro Domingos, Rodrigo Panchiniak Fernandes,
+ Paolo Ferragina,
+ Alex Fraser, Norbert Fuhr, Vignesh Ganapathy,
+ Elmer Garduno, Xiubo Geng, David Gondek, Sergio Govoni, Corinna Habets, Ben Handy,
+ Donna Harman, Benjamin Haskell, Thomas Hühn, Deepak Jain,
+ Ralf Jankowitsch,
+ Dinakar Jayarajan,
+ Vinay Kakade,  Mei Kobayashi, Wessel Kraaij, Rick Lafleur,
+ Florian Laws, Hang Li,
+ David Losada, David Mann,
+ Ennio Masi,   Sven Meyer zu Eissen, Alexander Murzaku,
+ Gonzalo Navarro, Frank McCown,
+ Paul McNamee, Christoph Müller, Scott Olsson, Tao Qin, Megha Raghavan,
+ Michal Rosen-Zvi, Klaus Rothenhäusler, Kenyu L. Runner, Alexander Salamanca,
+ Grigory Sapunov, Evgeny Shadchnev, Tobias Scheffer, Nico Schlaefer, Ian Soboroff, Benno Stein, Marcin Sydow,
+ Andrew Turner,
+ Jason Utt, Huey Vo,
+ Travis Wade, Mike Walsh, Changliang Wang, Renjing Wang, and
+ Thomas Zeume. Many people gave us detailed feedback on individual chapters,
+either at our request or through their own initiative.  For this, we're
+particularly grateful to:
+ James Allan, Omar Alonso, Ismail Sengor Altingovde, Vo Ngoc Anh, Roi Blanco, Eric Breck, Eric Brown, Mark Carman, Carlos Castillo, Junghoo Cho, Aron Culotta, Doug Cutting, Meghana Deodhar, Susan Dumais, Johannes Fürnkranz, Andreas Heß, Djoerd Hiemstra, David Hull, Thorsten Joachims, Siddharth Jonathan J. B., Jaap Kamps, Mounia Lalmas, Amy Langville, Nicholas Lester, Dave Lewis, Daniel Lowd, Yosi Mass, Jeff Michels,
+ Alessandro Moschitti, Amir Najmi, Marc Najork, Giorgio Maria Di Nunzio, Paul Ogilvie, Priyank Patel, Jan Pedersen, Kathryn Pedings, Vassilis Plachouras, Daniel Ramage, Ghulam Raza, Stefan Riezler, Michael Schiehlen, Helmut Schmid, Falk Nicolas Scholer, Sabine Schulte im Walde, Fabrizio Sebastiani, Sarabjeet Singh, Valentin Spitkovsky, Alexander Strehl, John Tait, Shivakumar Vaithyanathan, Ellen Voorhees, Gerhard Weikum, Dawid Weiss, Yiming Yang, Yisong Yue, Jian Zhang, and
+ Justin Zobel. And finally there were a few reviewers who absolutely stood
+out in terms of the quality and quantity of comments that
+they provided.  We thank them for their significant impact
+on the content and structure of the book.  We express our
+gratitude to
+ Pavel Berkhin, Stefan Büttcher, Jamie Callan, Byron Dom, Torsten Suel, and
+ Andrew Trotman. Parts of the initial drafts of nbayessvm
+were based on slides that were generously provided by Ray
+Mooney. While the material has gone through extensive
+revisions, we gratefully acknowledge Ray's contribution to
+the three chapters in general and to the description of the time
+complexities of text classification algorithms in
+particular. The above is unfortunately an incomplete list: we are still in the
+process of incorporating feedback we have received.
+And, like all opinionated authors, we did not always heed the advice that was
+so freely given.  The published versions of the chapters remain
+solely the responsibility of the authors. The authors thank Stanford University and the University of
+Stuttgart for providing a stimulating academic environment for
+discussing ideas and the opportunity to teach courses from which
+this book arose and in which its contents were refined.  CM thanks his
+family for the many hours they've let him spend working on this book,
+and hopes he'll have a bit more free time on weekends next year.
+PR thanks his family for their patient
+support through the writing of this book and is also
+grateful to Yahoo! Inc. for providing a fertile environment
+in which to work on this book.  HS would like to thank his parents,
+family, and friends for their support while writing this book. Next: Web and contact information Up: Preface Previous: Book layout Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+We are very grateful to the many people who have given us comments,
+suggestions, and corrections based on draft versions of this
+book. We thank for providing various corrections and comments:
+ Cheryl Aasheim, Josh Attenberg, Daniel Beck, Luc Bélanger,
+ Georg Buscher,
+ Tom Breuel, Daniel Burckhardt,
+ Fazli Can,
+ Dinquan Chen, Stephen Clark, Ernest Davis, Pedro Domingos, Rodrigo Panchiniak Fernandes,
+ Paolo Ferragina,
+ Alex Fraser, Norbert Fuhr, Vignesh Ganapathy,
+ Elmer Garduno, Xiubo Geng, David Gondek, Sergio Govoni, Corinna Habets, Ben Handy,
+ Donna Harman, Benjamin Haskell, Thomas Hühn, Deepak Jain,
+ Ralf Jankowitsch,
+ Dinakar Jayarajan,
+ Vinay Kakade,  Mei Kobayashi, Wessel Kraaij, Rick Lafleur,
+ Florian Laws, Hang Li,
+ David Losada, David Mann,
+ Ennio Masi,   Sven Meyer zu Eissen, Alexander Murzaku,
+ Gonzalo Navarro, Frank McCown,
+ Paul McNamee, Christoph Müller, Scott Olsson, Tao Qin, Megha Raghavan,
+ Michal Rosen-Zvi, Klaus Rothenhäusler, Kenyu L. Runner, Alexander Salamanca,
+ Grigory Sapunov, Evgeny Shadchnev, Tobias Scheffer, Nico Schlaefer, Ian Soboroff, Benno Stein, Marcin Sydow,
+ Andrew Turner,
+ Jason Utt, Huey Vo,
+ Travis Wade, Mike Walsh, Changliang Wang, Renjing Wang, and
+ Thomas Zeume. Many people gave us detailed feedback on individual chapters,
+either at our request or through their own initiative.  For this, we're
+particularly grateful to:
+ James Allan, Omar Alonso, Ismail Sengor Altingovde, Vo Ngoc Anh, Roi Blanco, Eric Breck, Eric Brown, Mark Carman, Carlos Castillo, Junghoo Cho, Aron Culotta, Doug Cutting, Meghana Deodhar, Susan Dumais, Johannes Fürnkranz, Andreas Heß, Djoerd Hiemstra, David Hull, Thorsten Joachims, Siddharth Jonathan J. B., Jaap Kamps, Mounia Lalmas, Amy Langville, Nicholas Lester, Dave Lewis, Daniel Lowd, Yosi Mass, Jeff Michels,
+ Alessandro Moschitti, Amir Najmi, Marc Najork, Giorgio Maria Di Nunzio, Paul Ogilvie, Priyank Patel, Jan Pedersen, Kathryn Pedings, Vassilis Plachouras, Daniel Ramage, Ghulam Raza, Stefan Riezler, Michael Schiehlen, Helmut Schmid, Falk Nicolas Scholer, Sabine Schulte im Walde, Fabrizio Sebastiani, Sarabjeet Singh, Valentin Spitkovsky, Alexander Strehl, John Tait, Shivakumar Vaithyanathan, Ellen Voorhees, Gerhard Weikum, Dawid Weiss, Yiming Yang, Yisong Yue, Jian Zhang, and
+ Justin Zobel. And finally there were a few reviewers who absolutely stood
+out in terms of the quality and quantity of comments that
+they provided.  We thank them for their significant impact
+on the content and structure of the book.  We express our
+gratitude to
+ Pavel Berkhin, Stefan Büttcher, Jamie Callan, Byron Dom, Torsten Suel, and
+ Andrew Trotman. Parts of the initial drafts of nbayessvm
+were based on slides that were generously provided by Ray
+Mooney. While the material has gone through extensive
+revisions, we gratefully acknowledge Ray's contribution to
+the three chapters in general and to the description of the time
+complexities of text classification algorithms in
+particular. The above is unfortunately an incomplete list: we are still in the
+process of incorporating feedback we have received.
+And, like all opinionated authors, we did not always heed the advice that was
+so freely given.  The published versions of the chapters remain
+solely the responsibility of the authors. The authors thank Stanford University and the University of
+Stuttgart for providing a stimulating academic environment for
+discussing ideas and the opportunity to teach courses from which
+this book arose and in which its contents were refined.  CM thanks his
+family for the many hours they've let him spend working on this book,
+and hopes he'll have a bit more free time on weekends next year.
+PR thanks his family for their patient
+support through the writing of this book and is also
+grateful to Yahoo! Inc. for providing a fertile environment
+in which to work on this book.  HS would like to thank his parents,
+family, and friends for their support while writing this book. Next: Web and contact information Up: Preface Previous: Book layout Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Many people gave us detailed feedback on individual chapters,
+either at our request or through their own initiative.  For this, we're
+particularly grateful to:
+ James Allan, Omar Alonso, Ismail Sengor Altingovde, Vo Ngoc Anh, Roi Blanco, Eric Breck, Eric Brown, Mark Carman, Carlos Castillo, Junghoo Cho, Aron Culotta, Doug Cutting, Meghana Deodhar, Susan Dumais, Johannes Fürnkranz, Andreas Heß, Djoerd Hiemstra, David Hull, Thorsten Joachims, Siddharth Jonathan J. B., Jaap Kamps, Mounia Lalmas, Amy Langville, Nicholas Lester, Dave Lewis, Daniel Lowd, Yosi Mass, Jeff Michels,
+ Alessandro Moschitti, Amir Najmi, Marc Najork, Giorgio Maria Di Nunzio, Paul Ogilvie, Priyank Patel, Jan Pedersen, Kathryn Pedings, Vassilis Plachouras, Daniel Ramage, Ghulam Raza, Stefan Riezler, Michael Schiehlen, Helmut Schmid, Falk Nicolas Scholer, Sabine Schulte im Walde, Fabrizio Sebastiani, Sarabjeet Singh, Valentin Spitkovsky, Alexander Strehl, John Tait, Shivakumar Vaithyanathan, Ellen Voorhees, Gerhard Weikum, Dawid Weiss, Yiming Yang, Yisong Yue, Jian Zhang, and
+ Justin Zobel. And finally there were a few reviewers who absolutely stood
+out in terms of the quality and quantity of comments that
+they provided.  We thank them for their significant impact
+on the content and structure of the book.  We express our
+gratitude to
+ Pavel Berkhin, Stefan Büttcher, Jamie Callan, Byron Dom, Torsten Suel, and
+ Andrew Trotman. Parts of the initial drafts of nbayessvm
+were based on slides that were generously provided by Ray
+Mooney. While the material has gone through extensive
+revisions, we gratefully acknowledge Ray's contribution to
+the three chapters in general and to the description of the time
+complexities of text classification algorithms in
+particular. The above is unfortunately an incomplete list: we are still in the
+process of incorporating feedback we have received.
+And, like all opinionated authors, we did not always heed the advice that was
+so freely given.  The published versions of the chapters remain
+solely the responsibility of the authors. The authors thank Stanford University and the University of
+Stuttgart for providing a stimulating academic environment for
+discussing ideas and the opportunity to teach courses from which
+this book arose and in which its contents were refined.  CM thanks his
+family for the many hours they've let him spend working on this book,
+and hopes he'll have a bit more free time on weekends next year.
+PR thanks his family for their patient
+support through the writing of this book and is also
+grateful to Yahoo! Inc. for providing a fertile environment
+in which to work on this book.  HS would like to thank his parents,
+family, and friends for their support while writing this book. Next: Web and contact information Up: Preface Previous: Book layout Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+And finally there were a few reviewers who absolutely stood
+out in terms of the quality and quantity of comments that
+they provided.  We thank them for their significant impact
+on the content and structure of the book.  We express our
+gratitude to
+ Pavel Berkhin, Stefan Büttcher, Jamie Callan, Byron Dom, Torsten Suel, and
+ Andrew Trotman. Parts of the initial drafts of nbayessvm
+were based on slides that were generously provided by Ray
+Mooney. While the material has gone through extensive
+revisions, we gratefully acknowledge Ray's contribution to
+the three chapters in general and to the description of the time
+complexities of text classification algorithms in
+particular. The above is unfortunately an incomplete list: we are still in the
+process of incorporating feedback we have received.
+And, like all opinionated authors, we did not always heed the advice that was
+so freely given.  The published versions of the chapters remain
+solely the responsibility of the authors. The authors thank Stanford University and the University of
+Stuttgart for providing a stimulating academic environment for
+discussing ideas and the opportunity to teach courses from which
+this book arose and in which its contents were refined.  CM thanks his
+family for the many hours they've let him spend working on this book,
+and hopes he'll have a bit more free time on weekends next year.
+PR thanks his family for their patient
+support through the writing of this book and is also
+grateful to Yahoo! Inc. for providing a fertile environment
+in which to work on this book.  HS would like to thank his parents,
+family, and friends for their support while writing this book. Next: Web and contact information Up: Preface Previous: Book layout Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Parts of the initial drafts of nbayessvm
+were based on slides that were generously provided by Ray
+Mooney. While the material has gone through extensive
+revisions, we gratefully acknowledge Ray's contribution to
+the three chapters in general and to the description of the time
+complexities of text classification algorithms in
+particular. The above is unfortunately an incomplete list: we are still in the
+process of incorporating feedback we have received.
+And, like all opinionated authors, we did not always heed the advice that was
+so freely given.  The published versions of the chapters remain
+solely the responsibility of the authors. The authors thank Stanford University and the University of
+Stuttgart for providing a stimulating academic environment for
+discussing ideas and the opportunity to teach courses from which
+this book arose and in which its contents were refined.  CM thanks his
+family for the many hours they've let him spend working on this book,
+and hopes he'll have a bit more free time on weekends next year.
+PR thanks his family for their patient
+support through the writing of this book and is also
+grateful to Yahoo! Inc. for providing a fertile environment
+in which to work on this book.  HS would like to thank his parents,
+family, and friends for their support while writing this book. Next: Web and contact information Up: Preface Previous: Book layout Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+The above is unfortunately an incomplete list: we are still in the
+process of incorporating feedback we have received.
+And, like all opinionated authors, we did not always heed the advice that was
+so freely given.  The published versions of the chapters remain
+solely the responsibility of the authors. The authors thank Stanford University and the University of
+Stuttgart for providing a stimulating academic environment for
+discussing ideas and the opportunity to teach courses from which
+this book arose and in which its contents were refined.  CM thanks his
+family for the many hours they've let him spend working on this book,
+and hopes he'll have a bit more free time on weekends next year.
+PR thanks his family for their patient
+support through the writing of this book and is also
+grateful to Yahoo! Inc. for providing a fertile environment
+in which to work on this book.  HS would like to thank his parents,
+family, and friends for their support while writing this book. Next: Web and contact information Up: Preface Previous: Book layout Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+The authors thank Stanford University and the University of
+Stuttgart for providing a stimulating academic environment for
+discussing ideas and the opportunity to teach courses from which
+this book arose and in which its contents were refined.  CM thanks his
+family for the many hours they've let him spend working on this book,
+and hopes he'll have a bit more free time on weekends next year.
+PR thanks his family for their patient
+support through the writing of this book and is also
+grateful to Yahoo! Inc. for providing a fertile environment
+in which to work on this book.  HS would like to thank his parents,
+family, and friends for their support while writing this book. Next: Web and contact information Up: Preface Previous: Book layout Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Web and contact information Up: Preface Previous: Book layout Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

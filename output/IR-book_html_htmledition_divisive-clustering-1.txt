@@ -1,0 +1,32 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/divisive-clustering-1.html
+url_id: /IR-book/html/htmledition/divisive-clustering-1
+title: Divisive clustering
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/irbook
+links: http://nlp.stanford.edu/IR-book/html/htmledition/cluster-labeling-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/optimality-of-hac-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-17.html
+Top-down clustering is conceptually more complex than
+bottom-up clustering since we need a second, flat clustering
+algorithm as a ``subroutine''. It has the advantage of being
+more efficient if we do not generate a complete hierarchy
+all the way down to individual document leaves.  For a fixed
+number of top levels, using an efficient flat algorithm like -means, top-down algorithms are linear in the number of
+documents and clusters. So they run much faster than HAC
+algorithms, which are at least quadratic. There is evidence that divisive algorithms produce more accurate
+hierarchies than bottom-up algorithms in some
+circumstances. See the references on
+bisecting -means in Section 17.9 . Bottom-up methods
+make clustering decisions based on local patterns without
+initially taking into account the global distribution. These
+early decisions cannot be undone. Top-down clustering
+benefits from complete information about the global
+distribution when making top-level partitioning decisions. Next: Cluster labeling Up: Hierarchical clustering Previous: Optimality of HAC Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+There is evidence that divisive algorithms produce more accurate
+hierarchies than bottom-up algorithms in some
+circumstances. See the references on
+bisecting -means in Section 17.9 . Bottom-up methods
+make clustering decisions based on local patterns without
+initially taking into account the global distribution. These
+early decisions cannot be undone. Top-down clustering
+benefits from complete information about the global
+distribution when making top-level partitioning decisions. Next: Cluster labeling Up: Hierarchical clustering Previous: Optimality of HAC Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Cluster labeling Up: Hierarchical clustering Previous: Optimality of HAC Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

@@ -1,0 +1,13 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/improving-classifier-performance-1.html
+url_id: /IR-book/html/htmledition/improving-classifier-performance-1
+title: Improving classifier performance
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/choosing-what-kind-of-classifier-to-use-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1, /IR-book/html/htmledition/large-and-difficult-category-taxonomies-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/choosing-what-kind-of-classifier-to-use-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/connections-to-text-summarization-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-zones-in-text-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/features-for-text-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/large-and-difficult-category-taxonomies-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/separate-feature-spaces-for-document-zones-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/upweighting-document-zones-1.html
+For any particular application, there is usually significant room for
+improving classifier effectiveness through exploiting features
+specific to the domain or
+document collection.  Often documents will contain zones which are especially useful for classification.
+Often there will be particular subvocabularies which demand special
+treatment for optimal classification effectiveness. Subsections Large and difficult category taxonomies Features for text Document zones in text classification Upweighting document zones. Separate feature spaces for document zones. Connections to text summarization. © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Subsections Large and difficult category taxonomies Features for text Document zones in text classification Upweighting document zones. Separate feature spaces for document zones. Connections to text summarization. © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

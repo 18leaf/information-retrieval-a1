@@ -1,0 +1,80 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/preface-1.html
+url_id: /IR-book/html/htmledition/preface-1
+title: Preface
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/book-layout-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/table-of-notations-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/acknowledgments-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/book-layout-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/book-organization-and-course-development-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/prerequisites-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/table-of-notations-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-and-contact-information-1.html
+As recently as the 1990s, studies showed that most people preferred getting
+information from other people rather than from information retrieval systems.
+Of course, in that time period, most people also used human
+travel agents to book their travel.
+However, during the last decade, relentless
+optimization of
+information retrieval effectiveness
+has driven web search
+engines to new quality levels where most people are satisfied most of
+the time, and web search has become a standard and often preferred
+source of information finding.
+For example, the 2004 Pew Internet Survey ( Fallows, 2004 ) found that ``92% of Internet users say
+the Internet is a good place to go for getting everyday information.''
+To the surprise of many, the field of information retrieval has moved from being a primarily academic discipline to being the basis underlying most people's preferred means of information access.
+This book presents the scientific underpinnings of this
+field, at a level accessible to graduate students as well as
+advanced undergraduates. Information retrieval did not begin with the Web.  In
+response to various challenges of providing information
+access, the field of information retrieval evolved to give
+principled approaches to searching various forms of content.  The field began with scientific publications and library records, but soon spread to other forms of content, particularly those of information professionals, such as journalists, lawyers, and doctors.  Much of the scientific research on  information retrieval has occurred in these contexts, and much of the continued practice of information retrieval deals with providing access to unstructured information in various corporate and governmental domains, and this work forms much of the foundation of our book. Nevertheless, in recent years, a principal driver of
+innovation has been the World Wide Web, unleashing
+publication at the scale of tens of millions of content
+creators.  This explosion of published information would be
+moot if the information could not be found, annotated and
+analyzed so that each user can quickly find information that
+is both relevant and comprehensive for their needs.  By the
+late 1990s, many people felt that continuing to index the
+whole Web would rapidly become impossible, due to the Web's
+exponential growth in size.  But major scientific
+innovations, superb engineering, the rapidly declining price
+of computer hardware, and the rise of a commercial
+underpinning for web search have all conspired to
+power today's major search engines, which are able to
+provide high-quality results within subsecond response times
+for hundreds of millions of searches a day over billions of
+web pages. Subsections Book organization and course development Prerequisites Book layout Acknowledgments Web and contact information Next: Book organization and course Up: irbook Previous: Table of Notations Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Information retrieval did not begin with the Web.  In
+response to various challenges of providing information
+access, the field of information retrieval evolved to give
+principled approaches to searching various forms of content.  The field began with scientific publications and library records, but soon spread to other forms of content, particularly those of information professionals, such as journalists, lawyers, and doctors.  Much of the scientific research on  information retrieval has occurred in these contexts, and much of the continued practice of information retrieval deals with providing access to unstructured information in various corporate and governmental domains, and this work forms much of the foundation of our book. Nevertheless, in recent years, a principal driver of
+innovation has been the World Wide Web, unleashing
+publication at the scale of tens of millions of content
+creators.  This explosion of published information would be
+moot if the information could not be found, annotated and
+analyzed so that each user can quickly find information that
+is both relevant and comprehensive for their needs.  By the
+late 1990s, many people felt that continuing to index the
+whole Web would rapidly become impossible, due to the Web's
+exponential growth in size.  But major scientific
+innovations, superb engineering, the rapidly declining price
+of computer hardware, and the rise of a commercial
+underpinning for web search have all conspired to
+power today's major search engines, which are able to
+provide high-quality results within subsecond response times
+for hundreds of millions of searches a day over billions of
+web pages. Subsections Book organization and course development Prerequisites Book layout Acknowledgments Web and contact information Next: Book organization and course Up: irbook Previous: Table of Notations Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Nevertheless, in recent years, a principal driver of
+innovation has been the World Wide Web, unleashing
+publication at the scale of tens of millions of content
+creators.  This explosion of published information would be
+moot if the information could not be found, annotated and
+analyzed so that each user can quickly find information that
+is both relevant and comprehensive for their needs.  By the
+late 1990s, many people felt that continuing to index the
+whole Web would rapidly become impossible, due to the Web's
+exponential growth in size.  But major scientific
+innovations, superb engineering, the rapidly declining price
+of computer hardware, and the rise of a commercial
+underpinning for web search have all conspired to
+power today's major search engines, which are able to
+provide high-quality results within subsecond response times
+for hundreds of millions of searches a day over billions of
+web pages. Subsections Book organization and course development Prerequisites Book layout Acknowledgments Web and contact information Next: Book organization and course Up: irbook Previous: Table of Notations Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Subsections Book organization and course development Prerequisites Book layout Acknowledgments Web and contact information Next: Book organization and course Up: irbook Previous: Table of Notations Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

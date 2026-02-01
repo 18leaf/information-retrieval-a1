@@ -1,0 +1,44 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/permuterm-indexes-1.html
+url_id: /IR-book/html/htmledition/permuterm-indexes-1
+title: Permuterm indexes
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/general-wildcard-queries-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/k-gram-indexes-for-wildcard-queries-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/general-wildcard-queries-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/k-gram-indexes-for-wildcard-queries-1.html
+Figure 3.3: A portion of a permuterm index. We refer to the set of rotated terms in the permuterm index as the permuterm vocabulary . How does this index help us with wildcard queries? Consider the wildcard query m*n. The key is to rotate such a wildcard query so that the * symbol appears at the end of the string - thus the rotated wildcard query becomes n$m*. Next, we look up this string in the permuterm index, where seeking n$m* (via a search tree) leads to rotations of (among others) the terms man and moron. Now that the permuterm index enables us to identify the original
+vocabulary terms matching a wildcard query, we look up these terms in
+the standard inverted index to retrieve matching
+documents. We can thus handle any wildcard query with a
+single * symbol. But what about a query such as
+fi*mo*er? In this case we first enumerate the terms
+in the dictionary that are in the permuterm index of
+er$fi*. Not all such dictionary terms will have the
+string mo in the middle - we filter these out by
+exhaustive enumeration, checking each candidate to see if it
+contains mo. In this example, the term
+fishmonger would survive this filtering but filibuster would not. We then run the surviving terms through the standard inverted index for document retrieval. One disadvantage of the permuterm index is that its dictionary becomes quite large, including as it does all rotations of each term. Notice the close interplay between the B-tree and the permuterm index above. Indeed, it suggests that the structure should perhaps be viewed as a permuterm B-tree. However, we follow traditional terminology here in describing the permuterm index as distinct from the B-tree that allows us to select the rotations with a given prefix. Next: k-gram indexes for wildcard Up: General wildcard queries Previous: General wildcard queries Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+How does this index help us with wildcard queries? Consider the wildcard query m*n. The key is to rotate such a wildcard query so that the * symbol appears at the end of the string - thus the rotated wildcard query becomes n$m*. Next, we look up this string in the permuterm index, where seeking n$m* (via a search tree) leads to rotations of (among others) the terms man and moron. Now that the permuterm index enables us to identify the original
+vocabulary terms matching a wildcard query, we look up these terms in
+the standard inverted index to retrieve matching
+documents. We can thus handle any wildcard query with a
+single * symbol. But what about a query such as
+fi*mo*er? In this case we first enumerate the terms
+in the dictionary that are in the permuterm index of
+er$fi*. Not all such dictionary terms will have the
+string mo in the middle - we filter these out by
+exhaustive enumeration, checking each candidate to see if it
+contains mo. In this example, the term
+fishmonger would survive this filtering but filibuster would not. We then run the surviving terms through the standard inverted index for document retrieval. One disadvantage of the permuterm index is that its dictionary becomes quite large, including as it does all rotations of each term. Notice the close interplay between the B-tree and the permuterm index above. Indeed, it suggests that the structure should perhaps be viewed as a permuterm B-tree. However, we follow traditional terminology here in describing the permuterm index as distinct from the B-tree that allows us to select the rotations with a given prefix. Next: k-gram indexes for wildcard Up: General wildcard queries Previous: General wildcard queries Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Now that the permuterm index enables us to identify the original
+vocabulary terms matching a wildcard query, we look up these terms in
+the standard inverted index to retrieve matching
+documents. We can thus handle any wildcard query with a
+single * symbol. But what about a query such as
+fi*mo*er? In this case we first enumerate the terms
+in the dictionary that are in the permuterm index of
+er$fi*. Not all such dictionary terms will have the
+string mo in the middle - we filter these out by
+exhaustive enumeration, checking each candidate to see if it
+contains mo. In this example, the term
+fishmonger would survive this filtering but filibuster would not. We then run the surviving terms through the standard inverted index for document retrieval. One disadvantage of the permuterm index is that its dictionary becomes quite large, including as it does all rotations of each term. Notice the close interplay between the B-tree and the permuterm index above. Indeed, it suggests that the structure should perhaps be viewed as a permuterm B-tree. However, we follow traditional terminology here in describing the permuterm index as distinct from the B-tree that allows us to select the rotations with a given prefix. Next: k-gram indexes for wildcard Up: General wildcard queries Previous: General wildcard queries Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Notice the close interplay between the B-tree and the permuterm index above. Indeed, it suggests that the structure should perhaps be viewed as a permuterm B-tree. However, we follow traditional terminology here in describing the permuterm index as distinct from the B-tree that allows us to select the rotations with a given prefix. Next: k-gram indexes for wildcard Up: General wildcard queries Previous: General wildcard queries Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: k-gram indexes for wildcard Up: General wildcard queries Previous: General wildcard queries Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

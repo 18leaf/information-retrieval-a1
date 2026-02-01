@@ -1,0 +1,49 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/connections-to-text-summarization-1.html
+url_id: /IR-book/html/htmledition/connections-to-text-summarization-1
+title: Connections to text summarization.
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/document-zones-in-text-classification-1, /IR-book/html/htmledition/improving-classifier-performance-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1, /IR-book/html/htmledition/machine-learning-methods-in-ad-hoc-information-retrieval-1, /IR-book/html/htmledition/separate-feature-spaces-for-document-zones-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-zones-in-text-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/machine-learning-methods-in-ad-hoc-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/mutual-information-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/results-snippets-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/separate-feature-spaces-for-document-zones-1.html
+In Section 8.7 , we mentioned the field of text summarization,
+and how most work in that field has adopted the limited goal of
+extracting and assembling pieces of the original text that are judged
+to be central based on
+features of sentences that consider the sentence's position and
+content.  Much of this work can be used to suggest zones that may be
+distinctively useful for text classification.  For example Ko cz et al. (2000) consider a form of feature selection
+where you classify documents based only on words in certain zones.
+Based on text summarization research, they consider using
+(i) only the title, (ii) only the first paragraph, (iii) only the
+paragraph with the most title words or keywords, (iv) the first two
+paragraphs or the first and last paragraph, or (v) all sentences with
+a minimum number of title words or keywords.  In general, these
+positional feature selection methods produced as good results as mutual
+information (Section 13.5.1 ), and resulted in quite competitive
+classifiers. Ko et al. (2004) also took inspiration from text
+summarization research to upweight sentences with either words from
+the title or words that are central to the document's content, leading
+to classification accuracy gains of almost 1%.
+This presumably works because most such sentences are somehow
+more central to the concerns of the document. Exercises. Spam email often makes use of various cloaking techniques to try to
+get through.  One method is to pad or substitute characters so as to
+defeat word-based text classifiers.  For example, you see terms like
+the following in spam email: Rep1icaRolex bonmus Viiiaaaagra pi11z PHARlbdMACY [LEV]i[IT]l[RA] se xual ClAfLlS Discuss how you could engineer features that would largely defeat this
+strategy. Another strategy often used by purveyors of email spam is to follow
+the message they 
+wish to send (such as buying a cheap stock or whatever) with a
+paragraph of text from another innocuous source (such as a news
+article).  Why might this strategy be effective?  How might it be
+addressed by a text classifier? What other kinds of features appear as if they would be useful in an
+email spam classifier? Next: Machine learning methods in Up: Document zones in text Previous: Separate feature spaces for Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Exercises. Spam email often makes use of various cloaking techniques to try to
+get through.  One method is to pad or substitute characters so as to
+defeat word-based text classifiers.  For example, you see terms like
+the following in spam email: Rep1icaRolex bonmus Viiiaaaagra pi11z PHARlbdMACY [LEV]i[IT]l[RA] se xual ClAfLlS Discuss how you could engineer features that would largely defeat this
+strategy. Another strategy often used by purveyors of email spam is to follow
+the message they 
+wish to send (such as buying a cheap stock or whatever) with a
+paragraph of text from another innocuous source (such as a news
+article).  Why might this strategy be effective?  How might it be
+addressed by a text classifier? What other kinds of features appear as if they would be useful in an
+email spam classifier? Next: Machine learning methods in Up: Document zones in text Previous: Separate feature spaces for Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Machine learning methods in Up: Document zones in text Previous: Separate feature spaces for Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

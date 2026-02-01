@@ -1,0 +1,19 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/system-issues-1.html
+url_id: /IR-book/html/htmledition/system-issues-1
+title: System issues
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/a-broader-perspective-system-quality-and-user-utility-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-in-information-retrieval-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/user-utility-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/a-broader-perspective-system-quality-and-user-utility-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-construction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/user-utility-1.html
+There are many practical benchmarks on which to rate an information
+retrieval system beyond its retrieval quality.  These include: How fast does it index, that is, how many documents per hour does it
+  index for a certain distribution over document lengths?
+(cf. Chapter 4 ) How fast does it search, that is, what is its latency as a
+  function of index size? How expressive is its query language?  How fast is it
+  on complex queries? How large is its document collection, in terms of the number of
+  documents or the collection having information distributed across a
+  broad range of topics? All these criteria apart from query language expressiveness are
+straightforwardly measurable : we can quantify the speed or size.
+Various 
+kinds of feature checklists can make query language expressiveness
+semi-precise. © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+© 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

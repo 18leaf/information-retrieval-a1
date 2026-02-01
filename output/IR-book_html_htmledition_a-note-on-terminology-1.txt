@@ -1,0 +1,15 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/a-note-on-terminology-1.html
+url_id: /IR-book/html/htmledition/a-note-on-terminology-1
+title: A note on terminology.
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/cardinality---the-number-of-clusters-1, /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/problem-statement-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/cardinality---the-number-of-clusters-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/problem-statement-1.html
+Some researchers distinguish between exhaustive clusterings
+that assign each document to a cluster and non-exhaustive
+clusterings, in which some documents will be assigned to no
+cluster. Non-exhaustive clusterings in which each document
+is a member of either no cluster or one cluster are
+called exclusive . 
+We define clustering to be exhaustive in
+this book. © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+© 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

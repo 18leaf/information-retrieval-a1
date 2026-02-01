@@ -1,0 +1,229 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/other-languages-1.html
+url_id: /IR-book/html/htmledition/other-languages-1
+title: Other languages.
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/determining-the-vocabulary-of-terms-1, /IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1, /IR-book/html/htmledition/other-issues-in-english-1, /IR-book/html/htmledition/stemming-and-lemmatization-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-issues-in-english-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/phonetic-correction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html
+English has maintained a dominant position on the WWW; approximately
+60% of web pages are in English ( Gerrand, 2007 ).  But that
+still leaves 40% of the web, and the non-English portion might be
+expected to grow over time, since less than one third of Internet
+users and less than 10% of the world's population primarily speak
+English.  And there are signs of change: Sifry (2007) reports
+that only about one third of blog posts are in English. Other languages again present distinctive issues in equivalence classing.
+The French word for the has distinctive forms based not only on
+the gender (masculine or feminine) and number of the following noun, but
+also depending on whether the following word begins with a 
+vowel: le , la , l' , les .  
+We may well wish to equivalence class these various forms of the .
+German has a convention whereby vowels with an umlaut can be rendered
+instead as a two vowel digraph.  We would want to treat Schütze and Schuetze as equivalent. Japanese makes use of multiple intermingled writing systems
+and, like Chinese, does not segment words.
+  The text is mainly Chinese characters with the hiragana
+  syllabary for inflectional endings and function words.  The part in
+  latin letters is actually a Japanese 
+  expression, but has been taken up as the name of an environmental
+  campaign by 2004 Nobel Peace Prize winner Wangari Maathai.  His name
+  is written using the katakana syllabary in the middle of the first
+  line.  The first four characters of the final line express a monetary
+  amount that we would want to match with ¥500,000 (500,000
+  Japanese yen). Japanese is a well-known difficult writing system, as illustrated in
+Figure 2.7 .  Modern Japanese is standardly an
+intermingling of multiple alphabets, principally Chinese characters, two
+syllabaries (hiragana and katakana) and western characters (Latin
+letters, Arabic numerals, and various symbols).  While there are strong
+conventions and standardization through the education system over the
+choice of writing 
+system, in many cases the same word can be written with multiple writing
+systems.  For example, a word may be written in katakana for emphasis
+(somewhat like italics).  Or a word may sometimes be written in hiragana
+and sometimes in Chinese characters.
+Successful retrieval thus requires complex equivalence classing across
+the writing systems.  In particular, an end user might commonly present
+a query entirely in hiragana, because it is easier to type, just as
+Western end users commonly use all lowercase. Document collections being indexed can include documents from many
+different languages. 
+Or a single document can easily contain text from 
+multiple languages.  For instance, a French email might quote clauses
+from a contract document written in English.
+Most commonly, the language is detected and language-particular
+tokenization and normalization rules are applied at a predetermined
+granularity, such as whole documents or individual paragraphs, but this
+still will not correctly deal with cases where language changes occur
+for brief quotations. 
+When document collections contain multiple languages, 
+a single index may have to 
+contain terms of several languages.  One option is to run a language
+identification classifier on documents and then to tag terms in the
+vocabulary for their language.  Or this tagging can simply be omitted,
+since it is relatively rare for the exact same character sequence to be a word
+in different languages. When dealing with foreign or complex words, particularly foreign
+names, the spelling may be unclear or there may be variant
+transliteration standards giving different spellings (for example, Chebyshev and Tchebycheff or Beijing and Peking ).  One way of dealing with this is to use heuristics to
+equivalence class or expand terms with phonetic equivalents.
+The traditional and best known such algorithm is the Soundex algorithm,
+which we cover in Section 3.4 (page ). Next: Stemming and lemmatization Up: Normalization (equivalence classing of Previous: Other issues in English. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Other languages again present distinctive issues in equivalence classing.
+The French word for the has distinctive forms based not only on
+the gender (masculine or feminine) and number of the following noun, but
+also depending on whether the following word begins with a 
+vowel: le , la , l' , les .  
+We may well wish to equivalence class these various forms of the .
+German has a convention whereby vowels with an umlaut can be rendered
+instead as a two vowel digraph.  We would want to treat Schütze and Schuetze as equivalent. Japanese makes use of multiple intermingled writing systems
+and, like Chinese, does not segment words.
+  The text is mainly Chinese characters with the hiragana
+  syllabary for inflectional endings and function words.  The part in
+  latin letters is actually a Japanese 
+  expression, but has been taken up as the name of an environmental
+  campaign by 2004 Nobel Peace Prize winner Wangari Maathai.  His name
+  is written using the katakana syllabary in the middle of the first
+  line.  The first four characters of the final line express a monetary
+  amount that we would want to match with ¥500,000 (500,000
+  Japanese yen). Japanese is a well-known difficult writing system, as illustrated in
+Figure 2.7 .  Modern Japanese is standardly an
+intermingling of multiple alphabets, principally Chinese characters, two
+syllabaries (hiragana and katakana) and western characters (Latin
+letters, Arabic numerals, and various symbols).  While there are strong
+conventions and standardization through the education system over the
+choice of writing 
+system, in many cases the same word can be written with multiple writing
+systems.  For example, a word may be written in katakana for emphasis
+(somewhat like italics).  Or a word may sometimes be written in hiragana
+and sometimes in Chinese characters.
+Successful retrieval thus requires complex equivalence classing across
+the writing systems.  In particular, an end user might commonly present
+a query entirely in hiragana, because it is easier to type, just as
+Western end users commonly use all lowercase. Document collections being indexed can include documents from many
+different languages. 
+Or a single document can easily contain text from 
+multiple languages.  For instance, a French email might quote clauses
+from a contract document written in English.
+Most commonly, the language is detected and language-particular
+tokenization and normalization rules are applied at a predetermined
+granularity, such as whole documents or individual paragraphs, but this
+still will not correctly deal with cases where language changes occur
+for brief quotations. 
+When document collections contain multiple languages, 
+a single index may have to 
+contain terms of several languages.  One option is to run a language
+identification classifier on documents and then to tag terms in the
+vocabulary for their language.  Or this tagging can simply be omitted,
+since it is relatively rare for the exact same character sequence to be a word
+in different languages. When dealing with foreign or complex words, particularly foreign
+names, the spelling may be unclear or there may be variant
+transliteration standards giving different spellings (for example, Chebyshev and Tchebycheff or Beijing and Peking ).  One way of dealing with this is to use heuristics to
+equivalence class or expand terms with phonetic equivalents.
+The traditional and best known such algorithm is the Soundex algorithm,
+which we cover in Section 3.4 (page ). Next: Stemming and lemmatization Up: Normalization (equivalence classing of Previous: Other issues in English. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Japanese makes use of multiple intermingled writing systems
+and, like Chinese, does not segment words.
+  The text is mainly Chinese characters with the hiragana
+  syllabary for inflectional endings and function words.  The part in
+  latin letters is actually a Japanese 
+  expression, but has been taken up as the name of an environmental
+  campaign by 2004 Nobel Peace Prize winner Wangari Maathai.  His name
+  is written using the katakana syllabary in the middle of the first
+  line.  The first four characters of the final line express a monetary
+  amount that we would want to match with ¥500,000 (500,000
+  Japanese yen). Japanese is a well-known difficult writing system, as illustrated in
+Figure 2.7 .  Modern Japanese is standardly an
+intermingling of multiple alphabets, principally Chinese characters, two
+syllabaries (hiragana and katakana) and western characters (Latin
+letters, Arabic numerals, and various symbols).  While there are strong
+conventions and standardization through the education system over the
+choice of writing 
+system, in many cases the same word can be written with multiple writing
+systems.  For example, a word may be written in katakana for emphasis
+(somewhat like italics).  Or a word may sometimes be written in hiragana
+and sometimes in Chinese characters.
+Successful retrieval thus requires complex equivalence classing across
+the writing systems.  In particular, an end user might commonly present
+a query entirely in hiragana, because it is easier to type, just as
+Western end users commonly use all lowercase. Document collections being indexed can include documents from many
+different languages. 
+Or a single document can easily contain text from 
+multiple languages.  For instance, a French email might quote clauses
+from a contract document written in English.
+Most commonly, the language is detected and language-particular
+tokenization and normalization rules are applied at a predetermined
+granularity, such as whole documents or individual paragraphs, but this
+still will not correctly deal with cases where language changes occur
+for brief quotations. 
+When document collections contain multiple languages, 
+a single index may have to 
+contain terms of several languages.  One option is to run a language
+identification classifier on documents and then to tag terms in the
+vocabulary for their language.  Or this tagging can simply be omitted,
+since it is relatively rare for the exact same character sequence to be a word
+in different languages. When dealing with foreign or complex words, particularly foreign
+names, the spelling may be unclear or there may be variant
+transliteration standards giving different spellings (for example, Chebyshev and Tchebycheff or Beijing and Peking ).  One way of dealing with this is to use heuristics to
+equivalence class or expand terms with phonetic equivalents.
+The traditional and best known such algorithm is the Soundex algorithm,
+which we cover in Section 3.4 (page ). Next: Stemming and lemmatization Up: Normalization (equivalence classing of Previous: Other issues in English. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Japanese is a well-known difficult writing system, as illustrated in
+Figure 2.7 .  Modern Japanese is standardly an
+intermingling of multiple alphabets, principally Chinese characters, two
+syllabaries (hiragana and katakana) and western characters (Latin
+letters, Arabic numerals, and various symbols).  While there are strong
+conventions and standardization through the education system over the
+choice of writing 
+system, in many cases the same word can be written with multiple writing
+systems.  For example, a word may be written in katakana for emphasis
+(somewhat like italics).  Or a word may sometimes be written in hiragana
+and sometimes in Chinese characters.
+Successful retrieval thus requires complex equivalence classing across
+the writing systems.  In particular, an end user might commonly present
+a query entirely in hiragana, because it is easier to type, just as
+Western end users commonly use all lowercase. Document collections being indexed can include documents from many
+different languages. 
+Or a single document can easily contain text from 
+multiple languages.  For instance, a French email might quote clauses
+from a contract document written in English.
+Most commonly, the language is detected and language-particular
+tokenization and normalization rules are applied at a predetermined
+granularity, such as whole documents or individual paragraphs, but this
+still will not correctly deal with cases where language changes occur
+for brief quotations. 
+When document collections contain multiple languages, 
+a single index may have to 
+contain terms of several languages.  One option is to run a language
+identification classifier on documents and then to tag terms in the
+vocabulary for their language.  Or this tagging can simply be omitted,
+since it is relatively rare for the exact same character sequence to be a word
+in different languages. When dealing with foreign or complex words, particularly foreign
+names, the spelling may be unclear or there may be variant
+transliteration standards giving different spellings (for example, Chebyshev and Tchebycheff or Beijing and Peking ).  One way of dealing with this is to use heuristics to
+equivalence class or expand terms with phonetic equivalents.
+The traditional and best known such algorithm is the Soundex algorithm,
+which we cover in Section 3.4 (page ). Next: Stemming and lemmatization Up: Normalization (equivalence classing of Previous: Other issues in English. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Document collections being indexed can include documents from many
+different languages. 
+Or a single document can easily contain text from 
+multiple languages.  For instance, a French email might quote clauses
+from a contract document written in English.
+Most commonly, the language is detected and language-particular
+tokenization and normalization rules are applied at a predetermined
+granularity, such as whole documents or individual paragraphs, but this
+still will not correctly deal with cases where language changes occur
+for brief quotations. 
+When document collections contain multiple languages, 
+a single index may have to 
+contain terms of several languages.  One option is to run a language
+identification classifier on documents and then to tag terms in the
+vocabulary for their language.  Or this tagging can simply be omitted,
+since it is relatively rare for the exact same character sequence to be a word
+in different languages. When dealing with foreign or complex words, particularly foreign
+names, the spelling may be unclear or there may be variant
+transliteration standards giving different spellings (for example, Chebyshev and Tchebycheff or Beijing and Peking ).  One way of dealing with this is to use heuristics to
+equivalence class or expand terms with phonetic equivalents.
+The traditional and best known such algorithm is the Soundex algorithm,
+which we cover in Section 3.4 (page ). Next: Stemming and lemmatization Up: Normalization (equivalence classing of Previous: Other issues in English. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+When dealing with foreign or complex words, particularly foreign
+names, the spelling may be unclear or there may be variant
+transliteration standards giving different spellings (for example, Chebyshev and Tchebycheff or Beijing and Peking ).  One way of dealing with this is to use heuristics to
+equivalence class or expand terms with phonetic equivalents.
+The traditional and best known such algorithm is the Soundex algorithm,
+which we cover in Section 3.4 (page ). Next: Stemming and lemmatization Up: Normalization (equivalence classing of Previous: Other issues in English. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Stemming and lemmatization Up: Normalization (equivalence classing of Previous: Other issues in English. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

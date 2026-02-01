@@ -1,0 +1,7 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/assessing-as-a-feature-selection-methodassessing-chi-square-as-a-feature-selection-method-1.html
+url_id: /IR-book/html/htmledition/assessing-as-a-feature-selection-methodassessing-chi-square-as-a-feature-selection-method-1
+title: Assessing as a feature selection methodAssessing chi-square as a feature selection method
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/text-classification-and-naive-bayes-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/feature-selectionchi2-feature-selection-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/frequency-based-feature-selection-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-13.html
+Next: Frequency-based feature selection Up: Feature selectionChi2 Feature selection Previous: Feature selectionChi2 Feature selection Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

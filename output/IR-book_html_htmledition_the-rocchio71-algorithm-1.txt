@@ -1,0 +1,59 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/the-rocchio71-algorithm-1.html
+url_id: /IR-book/html/htmledition/the-rocchio71-algorithm-1
+title: The #rocchio71### algorithm.
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/probabilistic-relevance-feedback-1, /IR-book/html/htmledition/relevance-feedback-and-pseudo-relevance-feedback-1, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1, /IR-book/html/htmledition/rocchio-classification-1, /IR-book/html/htmledition/summary-1, /IR-book/html/htmledition/the-rocchio-algorithm-for-relevance-feedback-1
+links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-pseudo-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-rocchio-algorithm-for-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-underlying-theory-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-vector-space-model-for-scoring-1.html
+An application of Rocchio's algorithm.Some documents have
+  been labeled as relevant and nonrelevant and the initial query vector
+  is moved in response to this feedback. This was the relevance
+feedback mechanism introduced in and popularized
+by Salton's SMART system around 1970.
+In a real IR query context, we have a user query and partial knowledge of known relevant and nonrelevant documents. The algorithm proposes using the modified query : (49) where is the original query vector, and are the set of known relevant and nonrelevant documents respectively, and , , and are weights attached to each term. These control the balance between trusting the judged document set versus the query: if we have a lot of judged documents, we would like a higher and . Starting from , the new query moves you some distance toward the centroid of the
+relevant documents and some distance away from the centroid of the
+nonrelevant documents. This new query can be used for retrieval in the standard vector space model (see Section 6.3 ).
+We can easily leave the positive
+quadrant of the vector space by subtracting off a nonrelevant document's
+vector. In the Rocchio algorithm, negative term weights are ignored.
+That is, the term weight is set to 0. Figure 9.4 shows the
+effect of applying relevance feedback. Relevance feedback can improve both recall and precision. But, in practice,
+it has been shown to be most useful for increasing
+recall in situations where recall is important. This is partly
+because the technique expands the query, but it is also partly an effect
+of the use case: when they
+  want high recall, users can be expected to take time
+to review results and to iterate on the search.
+Positive feedback also turns out to be much more valuable
+than negative feedback, and so most IR systems set .
+Reasonable values might be , , and . In fact, many systems, such as the image search system in Figure 9.1 , allow only positive feedback, which is equivalent to setting . Another alternative is to use only the marked nonrelevant document which received the highest ranking from the IR system as negative feedback (here, in Equation 49 ). While many of the experimental results comparing various relevance feedback variants are rather inconclusive, some studies have suggested that this variant, called Ide dec-hi is the most effective or at least the most consistent performer. Next: Probabilistic relevance feedback Up: The Rocchio algorithm for Previous: The underlying theory. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+This was the relevance
+feedback mechanism introduced in and popularized
+by Salton's SMART system around 1970.
+In a real IR query context, we have a user query and partial knowledge of known relevant and nonrelevant documents. The algorithm proposes using the modified query : (49) where is the original query vector, and are the set of known relevant and nonrelevant documents respectively, and , , and are weights attached to each term. These control the balance between trusting the judged document set versus the query: if we have a lot of judged documents, we would like a higher and . Starting from , the new query moves you some distance toward the centroid of the
+relevant documents and some distance away from the centroid of the
+nonrelevant documents. This new query can be used for retrieval in the standard vector space model (see Section 6.3 ).
+We can easily leave the positive
+quadrant of the vector space by subtracting off a nonrelevant document's
+vector. In the Rocchio algorithm, negative term weights are ignored.
+That is, the term weight is set to 0. Figure 9.4 shows the
+effect of applying relevance feedback. Relevance feedback can improve both recall and precision. But, in practice,
+it has been shown to be most useful for increasing
+recall in situations where recall is important. This is partly
+because the technique expands the query, but it is also partly an effect
+of the use case: when they
+  want high recall, users can be expected to take time
+to review results and to iterate on the search.
+Positive feedback also turns out to be much more valuable
+than negative feedback, and so most IR systems set .
+Reasonable values might be , , and . In fact, many systems, such as the image search system in Figure 9.1 , allow only positive feedback, which is equivalent to setting . Another alternative is to use only the marked nonrelevant document which received the highest ranking from the IR system as negative feedback (here, in Equation 49 ). While many of the experimental results comparing various relevance feedback variants are rather inconclusive, some studies have suggested that this variant, called Ide dec-hi is the most effective or at least the most consistent performer. Next: Probabilistic relevance feedback Up: The Rocchio algorithm for Previous: The underlying theory. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Relevance feedback can improve both recall and precision. But, in practice,
+it has been shown to be most useful for increasing
+recall in situations where recall is important. This is partly
+because the technique expands the query, but it is also partly an effect
+of the use case: when they
+  want high recall, users can be expected to take time
+to review results and to iterate on the search.
+Positive feedback also turns out to be much more valuable
+than negative feedback, and so most IR systems set .
+Reasonable values might be , , and . In fact, many systems, such as the image search system in Figure 9.1 , allow only positive feedback, which is equivalent to setting . Another alternative is to use only the marked nonrelevant document which received the highest ranking from the IR system as negative feedback (here, in Equation 49 ). While many of the experimental results comparing various relevance feedback variants are rather inconclusive, some studies have suggested that this variant, called Ide dec-hi is the most effective or at least the most consistent performer. Next: Probabilistic relevance feedback Up: The Rocchio algorithm for Previous: The underlying theory. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+Next: Probabilistic relevance feedback Up: The Rocchio algorithm for Previous: The underlying theory. Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

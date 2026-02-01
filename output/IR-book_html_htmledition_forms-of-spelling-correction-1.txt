@@ -1,0 +1,8 @@
+url: http://nlp.stanford.edu/IR-book/html/htmledition/forms-of-spelling-correction-1.html
+url_id: /IR-book/html/htmledition/forms-of-spelling-correction-1
+title: Forms of spelling correction
+read_at: 02/01/2026
+parents: /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/implementing-spelling-correction-1, /IR-book/html/htmledition/irbook
+links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/edit-distance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/implementing-spelling-correction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/spelling-correction-1.html
+We begin by examining two techniques for addressing isolated-term correction: edit distance, and -gram overlap. We then proceed to context-sensitive correction. © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
+© 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
