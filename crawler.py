@@ -9,70 +9,95 @@ save_page: Save the crawled page to a file.
 extract_info: Extract the title and text from the HTML content.
 discover_urls: Extract all the URLs from the HTML content, validate them, and add new ones to the frontier queue.
 crawl: Start crawling the URLs.
-    
+
 """
 import time
 import re
 from collections import deque
 from datetime import datetime, timezone
+from dataclasses import dataclass, field
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.parse import urljoin, urlparse, unquote
 from urllib.request import urlopen
 
 from bs4 import BeautifulSoup
 
 # Path.cwd() -> as root by default
 
+@dataclass
 class FrontierNode:
     url: str
 
-    def __ref__(self):
+    def __str__(self) -> str:
         return self.url
 
-    def __init__(self, url: str):
-        self.url = url
-        
 
+@dataclass
 class ExpandedNode(FrontierNode):
-    raw_contents: str
-    clean_contents: str
-    title: str
-    links: set[str]
-    parents: set[str]
-    url_id: str # defined in the crawler. This will be file name
-    
-    def __str__(self) -> str:
-        #save format -> title, read_at, links (comma-separeted list), dump of clean_contents
-        # get time scraped, utc time, format m/d/y
-        now = datetime.now(timezone.utc).strftime("%m/%d/%Y")
-        return f"url: {self.url}\ntitle: {self.title}\nread_at: {now}\nlinks: {", "}\n{self.clean_contents}"
+    raw_contents: str = ""
+    clean_contents: str = ""
+    title: str = ""
+    links: set[str] = field(default_factory=set)
+    parents: set[str] = field(default_factory=set)
+    url_id: str = ""  # stable node id based on path (no domain)
 
-    def __init__(self, raw_contents: str,clean_contents: str,title: str,links: set[str],parents: set[str], url_id: str):
-        self.raw_contents = title
-        self.clean_contents = title
-        self.title = title
-        self.links = links
-        self.parents = parents
-        self.url_id = url_id
+    def __str__(self) -> str:
+        # save format -> url, url_id, title, read_at, parents, links, clean_contents
+        now = datetime.now(timezone.utc).strftime("%m/%d/%Y")
+        links_csv = ", ".join(sorted(self.links))
+        parents_csv = ", ".join(sorted(self.parents))
+        return (
+            f"url: {self.url}\n"
+            f"url_id: {self.url_id}\n"
+            f"title: {self.title}\n"
+            f"read_at: {now}\n"
+            f"parents: {parents_csv}\n"
+            f"links: {links_csv}\n"
+            f"{self.clean_contents}"
+        )
 
 
 
 class Crawler:
-    # note this is not the url.. this is the domain + path to start @... Does not contain http[s]://
+    # seed input can be a bare domain, domain+path, or full URL
     seed_domain: str
-    # Frontier = nodes that are discovered, but not expanded (not saved to file). They migh have children, might be leaf nodes
+    seed_url: str
+    # Frontier = nodes that are discovered, but not expanded (not saved to file). They might have children, might be leaf nodes
     frontier: deque[FrontierNode]
-    # store graph_dict as uri -> set of link uri, representing children
-    graph_dict:  dict[str, set[str]]
+    # store graph_dict as uri_id -> set of child uri_id, representing outgoing edges
+    graph_dict: dict[str, set[str]]
     # store regex pattern for okay url.. no need to compile many times
-    okay_url_regex: re.Pattern
-    save_path: Path    
-                            
+    okay_url_regex: re.Pattern[str]
+    save_path: Path
+
     def __init__(self, seed_domain: str, save_path: Path = Path.cwd()):
-        seed_domain = seed_domain.lower()
-        self.seed_domain = seed_domain
-        #                               starts with     escape domain         anytext  end with .htm(l)
-        # iteration 2 of regex -> include () for match[0,1,2], etc to extract path
-        self.okay_url_regex = re.compile("^(https?://" + re.escape(self.seed_domain) + ")(.*)[.]html?$")
+        # Accept:
+        # - "nlp.stanford.edu"
+        # - "nlp.stanford.edu/IR-book/information-retrieval-book.html"
+        # - "https://nlp.stanford.edu/IR-book/information-retrieval-book.html"
+        seed_input = seed_domain.strip()
+
+        if seed_input.startswith("http://") or seed_input.startswith("https://"):
+            parsed = urlparse(seed_input)
+            self.seed_domain = parsed.netloc.lower()
+            # keep original case of path (servers can be case-sensitive)
+            self.seed_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+            if parsed.query:
+                self.seed_url += f"?{parsed.query}"
+        else:
+            # domain or domain+path
+            parsed = urlparse("https://" + seed_input)
+            self.seed_domain = parsed.netloc.lower()
+            # preserve original path case by slicing from original input when possible
+            # (urlparse doesn't lowercase path, but we also avoid lowercasing seed_input)
+            self.seed_url = "https://" + seed_input
+
+        # Validation regex: restrict to same domain (scheme+host); path filtering happens elsewhere.
+        self.okay_url_regex = re.compile(
+            rf"^https?://{re.escape(self.seed_domain)}(?:/.*)?$",
+            re.IGNORECASE,
+        )
         if save_path is Path.cwd():
             # create dir for holding pages instead of dumping at root
             save_path = save_path / "pages"
@@ -83,176 +108,249 @@ class Crawler:
             # provided path DNE
             if not save_path.exists():
                 print(f"Error Path {save_path} does Not Exist")
-                exit()            
+                exit()
 
         self.save_path = save_path
 
-    def attempt_parse_and_build_expanded_node(self, parent_node: ExpandedNode, current_node: FrontierNode) -> ExpandedNode | None:
+    def attempt_parse_and_build_expanded_node(self, parent_node: ExpandedNode | None, current_node: FrontierNode) -> ExpandedNode | None:
         html = Crawler.fetch_url(current_node.url)
         if not html:
-            print("Could not Parse Root Page")
-            print(f"Page: {current_node} not found")
-            return
+            print(f"Fetch failed: {current_node.url}")
+            return None
+
         extracted_info = Crawler.extract_info(html)
         if not extracted_info:
-            print("Error extracting Info for Page")
-            print(f"Page: {current_node} not extracted")
-            return
-        title, clean_contents = extracted_info
-        found_links = Crawler.discover_urls(self, html)
-        url_id = Crawler.construct_uri_id(self.okay_url_regex, current_node.url)
-                
-        return ExpandedNode(
-            raw_contents = str(html),
-            clean_contents = clean_contents,
-            title = title,
-            links = found_links,
-            parents = set(parent_node.url_id),
-            url_id = url_id
+            print(f"Extract failed: {current_node.url}")
+            return None
 
+        title, clean_contents = extracted_info
+        found_links = self.discover_urls(html, base_url=current_node.url)
+        url_id = Crawler.construct_uri_id(self.okay_url_regex, current_node.url)
+
+        parents: set[str] = set()
+        if parent_node is not None and parent_node.url_id:
+            parents.add(parent_node.url_id)
+
+        return ExpandedNode(
+            url=current_node.url,
+            raw_contents=str(html),
+            clean_contents=clean_contents,
+            title=title,
+            links=found_links,
+            parents=parents,
+            url_id=url_id,
         )
-    
-    
+
+
     def is_url_ok_to_follow(regex: re.Pattern, url: str) -> bool:
-        # matches the regex rules
-        if regex.match(url):
-            return True
-        
-        return False
+        # Must match allowed domain pattern
+        if not regex.match(url):
+            return False
+
+        parsed = urlparse(url)
+        # only http(s)
+        if parsed.scheme not in ("http", "https"):
+            return False
+        # ignore empty / fragment-only
+        if url.strip() == "":
+            return False
+        return True
 
     # cache the raw page bytes
     def save_page(self, node: ExpandedNode) -> bool:
         # write path = url_id + .txt file
 
-        # write as url_id + .txt
-        write_path = self.save_path / str(node.url_id + ".txt")
+        # write as a filesystem-safe name derived from the path ID
+        file_safe_id = node.url_id.strip("/").replace("/", "_")
+        if file_safe_id == "":
+            file_safe_id = "root"
+        write_path = self.save_path / (file_safe_id + ".txt")
         write_path.write_text(str(node), encoding="utf-8")
-        return False 
+        return True
 
-    #helper function to construct a uri id that can name the file and represent that URI as a node of a graph
-    # this function should only be called IF there is a valid URI
-    def construct_uri_id(regex: re.Pattern, uri: str) -> str:
-        # in the future, this could be hashed from the url path?? 
-        # goal is to take a full url, strip the prefix, seed_Domain, and only contain the path after the seed domain
-        print(regex)
-        id = regex.match(uri) # match 1 = domain+prefix, match 2 = path
-        if not id:
-            print(uri, id, "DID NOT MATCH")
-        path = id[2]
-        # convert to file safe extension
-        path = path.replace("/", "_")
+    # helper function to construct a uri id that can name the file and represent that URI as a node of a graph
+    # goal: remove scheme+domain, drop common suffix (.html/.htm/etc), keep only the path as the stable node id
+    # Example:
+    #   https://nlp.stanford.edu/IR-book/information-retrieval-book.html
+    # becomes:
+    #   /IR-book/information-retrieval-book
+    def construct_uri_id(regex: re.Pattern[str], uri: str) -> str:
+        parsed = urlparse(uri)
+        path = unquote(parsed.path or "/")
+
+        # normalize path: ensure leading slash
+        if not path.startswith("/"):
+            path = "/" + path
+
+        # strip trailing slash except for root
+        if path != "/" and path.endswith("/"):
+            path = path[:-1]
+
+        # strip common "page" extensions
+        path = re.sub(r"\.(?:html?|shtml|php|asp|aspx)$", "", path, flags=re.IGNORECASE)
+
+        # if after stripping extension we end up empty, treat as root
+        if path == "":
+            path = "/"
+
         return path
 
     # returns either bs4 parser or None
     def fetch_url(url: str) -> BeautifulSoup | None:
         # load url, get status_code
-        page = urlopen(url)
-        html = page.read().decode("utf-8")
-        status_code = page.getcode()
-        if status_code > 400:
-            # TODO add logging
-            print(f"Status: {status_code}")
+        try:
+            page = urlopen(url, timeout=15)
+            status_code = page.getcode()
+            if status_code and status_code >= 400:
+                print(f"HTTP Status: {status_code} for {url}")
+                return None
+            raw = page.read()
+        except HTTPError as e:
+            print(f"HTTPError: {e.code} for {url}")
             return None
-        parser = BeautifulSoup(html, "html.parser")
-        return parser
-        
+        except URLError as e:
+            print(f"URLError: {e} for {url}")
+            return None
+        except Exception as e:
+            print(f"Fetch error: {e} for {url}")
+            return None
+
+        html = raw.decode("utf-8", errors="replace")
+        return BeautifulSoup(html, "html.parser")
+
     # Return expanded node if works, else None
     # returns a title, content pair, or None
     def extract_info(html: BeautifulSoup) -> tuple[str, str] | None:
         # extract title and text from HTML contents
-        # find first (h1, or h2)
-        title = html.find_next(["h1", "h2"])
-        if not title:
-            print("Error - No title Found")
-            print(html)
-            return None
+        # prefer first h1/h2; fallback to <title>
+        heading = html.find(["h1", "h2"])
+        if heading and heading.get_text(strip=True):
+            title_text = heading.get_text(strip=True)
+        else:
+            title_tag = html.find("title")
+            if title_tag and title_tag.get_text(strip=True):
+                title_text = title_tag.get_text(strip=True)
+            else:
+                print("Error - No title Found")
+                return None
 
         p_tags = html.find_all("p")
-        body = str()
-        # TODO there is probably a better method than a for loop
+        body_parts: list[str] = []
         for p in p_tags:
-            if p.text:
-                # moved to html section in open_page_return_parser
-                # TODO Make this better 
-                body += re.sub(r"[\n\t]*", "", p.text)
+            text = p.get_text(" ", strip=True)
+            if text:
+                body_parts.append(text)
 
-        return (title, body)
+        body = "\n".join(body_parts)
+        return (title_text, body)
 
 
-    def discover_urls(self, html: BeautifulSoup) -> set[str]:
-        # look for all hrefs
-        # yes? -> add to return list
-        # parse all href
-        raw_links = html.select('a[href]')
-        links = set()
+    def discover_urls(self, html: BeautifulSoup, base_url: str) -> set[str]:
+        # Extract hrefs, normalize to absolute URLs, drop fragments, filter to same domain.
+        raw_links = html.select("a[href]")
+        links: set[str] = set()
+
         for link in raw_links:
-            # add element, do nothing if already exists
-            url = link.attrs["href"]
-            # if not string, skip
-            if not isinstance(url, str):
+            href = link.attrs.get("href")
+            if not isinstance(href, str):
                 continue
-            # is okay to follow, add
-            if Crawler.is_url_ok_to_follow(self.okay_url_regex, url):
-                links.add(link.attrs["href"])
+
+            href = href.strip()
+            if href == "" or href.startswith("#"):
+                continue
+            if href.lower().startswith(("mailto:", "javascript:", "tel:")):
+                continue
+
+            abs_url = urljoin(base_url, href)
+            parsed = urlparse(abs_url)
+            abs_url = parsed._replace(fragment="").geturl()
+
+            if Crawler.is_url_ok_to_follow(self.okay_url_regex, abs_url):
+                links.add(abs_url)
 
         return links
 
     def crawl(self):
-        graph_dict = {}
-        frontier_queue = deque()
-        last_node = None
-        
-        root_url = "https://" + self.seed_domain
-        root_url_id = Crawler.construct_uri_id(self.okay_url_regex, root_url)
+        # BFS frontier (queue), prevent cycles/re-expansion, update parents whenever edges are discovered.
+        graph_dict: dict[str, set[str]] = {}
+        nodes: dict[str, ExpandedNode] = {}
 
-        # construct root node for graph entry.. Just populate with Emtpy stuff + give url_id as root.
-        # First PAss will create 
-        root_node = ExpandedNode(
-            raw_contents= "",
-            clean_contents= "",
-            title = "",
-            links = set(),
-            parents = set(),
-            url_id= root_url_id
-        )
-        # first pass is a frontier node
-        first_page = FrontierNode(url= root_url)
-        # add first_page to frontier_queue
-        frontier_queue.append(first_page)
-        last_node = root_node
-        # for now repeat 3 times:
-        for i in range(3):
+        frontier_queue: deque[FrontierNode] = deque()
+        enqueued_ids: set[str] = set()
+        expanded_ids: set[str] = set()
+
+        root_url = self.seed_url
+        root_id = Crawler.construct_uri_id(self.okay_url_regex, root_url)
+
+        # Seed node placeholder so parents/edges can reference it
+        nodes[root_id] = ExpandedNode(url=root_url, url_id=root_id)
+        graph_dict.setdefault(root_id, set())
+
+        # enqueue seed (BFS)
+        frontier_queue.append(FrontierNode(url=root_url))
+        enqueued_ids.add(root_id)
+
+        max_expansions = 3  # keep your current architecture/limit for now
+        expansions = 0
+
+        while frontier_queue and expansions < max_expansions:
             time.sleep(1)
-            current_expanded_node = self.attempt_parse_and_build_expanded_node(parent_node=last_node, current_node=frontier_queue.popleft()) # append adds to right, for queue = first in first out -> this popleft
-            
-            
-            if not current_expanded_node:
-                print("Problem")
-                continue
-            else:
-                # first time this expanded node created
-                # also save page
-                if not self.save_page(current_expanded_node):
-                    print(f"ERROR SAVING PAGE {current_expanded_node.url_id}")
-                graph_dict[current_expanded_node.url_id] = set()
-                for link in current_expanded_node.links:
-                    # construct uri_id + check Graph for existing
-                    link_id = Crawler.construct_uri_id(self.okay_url_regex, link)
-                    # add link_id
-                    graph_dict[current_expanded_node.url_id].add(link_id)
-                    # before adding to frontier queue, check if exists
-                    # this should handle any dict
-                    if link_id in graph_dict:
-                        # skip... This is already done
-                        continue
-                    # construct FrontierNode
-                    temp = FrontierNode(link)
-                    frontier_queue.append(temp)
-            # poorly named.. This refers to the last expanded node in the queue
-            last_node = current_expanded_node
 
-        return graph_dict                 
-                            
+            current_frontier = frontier_queue.popleft()
+            current_id = Crawler.construct_uri_id(self.okay_url_regex, current_frontier.url)
+
+            if current_id in expanded_ids:
+                continue
+
+            # Expand current page
+            current_node = self.attempt_parse_and_build_expanded_node(
+                parent_node=None,
+                current_node=current_frontier,
+            )
+            if current_node is None:
+                continue
+
+            # Preserve any parents that might have been recorded before expansion
+            if current_id in nodes:
+                current_node.parents |= nodes[current_id].parents
+
+            nodes[current_node.url_id] = current_node
+            expanded_ids.add(current_node.url_id)
+
+            # Ensure adjacency set exists
+            graph_dict.setdefault(current_node.url_id, set())
+
+            # Save page
+            self.save_page(current_node)
+
+            # Process children
+            for child_url in current_node.links:
+                child_id = Crawler.construct_uri_id(self.okay_url_regex, child_url)
+
+                # no self-loop
+                if child_id == current_node.url_id:
+                    continue
+
+                # add edge current -> child
+                graph_dict[current_node.url_id].add(child_id)
+
+                # ensure child node exists so we can update parents now (even before it's expanded)
+                if child_id not in nodes:
+                    nodes[child_id] = ExpandedNode(url=child_url, url_id=child_id)
+
+                # update child parents
+                nodes[child_id].parents.add(current_node.url_id)
+
+                # enqueue if not seen (BFS), preventing cycles/repeats
+                if child_id not in expanded_ids and child_id not in enqueued_ids:
+                    frontier_queue.append(FrontierNode(url=child_url))
+                    enqueued_ids.add(child_id)
+
+            expansions += 1
+
+        self.graph_dict = graph_dict
+        return graph_dict
+
 SEED_URL = "nlp.stanford.edu/IR-book/information-retrieval-book.html"
 crawler = Crawler(SEED_URL)
 crawled_graph = crawler.crawl()

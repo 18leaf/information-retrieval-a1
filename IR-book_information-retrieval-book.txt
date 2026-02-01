@@ -1,0 +1,58 @@
+url: https://nlp.stanford.edu/IR-book/information-retrieval-book.html
+url_id: /IR-book/information-retrieval-book
+title: Introduction to Information Retrieval
+read_at: 02/01/2026
+parents: 
+links: http://nlp.stanford.edu/%7Emanning/, http://nlp.stanford.edu/IR-book/essir2011, http://nlp.stanford.edu/IR-book/html/errata.html, http://nlp.stanford.edu/IR-book/html/flat.html, http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/computing-scores-in-a-complete-search-system-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/flat-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-construction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/language-models-for-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/link-analysis-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/matrix-decompositions-and-latent-semantic-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-query-expansion-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/text-classification-and-naive-bayes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-crawling-and-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-search-basics-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html, http://nlp.stanford.edu/IR-book/pdf/00front.pdf, http://nlp.stanford.edu/IR-book/pdf/01bool.pdf, http://nlp.stanford.edu/IR-book/pdf/02voc.pdf, http://nlp.stanford.edu/IR-book/pdf/03dict.pdf, http://nlp.stanford.edu/IR-book/pdf/04const.pdf, http://nlp.stanford.edu/IR-book/pdf/05comp.pdf, http://nlp.stanford.edu/IR-book/pdf/06vect.pdf, http://nlp.stanford.edu/IR-book/pdf/07system.pdf, http://nlp.stanford.edu/IR-book/pdf/08eval.pdf, http://nlp.stanford.edu/IR-book/pdf/09expand.pdf, http://nlp.stanford.edu/IR-book/pdf/10xml.pdf, http://nlp.stanford.edu/IR-book/pdf/11prob.pdf, http://nlp.stanford.edu/IR-book/pdf/12lmodel.pdf, http://nlp.stanford.edu/IR-book/pdf/13bayes.pdf, http://nlp.stanford.edu/IR-book/pdf/14vcat.pdf, http://nlp.stanford.edu/IR-book/pdf/15svm.pdf, http://nlp.stanford.edu/IR-book/pdf/16flat.pdf, http://nlp.stanford.edu/IR-book/pdf/17hier.pdf, http://nlp.stanford.edu/IR-book/pdf/18lsi.pdf, http://nlp.stanford.edu/IR-book/pdf/19web.pdf, http://nlp.stanford.edu/IR-book/pdf/20crawl.pdf, http://nlp.stanford.edu/IR-book/pdf/21link.pdf, http://nlp.stanford.edu/IR-book/pdf/99back.pdf, http://nlp.stanford.edu/IR-book/pdf/ir.bib, http://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf, http://nlp.stanford.edu/IR-book/pdf/irbookprint.pdf, https://nlp.stanford.edu/IR-book/information-retrieval.html
+This is the companion website for the
+following book.
+Christopher D. Manning , Prabhakar Raghavan and Hinrich
+Schütze , Introduction to Information Retrieval , Cambridge
+University Press. 2008.
+You can order this book
+at CUP , at your
+  local bookstore or on the internet. The best search
+term to use is the ISBN: 0521865719 . The book aims to provide a 
+modern approach to information retrieval from a computer science perspective.
+It is based on a course we have been teaching in
+various forms at Stanford University , the
+University of Stuttgart and the University of Munich . We'd be pleased to get feedback about how this book works out as a textbook,
+what is missing, or covered in too much detail, or what is simply
+wrong.  Please send any feedback or comments to:
+informationretrieval (at) yahoogroups (dot) com Online resources Apart from small differences (mainly concerning copy
+  editing and figures), the online editions
+  should have the same content as the print edition. The following materials are available online. The date of
+  last update is given in parentheses. HTML
+edition (2009.04.07) PDF
+of the book  for online viewing (with nice hyperlink features, 2009.04.01) PDF
+of the book  for printing (2009.04.01) PDFs of individual chapters (2009.04.01) Stanford slides and assignments (2013.09.13) University of Munich slides and assignments (2013.09.13) errata (2009.03.31) 8th European Summer School on information Retrieval (2011.08.28) Information retrieval resources A
+list of information
+retrieval resources is also available. Introduction to Information Retrieval: Table of Contents chapter resources Front matter (incl. table of notations) pdf 01 Boolean retrieval pdf html 02 The term vocabulary & postings lists pdf html 03 Dictionaries and tolerant retrieval pdf html 04 Index construction pdf html 05 Index compression pdf html 06 Scoring, term weighting & the vector space model pdf html 07 Computing scores in a complete search system pdf html 08 Evaluation in information retrieval pdf html 09 Relevance feedback & query expansion pdf html 10 XML retrieval pdf html 11 Probabilistic information retrieval pdf html 12 Language models for information retrieval pdf html 13 Text classification & Naive Bayes pdf html 14 Vector space classification pdf html 15 Support vector machines & machine learning on documents pdf html 16 Flat clustering pdf html html 17 Hierarchical clustering pdf html 18 Matrix decompositions & latent semantic indexing pdf html 19 Web search basics pdf html 20 Web crawling and indexes pdf html 21 Link analysis pdf html Bibliography & Index pdf bibtex file bib
+The book aims to provide a 
+modern approach to information retrieval from a computer science perspective.
+It is based on a course we have been teaching in
+various forms at Stanford University , the
+University of Stuttgart and the University of Munich .
+We'd be pleased to get feedback about how this book works out as a textbook,
+what is missing, or covered in too much detail, or what is simply
+wrong.  Please send any feedback or comments to:
+informationretrieval (at) yahoogroups (dot) com
+Apart from small differences (mainly concerning copy
+  editing and figures), the online editions
+  should have the same content as the print edition. The following materials are available online. The date of
+  last update is given in parentheses. HTML
+edition (2009.04.07) PDF
+of the book  for online viewing (with nice hyperlink features, 2009.04.01) PDF
+of the book  for printing (2009.04.01) PDFs of individual chapters (2009.04.01) Stanford slides and assignments (2013.09.13) University of Munich slides and assignments (2013.09.13) errata (2009.03.31) 8th European Summer School on information Retrieval (2011.08.28) Information retrieval resources A
+list of information
+retrieval resources is also available. Introduction to Information Retrieval: Table of Contents chapter resources Front matter (incl. table of notations) pdf 01 Boolean retrieval pdf html 02 The term vocabulary & postings lists pdf html 03 Dictionaries and tolerant retrieval pdf html 04 Index construction pdf html 05 Index compression pdf html 06 Scoring, term weighting & the vector space model pdf html 07 Computing scores in a complete search system pdf html 08 Evaluation in information retrieval pdf html 09 Relevance feedback & query expansion pdf html 10 XML retrieval pdf html 11 Probabilistic information retrieval pdf html 12 Language models for information retrieval pdf html 13 Text classification & Naive Bayes pdf html 14 Vector space classification pdf html 15 Support vector machines & machine learning on documents pdf html 16 Flat clustering pdf html html 17 Hierarchical clustering pdf html 18 Matrix decompositions & latent semantic indexing pdf html 19 Web search basics pdf html 20 Web crawling and indexes pdf html 21 Link analysis pdf html Bibliography & Index pdf bibtex file bib
+The following materials are available online. The date of
+  last update is given in parentheses. HTML
+edition (2009.04.07) PDF
+of the book  for online viewing (with nice hyperlink features, 2009.04.01) PDF
+of the book  for printing (2009.04.01) PDFs of individual chapters (2009.04.01) Stanford slides and assignments (2013.09.13) University of Munich slides and assignments (2013.09.13) errata (2009.03.31) 8th European Summer School on information Retrieval (2011.08.28) Information retrieval resources A
+list of information
+retrieval resources is also available. Introduction to Information Retrieval: Table of Contents chapter resources Front matter (incl. table of notations) pdf 01 Boolean retrieval pdf html 02 The term vocabulary & postings lists pdf html 03 Dictionaries and tolerant retrieval pdf html 04 Index construction pdf html 05 Index compression pdf html 06 Scoring, term weighting & the vector space model pdf html 07 Computing scores in a complete search system pdf html 08 Evaluation in information retrieval pdf html 09 Relevance feedback & query expansion pdf html 10 XML retrieval pdf html 11 Probabilistic information retrieval pdf html 12 Language models for information retrieval pdf html 13 Text classification & Naive Bayes pdf html 14 Vector space classification pdf html 15 Support vector machines & machine learning on documents pdf html 16 Flat clustering pdf html html 17 Hierarchical clustering pdf html 18 Matrix decompositions & latent semantic indexing pdf html 19 Web search basics pdf html 20 Web crawling and indexes pdf html 21 Link analysis pdf html Bibliography & Index pdf bibtex file bib
+A
+list of information
+retrieval resources is also available.
