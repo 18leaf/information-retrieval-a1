@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-relevance-feedback-strategies-1.html
 url_id: /IR-book/html/htmledition/evaluation-of-relevance-feedback-strategies-1
 title: Evaluation of relevance feedback strategies
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/relevance-feedback-and-pseudo-relevance-feedback-1, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1, /IR-book/html/htmledition/relevance-feedback-on-the-web-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/pseudo-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-pseudo-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-on-the-web-1.html
 Interactive relevance feedback can give very substantial gains in
 retrieval performance. Empirically, one round of relevance feedback is often very useful. Two rounds is sometimes marginally more useful. Successful use of relevance feedback requires enough judged documents, otherwise the process is unstable in that it may drift away from the user's information need. Accordingly, having at least five judged documents is recommended. There is some subtlety to evaluating the effectiveness of relevance

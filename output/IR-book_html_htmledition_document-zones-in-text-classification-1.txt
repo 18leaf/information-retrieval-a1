@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/document-zones-in-text-classification-1.html
 url_id: /IR-book/html/htmledition/document-zones-in-text-classification-1
 title: Document zones in text classification
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/features-for-text-1, /IR-book/html/htmledition/improving-classifier-performance-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/connections-to-text-summarization-1, /IR-book/html/htmledition/features-for-text-1, /IR-book/html/htmledition/improving-classifier-performance-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/connections-to-text-summarization-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/features-for-text-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/improving-classifier-performance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/parametric-and-zone-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/separate-feature-spaces-for-document-zones-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/upweighting-document-zones-1.html
 As already discussed in Section 6.1 , documents usually
 have zones, such as mail

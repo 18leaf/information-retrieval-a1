@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-on-the-web-1.html
 url_id: /IR-book/html/htmledition/relevance-feedback-on-the-web-1
 title: Relevance feedback on the web
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-of-relevance-feedback-strategies-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/relevance-feedback-and-pseudo-relevance-feedback-1, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1, /IR-book/html/htmledition/when-does-relevance-feedback-work-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-relevance-feedback-strategies-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/link-analysis-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-pseudo-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/when-does-relevance-feedback-work-1.html
 Some web search engines offer a similar/related pages feature: the user indicates a document in the results set as exemplary from the standpoint of meeting his information need and requests more documents like it. This can be viewed as a particular simple form of relevance feedback. However, in general relevance feedback has been little used in web search. One exception was the Excite web search engine, which initially provided full relevance feedback. However, the feature was in time dropped, due to lack of use. On the web, few people use advanced search interfaces and most would like to
 complete their search in a single interaction. But the lack of uptake also probably

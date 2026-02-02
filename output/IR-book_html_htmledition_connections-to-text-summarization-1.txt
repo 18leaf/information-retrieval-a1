@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/connections-to-text-summarization-1.html
 url_id: /IR-book/html/htmledition/connections-to-text-summarization-1
 title: Connections to text summarization.
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/document-zones-in-text-classification-1, /IR-book/html/htmledition/improving-classifier-performance-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1, /IR-book/html/htmledition/machine-learning-methods-in-ad-hoc-information-retrieval-1, /IR-book/html/htmledition/separate-feature-spaces-for-document-zones-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/improving-classifier-performance-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/machine-learning-methods-in-ad-hoc-information-retrieval-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-zones-in-text-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/machine-learning-methods-in-ad-hoc-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/mutual-information-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/results-snippets-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/separate-feature-spaces-for-document-zones-1.html
 In Section 8.7 , we mentioned the field of text summarization,
 and how most work in that field has adopted the limited goal of

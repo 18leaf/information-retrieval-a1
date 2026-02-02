@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/postings-file-compression-1.html
 url_id: /IR-book/html/htmledition/postings-file-compression-1
 title: Postings file compression
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/blocked-storage-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/gamma-codes-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/variable-byte-codes-1, /IR-book/html/htmledition/zipfs-law-modeling-the-distribution-of-terms-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/blocked-sort-based-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/blocked-storage-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/gamma-codes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/statistical-properties-of-terms-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/variable-byte-codes-1.html
 Table: Encoding gaps instead of document IDs. For example,
 we store 

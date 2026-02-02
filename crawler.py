@@ -36,7 +36,7 @@ class ExpandedNode(FrontierNode):
         return (
             f"url: {self.url}\n"
             f"url_id: {self.url_id}\n"
-            f"title: {self.title}\n"
+            f"title: {self.title.replace("\n", " ")}\n"
             f"read_at: {now}\n"
             f"parents: {parents_csv}\n"
             f"links: {links_csv}\n"
@@ -351,7 +351,7 @@ class Crawler:
         return graph_dict
 
 SEED_URL = "nlp.stanford.edu/IR-book/information-retrieval-book.html"
-crawler = Crawler(SEED_URL, save_path=Path.cwd() / "output")
+crawler = Crawler(SEED_URL, save_path=Path.cwd() / "output2")
 crawled_graph = crawler.crawl()
 for key, value in crawled_graph.items():
     print(key)

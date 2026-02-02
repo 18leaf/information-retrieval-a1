@@ -1,7 +1,7 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/distributing-the-crawler-1.html
 url_id: /IR-book/html/htmledition/distributing-the-crawler-1
 title: Distributing the crawler
-read_at: 02/01/2026
+read_at: 02/02/2026
 parents: /IR-book/html/htmledition/crawler-architecture-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/web-crawling-and-indexes-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/crawler-architecture-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dns-resolution-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html
 How do the various nodes of a distributed crawler communicate and share URLs? The idea is to replicate the flow of Figure 20.1 at each node, with one essential difference: following the URL filter, we use a host splitter to dispatch each surviving URL to the crawler node responsible for the URL; thus the set of hosts being crawled is partitioned among the nodes. This modified flow is shown in Figure 20.2 . The output of the host splitter goes into the Duplicate URL Eliminator block of each other node in the distributed system. The ``Content Seen?'' module in the distributed architecture of Figure 20.2 is, however, complicated by several factors: Unlike the URL frontier and the duplicate

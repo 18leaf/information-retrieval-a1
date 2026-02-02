@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-9.html
 url_id: /IR-book/html/htmledition/references-and-further-reading-9
 title: References and further reading
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1, /IR-book/html/htmledition/xml-retrieval-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1, /IR-book/html/htmledition/xml-retrieval-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/automatic-thesaurus-generation-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-query-expansion-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html
 Work in information retrieval quickly confronted the problem of
 variant expression which meant that the

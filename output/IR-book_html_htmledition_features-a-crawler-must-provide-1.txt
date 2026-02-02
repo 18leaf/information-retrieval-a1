@@ -1,7 +1,7 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/features-a-crawler-must-provide-1.html
 url_id: /IR-book/html/htmledition/features-a-crawler-must-provide-1
 title: Features a crawlermustprovide
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/features-a-crawler-should-provide-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/overview-1, /IR-book/html/htmledition/web-crawling-and-indexes-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/overview-1, /IR-book/html/htmledition/web-crawling-and-indexes-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/features-a-crawler-should-provide-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/overview-1.html
 © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/dynamic-indexing-1.html
 url_id: /IR-book/html/htmledition/dynamic-indexing-1
 title: Dynamic indexing
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/distributed-indexing-1, /IR-book/html/htmledition/index-construction-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/other-types-of-indexes-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/distributed-indexing-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/index-construction-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/other-types-of-indexes-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/distributed-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-construction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-types-of-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-4.html, http://nlp.stanford.edu/IR-book/html/htmledition/spelling-correction-1.html
 Thus far, we have assumed that the document collection is
 static. This is fine for collections that change

@@ -1,9 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/document-representations-and-measures-of-relatedness-in-vector-spaces-1.html
 url_id: /IR-book/html/htmledition/document-representations-and-measures-of-relatedness-in-vector-spaces-1
-title: Document representations and measures of
-  relatedness in vector spaces
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/problem-statement-1, /IR-book/html/htmledition/rocchio-classification-1, /IR-book/html/htmledition/vector-space-classification-1
+title: Document representations and measures of   relatedness in vector spaces
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/problem-statement-1, /IR-book/html/htmledition/rocchio-classification-1, /IR-book/html/htmledition/vector-space-classification-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-2.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/pivoted-normalized-document-length-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/rocchio-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-classification-1.html
 As in Chapter 6 , we represent documents as
 vectors in in this chapter. To illustrate properties

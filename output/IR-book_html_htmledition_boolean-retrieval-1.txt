@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html
 url_id: /IR-book/html/htmledition/boolean-retrieval-1
 title: Boolean retrieval
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1, /IR-book/information-retrieval-book
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/index-construction-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1, /IR-book/information-retrieval-book
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/an-example-information-retrieval-problem-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/processing-boolean-queries-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-extended-boolean-model-versus-ranked-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-and-contact-information-1.html
 The meaning of the term information retrieval can be very broad. Just getting a credit card out of your wallet so that
 you can type in the card number is a form of information retrieval.

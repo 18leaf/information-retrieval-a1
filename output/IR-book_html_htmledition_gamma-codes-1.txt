@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/gamma-codes-1.html
 url_id: /IR-book/html/htmledition/gamma-codes-1
 title: Gamma codes
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/list-of-tables-1, /IR-book/html/htmledition/postings-file-compression-1, /IR-book/html/htmledition/references-and-further-reading-5
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-5, /IR-book/html/htmledition/variable-byte-codes-1, /IR-book/html/htmledition/zipfs-law-modeling-the-distribution-of-terms-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/an-example-information-retrieval-problem-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/blocked-sort-based-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/postings-file-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-5.html, http://nlp.stanford.edu/IR-book/html/htmledition/variable-byte-codes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/zipfs-law-modeling-the-distribution-of-terms-1.html
 Table 5.5: Some examples of unary and codes.
 Unary codes are only shown for the smaller numbers.

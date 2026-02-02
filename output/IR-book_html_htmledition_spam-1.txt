@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/spam-1.html
 url_id: /IR-book/html/htmledition/spam-1
 title: Spam
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/web-search-basics-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/advertising-as-the-economic-model-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/the-web-graph-1, /IR-book/html/htmledition/web-characteristics-1, /IR-book/html/htmledition/web-search-basics-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/advertising-as-the-economic-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/link-analysis-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-web-graph-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-characteristics-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-crawling-and-indexes-1.html
 At its root, spam stems from the heterogeneity of motives in
 content creation on the Web. In particular, many web

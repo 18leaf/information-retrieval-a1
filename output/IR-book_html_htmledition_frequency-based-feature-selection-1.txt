@@ -1,8 +1,7 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/frequency-based-feature-selection-1.html
 url_id: /IR-book/html/htmledition/frequency-based-feature-selection-1
-title: Frequency-based feature
-  selection
-read_at: 02/01/2026
+title: Frequency-based feature   selection
+read_at: 02/02/2026
 parents: /IR-book/html/htmledition/assessing-as-a-feature-selection-methodassessing-chi-square-as-a-feature-selection-method-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/feature-selection-1, /IR-book/html/htmledition/feature-selection-for-multiple-classifiers-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/text-classification-and-naive-bayes-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/assessing-as-a-feature-selection-methodassessing-chi-square-as-a-feature-selection-method-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/feature-selection-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/feature-selection-for-multiple-classifiers-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/mutual-information-1.html
 Frequency-based feature selection

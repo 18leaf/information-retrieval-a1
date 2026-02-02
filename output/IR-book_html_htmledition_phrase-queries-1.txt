@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/phrase-queries-1.html
 url_id: /IR-book/html/htmledition/phrase-queries-1
 title: Phrase queries
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/computing-scores-in-a-complete-search-system-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/computing-scores-in-a-complete-search-system-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-7
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/designing-parsing-and-scoring-functions-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-7.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-scoring-and-query-operator-interaction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/wildcard-queries-2.html
 On the query german shepherd, we could use vector space retrieval to identify documents heavy in these two terms, with no way of prescribing that they occur consecutively. Phrase retrieval, on the other hand, tells us of the existence of the phrase german shepherd in a document, without any indication of the relative frequency or weight of this phrase. While these two retrieval paradigms (phrase and vector space) consequently have different implementations in terms of indexes and retrieval algorithms, they can in some cases be combined usefully, as in the three-step example of query parsing in Section 7.2.3 . Next: References and further reading Up: Vector space scoring and Previous: Wildcard queries Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07
 Next: References and further reading Up: Vector space scoring and Previous: Wildcard queries Contents Index © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

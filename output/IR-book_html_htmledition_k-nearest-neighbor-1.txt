@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/k-nearest-neighbor-1.html
 url_id: /IR-book/html/htmledition/k-nearest-neighbor-1
 title: k nearest neighbor
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/rocchio-classification-1, /IR-book/html/htmledition/vector-space-classification-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/rocchio-classification-1, /IR-book/html/htmledition/the-bias-variance-tradeoff-1, /IR-book/html/htmledition/time-complexity-and-optimality-of-knn-1, /IR-book/html/htmledition/vector-space-classification-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-2.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/rocchio-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/time-complexity-and-optimality-of-knn-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-classification-1.html
 Unlike Rocchio, nearest neighbor or kNN
 classification determines the decision boundary

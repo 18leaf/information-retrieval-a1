@@ -1,7 +1,7 @@
 url: https://nlp.stanford.edu/IR-book/information-retrieval-more-books.html
 url_id: /IR-book/information-retrieval-more-books
 title: Information Retrieval: More Books
-read_at: 02/01/2026
+read_at: 02/02/2026
 parents: /IR-book/information-retrieval
 links: 
 More Information Retrieval Books The Turn -

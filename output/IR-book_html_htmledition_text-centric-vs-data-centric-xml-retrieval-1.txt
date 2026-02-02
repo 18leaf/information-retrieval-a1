@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/text-centric-vs-data-centric-xml-retrieval-1.html
 url_id: /IR-book/html/htmledition/text-centric-vs-data-centric-xml-retrieval-1
 title: Text-centric vs. data-centric XML retrieval
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-of-xml-retrieval-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-10, /IR-book/html/htmledition/xml-retrieval-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-10, /IR-book/html/htmledition/xml-retrieval-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-xml-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-10.html, http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html
 In contrast, data-centric XML mainly encodes numerical and non-text attribute-value data. When
 querying data-centric XML, we want to impose exact match

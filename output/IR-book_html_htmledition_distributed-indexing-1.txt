@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/distributed-indexing-1.html
 url_id: /IR-book/html/htmledition/distributed-indexing-1
 title: Distributed indexing
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/index-construction-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/single-pass-in-memory-indexing-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/index-construction-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/single-pass-in-memory-indexing-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/distributing-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dynamic-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/hardware-basics-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-construction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-types-of-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/single-pass-in-memory-indexing-1.html
 term-partitioned index . Most large search engines prefer a document-partitioned index (which can be easily generated
 from a term-partitioned index).

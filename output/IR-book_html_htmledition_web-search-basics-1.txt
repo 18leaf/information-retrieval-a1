@@ -1,6 +1,6 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/web-search-basics-1.html
 url_id: /IR-book/html/htmledition/web-search-basics-1
 title: Web search basics
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/information-retrieval-book
+read_at: 02/02/2026
+parents: /IR-book/information-retrieval-book
 links: http://nlp.stanford.edu/IR-book/html/htmledition/advertising-as-the-economic-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/background-and-history-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-size-and-estimation-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/near-duplicates-and-shingling-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-18.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-19.html, http://nlp.stanford.edu/IR-book/html/htmledition/spam-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-search-user-experience-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-web-graph-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/user-query-needs-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-characteristics-1.html

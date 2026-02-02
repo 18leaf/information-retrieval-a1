@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/biword-indexes-1.html
 url_id: /IR-book/html/htmledition/biword-indexes-1
 title: Biword indexes
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/positional-indexes-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/positional-indexes-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-postings-and-phrase-queries-1.html
 One approach to handling phrases is
 to consider every pair of consecutive terms in a document as a phrase.

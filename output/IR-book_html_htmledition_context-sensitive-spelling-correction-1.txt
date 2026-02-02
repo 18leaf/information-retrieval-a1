@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/context-sensitive-spelling-correction-1.html
 url_id: /IR-book/html/htmledition/context-sensitive-spelling-correction-1
 title: Context sensitive spelling correction
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/irbook
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/edit-distance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/k-gram-indexes-for-spelling-correction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/phonetic-correction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/spelling-correction-1.html
 This enumeration can be expensive if we find many corrections of the individual terms, since we could encounter a large number of combinations of alternatives. Several heuristics are used to trim this space. In the example above, as we expand the alternatives for flew and form, we retain only the most frequent combinations in the collection or in the query logs, which contain previous queries by users. For instance, we would retain flew from as an alternative to try and extend to a three-term corrected query, but perhaps not fled fore or flea form. In this example, the biword fled fore is likely to be rare compared to the biword flew from. Then, we only attempt to extend the list of top biwords (such as flew from), to corrections of Heathrow. As an alternative to using the biword statistics in the collection, we may use the logs of queries issued by users; these could of course include queries with spelling errors. Exercises. If denotes the length of string , show that the edit distance between and is never more than Compute the edit distance between paris and
 alice. Write down the array of distances

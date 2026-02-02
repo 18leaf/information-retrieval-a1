@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/automatic-thesaurus-generation-1.html
 url_id: /IR-book/html/htmledition/automatic-thesaurus-generation-1
 title: Automatic thesaurus generation
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/global-methods-for-query-reformulation-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-9, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/global-methods-for-query-reformulation-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-9, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/global-methods-for-query-reformulation-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/matrix-decompositions-and-latent-semantic-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/query-expansion-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-9.html
 As an alternative to the cost of a manual thesaurus, we could attempt to
 generate a thesaurus automatically by analyzing a collection of

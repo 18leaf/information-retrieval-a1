@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/the-extended-boolean-model-versus-ranked-retrieval-1.html
 url_id: /IR-book/html/htmledition/the-extended-boolean-model-versus-ranked-retrieval-1
 title: The extended Boolean model versus ranked retrieval
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/boolean-retrieval-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/boolean-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-1, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1, /IR-book/html/htmledition/term-frequency-and-weighting-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-postings-and-phrase-queries-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/processing-boolean-queries-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-vector-space-model-for-scoring-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html
 The Boolean retrieval model contrasts with ranked retrieval models such as the vector space model (Section 6.3 ),
 in which users largely use free text queries , that is, just

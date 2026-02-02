@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/cluster-cardinality-in-k-means-1.html
 url_id: /IR-book/html/htmledition/cluster-cardinality-in-k-means-1
 title: Cluster cardinality in K-means
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/exercises-3, /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/exercises-3, /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/hierarchical-agglomerative-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/k-means-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-3.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/k-means-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/model-based-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/problem-statement-1.html
 A naive approach would be to select the optimal value of according to the objective function, namely the value of that minimizes RSS.  Defining as the minimal RSS of all clusterings with clusters, we
 observe that is a monotonically

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/feature-selectionchi2-feature-selection-1.html
 url_id: /IR-book/html/htmledition/feature-selectionchi2-feature-selection-1
 title: Feature selectionChi2 Feature selection
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/assessing-as-a-feature-selection-methodassessing-chi-square-as-a-feature-selection-method-1, /IR-book/html/htmledition/cluster-labeling-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-of-text-classification-1, /IR-book/html/htmledition/feature-selection-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/list-of-tables-1, /IR-book/html/htmledition/mutual-information-1, /IR-book/html/htmledition/text-classification-and-naive-bayes-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/assessing-as-a-feature-selection-methodassessing-chi-square-as-a-feature-selection-method-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-of-text-classification-1, /IR-book/html/htmledition/feature-selection-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/mutual-information-1, /IR-book/html/htmledition/text-classification-and-naive-bayes-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/assessing-as-a-feature-selection-methodassessing-chi-square-as-a-feature-selection-method-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-text-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/feature-selection-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/mutual-information-1.html
 Worked example. We first
 compute for the

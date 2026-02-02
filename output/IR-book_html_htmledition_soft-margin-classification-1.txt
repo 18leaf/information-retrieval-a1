@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/soft-margin-classification-1.html
 url_id: /IR-book/html/htmledition/soft-margin-classification-1
 title: Soft margin classification
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1, /IR-book/html/htmledition/support-vector-machines-the-linearly-separable-case-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/extensions-to-the-svm-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/multiclass-svms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/nonlinear-svms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/support-vector-machines-the-linearly-separable-case-1.html
 For the very high dimensional problems common in text classification,
 sometimes the data are linearly separable.  But in the general case

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/when-does-relevance-feedback-work-1.html
 url_id: /IR-book/html/htmledition/when-does-relevance-feedback-work-1
 title: When does relevance feedback work?
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/relevance-feedback-and-pseudo-relevance-feedback-1, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1, /IR-book/html/htmledition/relevance-feedback-on-the-web-1, /IR-book/html/htmledition/rocchio-classification-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/probabilistic-relevance-feedback-1, /IR-book/html/htmledition/relevance-feedback-and-query-expansion-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-pseudo-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-on-the-web-1.html
 The success of relevance feedback depends on certain assumptions.
 Firstly, the user has to have sufficient knowledge to be able to make an

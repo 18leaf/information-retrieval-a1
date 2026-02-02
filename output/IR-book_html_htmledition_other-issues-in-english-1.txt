@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/other-issues-in-english-1.html
 url_id: /IR-book/html/htmledition/other-issues-in-english-1
 title: Other issues in English.
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/determining-the-vocabulary-of-terms-1, /IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/capitalizationcase-folding-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/capitalizationcase-folding-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-languages-1.html
 Other possible normalizations are quite idiosyncratic and particular to
 English.  For instance, you might wish to equate ne'er and never or the British spelling colour and the American

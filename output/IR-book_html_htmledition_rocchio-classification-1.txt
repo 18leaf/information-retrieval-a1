@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/rocchio-classification-1.html
 url_id: /IR-book/html/htmledition/rocchio-classification-1
 title: Rocchio classification
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/vector-space-classification-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/group-average-agglomerative-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/k-means-1, /IR-book/html/htmledition/list-of-figures-1, /IR-book/html/htmledition/vector-space-classification-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-representations-and-measures-of-relatedness-in-vector-spaces-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dot-products-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-2.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/k-means-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/k-nearest-neighbor-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relation-to-multinomial-unigram-language-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/sublinear-tf-scaling-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-rocchio-algorithm-for-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-rocchio71-algorithm-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/when-does-relevance-feedback-work-1.html
 Figure 14.3: Rocchio classification. Perhaps the
 best-known way of computing good class boundaries is Rocchio

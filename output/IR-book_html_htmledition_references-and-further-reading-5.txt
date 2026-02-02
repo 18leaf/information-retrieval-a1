@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-5.html
 url_id: /IR-book/html/htmledition/references-and-further-reading-5
 title: References and further reading
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/blocked-sort-based-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/gamma-codes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/variable-byte-codes-1.html
 Heaps' law was discovered by Heaps (1978) . See
 also Baeza-Yates and Ribeiro-Neto (1999) . A detailed study of vocabulary

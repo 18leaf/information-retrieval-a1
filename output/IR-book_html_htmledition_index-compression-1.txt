@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/index-compression-1.html
 url_id: /IR-book/html/htmledition/index-compression-1
 title: Index compression
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/information-retrieval-book
+read_at: 02/02/2026
+parents: /IR-book/information-retrieval-book
 links: http://nlp.stanford.edu/IR-book/html/htmledition/blocked-storage-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dictionary-as-a-string-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dictionary-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/gamma-codes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/heaps-law-estimating-the-number-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/postings-file-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-4.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-5.html, http://nlp.stanford.edu/IR-book/html/htmledition/statistical-properties-of-terms-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/variable-byte-codes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/zipfs-law-modeling-the-distribution-of-terms-1.html
 Chapter 1 introduced the dictionary and the inverted
 index as the central data structures in information

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-12.html
 url_id: /IR-book/html/htmledition/references-and-further-reading-12
 title: References and further reading
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/extended-language-modeling-approaches-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/language-modeling-versus-other-approaches-in-ir-1, /IR-book/html/htmledition/language-models-for-information-retrieval-1, /IR-book/html/htmledition/text-classification-and-naive-bayes-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/extended-language-modeling-approaches-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/language-models-for-information-retrieval-1, /IR-book/html/htmledition/text-classification-and-naive-bayes-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/clustering-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/extended-language-modeling-approaches-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/flat-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/language-models-for-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/text-classification-and-naive-bayes-1.html
 For more details on the basic concepts of probabilistic language
 models and techniques for smoothing, see either Manning and Schütze (1999, Chapter 6) or Jurafsky and Martin (2008, Chapter 4) . The important initial papers that originated the language modeling

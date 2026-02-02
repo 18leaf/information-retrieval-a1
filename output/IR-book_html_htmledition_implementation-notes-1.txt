@@ -1,7 +1,7 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/implementation-notes-1.html
 url_id: /IR-book/html/htmledition/implementation-notes-1
 title: Implementation notes
-read_at: 02/01/2026
+read_at: 02/02/2026
 parents: /IR-book/html/htmledition/cluster-labeling-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/k-means-1, /IR-book/html/htmledition/references-and-further-reading-17
 links: http://nlp.stanford.edu/IR-book/html/htmledition/cluster-labeling-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-4.html, http://nlp.stanford.edu/IR-book/html/htmledition/flat-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/k-means-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-14.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-17.html
 In low dimensions, more aggressive optimizations are

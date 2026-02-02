@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/putting-it-all-together-1.html
 url_id: /IR-book/html/htmledition/putting-it-all-together-1
 title: Putting it all together
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/components-of-an-information-retrieval-system-1, /IR-book/html/htmledition/computing-scores-in-a-complete-search-system-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/designing-parsing-and-scoring-functions-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/results-snippets-1, /IR-book/html/htmledition/vector-space-scoring-and-query-operator-interaction-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/computing-scores-in-a-complete-search-system-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/results-snippets-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-simple-example-of-machine-learned-scoring-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/components-of-an-information-retrieval-system-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/designing-parsing-and-scoring-functions-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/learning-weights-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/processing-boolean-queries-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/results-snippets-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-scoring-and-query-operator-interaction-1.html
 A complete search system.Data paths are shown primarily for a free text query. In this figure, documents stream in from the left for
 parsing and linguistic processing (language and format

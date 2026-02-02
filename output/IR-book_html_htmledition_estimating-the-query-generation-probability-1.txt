@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/estimating-the-query-generation-probability-1.html
 url_id: /IR-book/html/htmledition/estimating-the-query-generation-probability-1
 title: Estimating the query generation probability
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/clustering-in-information-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/language-models-for-information-retrieval-1, /IR-book/html/htmledition/probability-estimates-in-theory-1, /IR-book/html/htmledition/relation-to-multinomial-unigram-language-model-1, /IR-book/html/htmledition/the-query-likelihood-model-1, /IR-book/html/htmledition/using-query-likelihood-language-models-in-ir-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/language-models-for-information-retrieval-1, /IR-book/html/htmledition/the-query-likelihood-model-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/ponte-and-crofts-experiments-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probability-estimates-in-theory-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-query-likelihood-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/using-query-likelihood-language-models-in-ir-1.html
 In this section we describe how to estimate .  The probability
 of producing the query given the LM of document using maximum likelihood estimation ( MLE ) and

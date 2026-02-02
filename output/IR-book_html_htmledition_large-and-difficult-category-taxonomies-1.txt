@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/large-and-difficult-category-taxonomies-1.html
 url_id: /IR-book/html/htmledition/large-and-difficult-category-taxonomies-1
 title: Large and difficult category taxonomies
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/issues-in-the-classification-of-text-documents-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1, /IR-book/html/htmledition/the-text-classification-problem-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/features-for-text-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/improving-classifier-performance-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1, /IR-book/html/htmledition/the-text-classification-problem-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/features-for-text-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/improving-classifier-performance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-15.html
 If a text classification problem consists of a small number of
 well-separated categories, then many classification algorithms are

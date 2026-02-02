@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/nonlinear-svms-1.html
 url_id: /IR-book/html/htmledition/nonlinear-svms-1
 title: Nonlinear SVMs
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/experimental-results-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/soft-margin-classification-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1, /IR-book/html/htmledition/support-vector-machines-the-linearly-separable-case-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/experimental-results-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/extensions-to-the-svm-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/multiclass-svms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-15.html
 Figure 15.6: Projecting data that is not linearly separable into a higher
   dimensional space can make it linearly separable. With what we have presented so far, data sets that are linearly

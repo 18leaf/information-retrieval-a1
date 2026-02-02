@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/user-utility-1.html
 url_id: /IR-book/html/htmledition/user-utility-1
 title: User utility
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/a-broader-perspective-system-quality-and-user-utility-1, /IR-book/html/htmledition/evaluation-in-information-retrieval-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/a-broader-perspective-system-quality-and-user-utility-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-in-information-retrieval-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/system-issues-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-broader-perspective-system-quality-and-user-utility-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-types-of-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/refining-a-deployed-system-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/system-issues-1.html
 What we would really like is a way of
 quantifying aggregate user happiness, based on the relevance, speed, and

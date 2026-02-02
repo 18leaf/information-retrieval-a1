@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/centroid-clustering-1.html
 url_id: /IR-book/html/htmledition/centroid-clustering-1
 title: Centroid clustering
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/group-average-agglomerative-clustering-1, /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/optimality-of-hac-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-4.html, http://nlp.stanford.edu/IR-book/html/htmledition/group-average-agglomerative-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-agglomerative-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/optimality-of-hac-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/single-link-and-complete-link-clustering-1.html
 Figure 17.11 shows the first three steps of a
 centroid clustering. 

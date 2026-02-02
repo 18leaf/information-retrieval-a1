@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/clustering-in-information-retrieval-1.html
 url_id: /IR-book/html/htmledition/clustering-in-information-retrieval-1
 title: Clustering in information retrieval
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/cardinality---the-number-of-clusters-1, /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/list-of-tables-1, /IR-book/html/htmledition/references-and-further-reading-16
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-12, /IR-book/html/htmledition/references-and-further-reading-16
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/cluster-labeling-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/cluster-pruning-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/estimating-the-query-generation-probability-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/flat-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/matrix-decompositions-and-latent-semantic-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/problem-statement-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/queries-as-vectors-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-classification-1.html
 Table 16.1: Some applications of clustering in information
 retrieval. Application What is Benefit Example clustered? Search result clustering search results more effective information

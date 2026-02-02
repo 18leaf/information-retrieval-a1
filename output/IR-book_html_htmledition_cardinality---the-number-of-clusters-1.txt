@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/cardinality---the-number-of-clusters-1.html
 url_id: /IR-book/html/htmledition/cardinality---the-number-of-clusters-1
 title: Cardinality - the number of clusters
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/a-note-on-terminology-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-of-clustering-1, /IR-book/html/htmledition/exercises-4, /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/problem-statement-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-note-on-terminology-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/clustering-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/problem-statement-1.html
 Since our goal is to optimize an objective function,
 clustering is essentially a search problem.  The brute force

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/capitalizationcase-folding-1.html
 url_id: /IR-book/html/htmledition/capitalizationcase-folding-1
 title: Capitalization/case-folding.
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/accents-and-diacritics-1, /IR-book/html/htmledition/determining-the-vocabulary-of-terms-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1, /IR-book/html/htmledition/other-issues-in-english-1, /IR-book/html/htmledition/text-classification-and-naive-bayes-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/text-classification-and-naive-bayes-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/accents-and-diacritics-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-issues-in-english-1.html
 A common strategy is to do case-folding by reducing all letters to lower
 case.

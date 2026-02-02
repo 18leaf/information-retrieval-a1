@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/preface-1.html
 url_id: /IR-book/html/htmledition/preface-1
 title: Preface
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/book-layout-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/table-of-notations-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/acknowledgments-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/web-and-contact-information-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/acknowledgments-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/book-layout-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/book-organization-and-course-development-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/prerequisites-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/table-of-notations-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-and-contact-information-1.html
 As recently as the 1990s, studies showed that most people preferred getting
 information from other people rather than from information retrieval systems.

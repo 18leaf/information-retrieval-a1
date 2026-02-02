@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/choosing-a-document-unit-1.html
 url_id: /IR-book/html/htmledition/choosing-a-document-unit-1
 title: Choosing a document unit
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/an-example-information-retrieval-problem-1, /IR-book/html/htmledition/challenges-in-xml-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/determining-the-vocabulary-of-terms-1, /IR-book/html/htmledition/document-delineation-and-character-sequence-decoding-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/obtaining-the-character-sequence-in-a-document-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/challenges-in-xml-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/determining-the-vocabulary-of-terms-1, /IR-book/html/htmledition/document-delineation-and-character-sequence-decoding-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/obtaining-the-character-sequence-in-a-document-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/determining-the-vocabulary-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-delineation-and-character-sequence-decoding-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/obtaining-the-character-sequence-in-a-document-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/query-term-proximity-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html
 The next phase is to determine what the document unit for
 indexing is.  Thus far we have assumed that documents are fixed units for

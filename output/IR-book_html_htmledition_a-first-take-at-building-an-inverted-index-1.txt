@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1.html
 url_id: /IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1
 title: A first take at building an inverted index
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/boolean-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/other-types-of-indexes-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/an-example-information-retrieval-problem-1, /IR-book/html/htmledition/blocked-sort-based-indexing-1, /IR-book/html/htmledition/boolean-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/other-types-of-indexes-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/an-example-information-retrieval-problem-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/determining-the-vocabulary-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/faster-postings-list-intersection-via-skip-pointers-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/processing-boolean-queries-1.html
 To gain the speed benefits of indexing at retrieval time, we
 have to build the index in advance.  The major steps in this are: Collect the documents to be indexed: ... Tokenize the text, turning each document into a list of tokens: ... Do linguistic preprocessing, producing a

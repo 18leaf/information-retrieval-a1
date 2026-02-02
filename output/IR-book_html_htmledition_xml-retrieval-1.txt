@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html
 url_id: /IR-book/html/htmledition/xml-retrieval-1
 title: XML retrieval
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/information-retrieval-book
+read_at: 02/02/2026
+parents: /IR-book/information-retrieval-book
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-vector-space-model-for-xml-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/basic-xml-concepts-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/challenges-in-xml-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-xml-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/parametric-and-zone-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-10.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-9.html, http://nlp.stanford.edu/IR-book/html/htmledition/text-centric-vs-data-centric-xml-retrieval-1.html
 Information retrieval systems are often contrasted with relational databases. Traditionally, IR systems have retrieved information from unstructured text - by which we mean ``raw'' text
 without markup. Databases are designed for querying relational data : sets of records that have values for

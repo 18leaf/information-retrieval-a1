@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/the-binary-independence-model-1.html
 url_id: /IR-book/html/htmledition/the-binary-independence-model-1
 title: The Binary Independence Model
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/model-based-clustering-1, /IR-book/html/htmledition/probabilistic-information-retrieval-1, /IR-book/html/htmledition/probability-estimates-in-theory-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/probabilistic-information-retrieval-1, /IR-book/html/htmledition/the-bernoulli-model-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/deriving-a-ranking-function-for-query-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-approaches-to-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probability-estimates-in-practice-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probability-estimates-in-theory-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/properties-of-naive-bayes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-query-expansion-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-bernoulli-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-prp-with-retrieval-costs-1.html
 The Binary Independence Model (BIM)
 we present in this section is the model that has

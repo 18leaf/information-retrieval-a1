@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/result-ranking-by-machine-learning-1.html
 url_id: /IR-book/html/htmledition/result-ranking-by-machine-learning-1
 title: Result ranking by machine learning
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/machine-learning-methods-in-ad-hoc-information-retrieval-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/a-simple-example-of-machine-learned-scoring-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/machine-learning-methods-in-ad-hoc-information-retrieval-1, /IR-book/html/htmledition/multiclass-svms-1, /IR-book/html/htmledition/references-and-further-reading-15, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-simple-example-of-machine-learned-scoring-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/link-analysis-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/machine-learning-methods-in-ad-hoc-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/multiclass-svms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-15.html
 The above ideas can be readily generalized to 
 functions of many more than two variables.  There are lots of other

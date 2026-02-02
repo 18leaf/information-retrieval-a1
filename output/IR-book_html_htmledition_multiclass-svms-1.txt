@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/multiclass-svms-1.html
 url_id: /IR-book/html/htmledition/multiclass-svms-1
 title: Multiclass SVMs
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/nonlinear-svms-1, /IR-book/html/htmledition/result-ranking-by-machine-learning-1, /IR-book/html/htmledition/soft-margin-classification-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/nonlinear-svms-1, /IR-book/html/htmledition/soft-margin-classification-1, /IR-book/html/htmledition/support-vector-machines-and-machine-learning-on-documents-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/classification-with-more-than-two-classes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/extensions-to-the-svm-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/nonlinear-svms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/result-ranking-by-machine-learning-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/soft-margin-classification-1.html
 SVMs are inherently two-class
 classifiers.  The traditional way to do 

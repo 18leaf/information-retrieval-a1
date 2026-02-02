@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/types-of-language-models-1.html
 url_id: /IR-book/html/htmledition/types-of-language-models-1
 title: Types of language models
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/language-models-for-information-retrieval-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/language-models-for-information-retrieval-1, /IR-book/html/htmledition/multinomial-distributions-over-words-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/finite-automata-and-language-models-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/language-models-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/multinomial-distributions-over-words-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/review-of-basic-probability-theory-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/tree-structured-dependencies-between-terms-1.html
 How do we build probabilities over sequences of terms? We can always use
 the chain rule from Equation 56 to decompose the probability of a 

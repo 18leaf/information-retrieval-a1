@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/flat-clustering-1.html
 url_id: /IR-book/html/htmledition/flat-clustering-1
 title: Flat clustering
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/irbook, /IR-book/information-retrieval-book
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/information-retrieval-book
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-note-on-terminology-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/cardinality---the-number-of-clusters-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/cluster-cardinality-in-k-means-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/clustering-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-3.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/k-means-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/latent-semantic-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/matrix-decompositions-and-latent-semantic-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/model-based-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/problem-statement-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-15.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-16.html, http://nlp.stanford.edu/IR-book/html/htmledition/text-classification-and-naive-bayes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-text-classification-problem-1.html
 Clustering algorithms group a set of documents into
 subsets or clusters . The

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-14.html
 url_id: /IR-book/html/htmledition/references-and-further-reading-14
 title: References and further reading
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/time-complexity-and-optimality-of-knn-1, /IR-book/html/htmledition/vector-space-classification-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/exercises-2, /IR-book/html/htmledition/implementation-notes-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/vector-space-classification-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-2.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-query-expansion-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/rocchio-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-bias-variance-tradeoff-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-classification-1.html
 As discussed in Chapter 9 , Rocchio relevance
 feedback is due to Rocchio (1971) . Joachims (1997) presents a probabilistic

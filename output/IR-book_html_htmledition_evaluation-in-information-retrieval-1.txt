@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-in-information-retrieval-1.html
 url_id: /IR-book/html/htmledition/evaluation-in-information-retrieval-1
 title: Evaluation in information retrieval
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/information-retrieval-book
+read_at: 02/02/2026
+parents: /IR-book/information-retrieval-book
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-broader-perspective-system-quality-and-user-utility-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/assessing-relevance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-unranked-retrieval-sets-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/information-retrieval-system-evaluation-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-7.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-8.html, http://nlp.stanford.edu/IR-book/html/htmledition/refining-a-deployed-system-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/results-snippets-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/standard-test-collections-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/system-issues-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/user-utility-1.html
 We have seen in the preceding chapters many alternatives in designing an
 IR system.  How do we know which of these techniques are effective in

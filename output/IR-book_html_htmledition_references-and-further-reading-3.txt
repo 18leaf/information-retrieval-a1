@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-3.html
 url_id: /IR-book/html/htmledition/references-and-further-reading-3
 title: References and further reading
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/index-construction-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/multinomial-distributions-over-words-1, /IR-book/html/htmledition/phonetic-correction-1, /IR-book/html/htmledition/search-structures-for-dictionaries-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/index-construction-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/multinomial-distributions-over-words-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/edit-distance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-construction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/language-models-for-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/phonetic-correction-1.html
 Knuth (1997) is a comprehensive source for information on search trees, including B-trees and their use in searching through dictionaries. Garfield (1976) gives one of the first complete descriptions of the permuterm index. Ferragina and Venturini (2007) give an approach to addressing the space blowup in permuterm indexes. One of the earliest formal treatments of spelling correction
 was due to Damerau (1964) .  The notion of edit distance that

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/a-vector-space-model-for-xml-retrieval-1.html
 url_id: /IR-book/html/htmledition/a-vector-space-model-for-xml-retrieval-1
 title: A vector space model for XML retrieval
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/challenges-in-xml-retrieval-1, /IR-book/html/htmledition/exercises-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/list-of-tables-1, /IR-book/html/htmledition/xml-retrieval-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/challenges-in-xml-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/exercises-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-10, /IR-book/html/htmledition/xml-retrieval-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/basic-xml-concepts-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/challenges-in-xml-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dot-products-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-xml-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-10.html, http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html
 Figure 10.8: A mapping of an XML document (left) to a set of
 lexicalized subtrees (right). To take account of structure in retrieval

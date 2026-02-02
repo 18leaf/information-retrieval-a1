@@ -1,8 +1,7 @@
 url: https://nlp.stanford.edu/IR-book/information-retrieval.html
 url_id: /IR-book/information-retrieval
-title: Information
-Retrieval Resources
-read_at: 02/01/2026
+title: Information Retrieval Resources
+read_at: 02/02/2026
 parents: /IR-book/information-retrieval-book
 links: http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html, https://nlp.stanford.edu/IR-book/exercises.html, https://nlp.stanford.edu/IR-book/information-retrieval-more-books.html
 Books on Information Retrieval (General) Introduction to Information Retrieval. C.D. Manning, P. Raghavan, H.

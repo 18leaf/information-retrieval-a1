@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/parametric-and-zone-indexes-1.html
 url_id: /IR-book/html/htmledition/parametric-and-zone-indexes-1
 title: Parametric and zone indexes
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1, /IR-book/html/htmledition/xml-retrieval-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/learning-weights-1, /IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1, /IR-book/html/htmledition/the-optimal-weight-g-1, /IR-book/html/htmledition/weighted-zone-scoring-1, /IR-book/html/htmledition/xml-retrieval-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/learning-weights-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-optimal-weight-g-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/weighted-zone-scoring-1.html
 We have thus far viewed a document as a sequence of terms. In fact, most documents have additional structure. Digital documents generally encode, in machine-recognizable form, certain metadata associated with each document. By metadata, we mean specific forms of data about a document, such as its author(s), title and date of publication.  This metadata would generally include fields such as the date of creation and the format of the document, as well the author and possibly the title of the document. The possible values of a field should be thought of as finite - for instance, the set of all dates of authorship. Consider queries of the form ``find documents authored by
 William Shakespeare in 1601, containing the phrase

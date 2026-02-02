@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/positional-postings-and-phrase-queries-1.html
 url_id: /IR-book/html/htmledition/positional-postings-and-phrase-queries-1
 title: Positional postings and phrase queries
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/biword-indexes-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/positional-indexes-1, /IR-book/html/htmledition/the-extended-boolean-model-versus-ranked-retrieval-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1, /IR-book/html/htmledition/tokenization-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/biword-indexes-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/positional-indexes-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/biword-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/combination-schemes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/faster-postings-list-intersection-via-skip-pointers-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-index-size-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-indexes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/query-term-proximity-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1.html
 Many complex or technical concepts and many organization and product
 names are multiword compounds or phrases.  We would like to be

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/assessing-relevance-1.html
 url_id: /IR-book/html/htmledition/assessing-relevance-1
 title: Assessing relevance
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/evaluation-in-information-retrieval-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/list-of-tables-1, /IR-book/html/htmledition/references-and-further-reading-16
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1, /IR-book/html/htmledition/evaluation-in-information-retrieval-1, /IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-ranked-retrieval-results-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html
 To properly evaluate a system, your 
 test information needs must be germane to the documents in the test

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/zipfs-law-modeling-the-distribution-of-terms-1.html
 url_id: /IR-book/html/htmledition/zipfs-law-modeling-the-distribution-of-terms-1
 title: Zipf's law: Modeling the distribution of terms
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/gamma-codes-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/dictionary-compression-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/index-compression-1, /IR-book/html/htmledition/irbook
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dictionary-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/gamma-codes-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/heaps-law-estimating-the-number-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/postings-file-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/statistical-properties-of-terms-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-web-graph-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/web-search-basics-1.html
 A commonly used model of the distribution of terms in a
 collection is Zipf's law . It states that, if is the

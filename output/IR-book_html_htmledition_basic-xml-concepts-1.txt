@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/basic-xml-concepts-1.html
 url_id: /IR-book/html/htmledition/basic-xml-concepts-1
 title: Basic XML concepts
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/a-vector-space-model-for-xml-retrieval-1, /IR-book/html/htmledition/challenges-in-xml-retrieval-1, /IR-book/html/htmledition/exercises-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-10, /IR-book/html/htmledition/xml-retrieval-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/a-vector-space-model-for-xml-retrieval-1, /IR-book/html/htmledition/challenges-in-xml-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-of-xml-retrieval-1, /IR-book/html/htmledition/exercises-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-10, /IR-book/html/htmledition/xml-retrieval-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/challenges-in-xml-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/xml-retrieval-1.html
 Figure 10.2: The XML document in Figure 10.1 as a
   simplified DOM object. Figure 10.2 shows Figure 10.1 as a tree.

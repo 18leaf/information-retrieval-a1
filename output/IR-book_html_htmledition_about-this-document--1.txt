@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/about-this-document--1.html
 url_id: /IR-book/html/htmledition/about-this-document--1
 title: About this document ...
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/irbook.html
 This document was generated using the LaTeX 2 HTML translator Version 2002-2-1 (1.71) Copyright © 1993, 1994, 1995, 1996, Nikos Drakos , 
 Computer Based Learning Unit, University of Leeds. Copyright © 1997, 1998, 1999, Ross Moore , 

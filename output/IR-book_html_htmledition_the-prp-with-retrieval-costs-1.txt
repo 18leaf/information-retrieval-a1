@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/the-prp-with-retrieval-costs-1.html
 url_id: /IR-book/html/htmledition/the-prp-with-retrieval-costs-1
 title: The PRP with retrieval costs
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/probabilistic-information-retrieval-1, /IR-book/html/htmledition/the-binary-independence-model-1, /IR-book/html/htmledition/the-probability-ranking-principle-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/probabilistic-information-retrieval-1, /IR-book/html/htmledition/the-10-loss-case-1, /IR-book/html/htmledition/the-binary-independence-model-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-broader-perspective-system-quality-and-user-utility-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-10-loss-case-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-binary-independence-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-probability-ranking-principle-1.html
 Suppose, instead, that we assume a model
 of retrieval costs. Let be the cost of not retrieving

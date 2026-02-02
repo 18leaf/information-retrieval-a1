@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/standard-test-collections-1.html
 url_id: /IR-book/html/htmledition/standard-test-collections-1
 title: Standard test collections
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-in-information-retrieval-1, /IR-book/html/htmledition/evaluation-of-unranked-retrieval-sets-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-in-information-retrieval-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook
 links: http://nlp.stanford.edu/IR-book/html/htmledition/blocked-sort-based-indexing-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-text-classification-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-unranked-retrieval-sets-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-construction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/information-retrieval-system-evaluation-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/text-classification-and-naive-bayes-1.html
 Here is a list of the most standard test collections and evaluation
 series.  We focus particularly on test collections for ad hoc information

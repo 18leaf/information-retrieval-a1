@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/information-retrieval-system-evaluation-1.html
 url_id: /IR-book/html/htmledition/information-retrieval-system-evaluation-1
 title: Information retrieval system evaluation
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-in-information-retrieval-1, /IR-book/html/htmledition/evaluation-of-clustering-1, /IR-book/html/htmledition/evaluation-of-text-classification-1, /IR-book/html/htmledition/evaluation-of-xml-retrieval-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/okapi-bm25-a-non-binary-model-1, /IR-book/html/htmledition/standard-test-collections-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/evaluation-in-information-retrieval-1, /IR-book/html/htmledition/evaluation-of-xml-retrieval-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/standard-test-collections-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/evaluation-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/standard-test-collections-1.html
 To measure ad hoc information retrieval effectiveness in the standard way, we
 need a test collection consisting of three things: A document collection A test suite of information needs, expressible as queries A set of relevance judgments, standardly a binary assessment of

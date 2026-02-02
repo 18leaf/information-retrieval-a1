@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/phonetic-correction-1.html
 url_id: /IR-book/html/htmledition/phonetic-correction-1
 title: Phonetic correction
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/context-sensitive-spelling-correction-1, /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/context-sensitive-spelling-correction-1, /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-3
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/context-sensitive-spelling-correction-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-3.html
 Algorithms for such phonetic hashing are commonly collectively known as soundex algorithms. However, there is an original soundex algorithm, with various variants, built on the following scheme: Turn every term to be indexed into a 4-character reduced form. Build an inverted index from these reduced forms to the original terms; call this the soundex index. Do the same with query terms. When the query calls for a soundex match, search this soundex index. The variations in different soundex algorithms have to do with the conversion of terms to 4-character forms. A commonly used conversion results in a 4-character code, with the first character being a letter of the alphabet and the other three being digits between 0 and 9. Retain the first letter of the term. Change all occurrences of the following letters to '0'
 (zero): 'A', E', 'I', 'O', 'U', 'H', 'W', 'Y'. Change letters to digits as follows:

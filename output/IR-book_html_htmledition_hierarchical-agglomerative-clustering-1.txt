@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-agglomerative-clustering-1.html
 url_id: /IR-book/html/htmledition/hierarchical-agglomerative-clustering-1
 title: Hierarchical agglomerative clustering
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/centroid-clustering-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/exercises-4, /IR-book/html/htmledition/group-average-agglomerative-clustering-1, /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/list-of-figures-1, /IR-book/html/htmledition/optimality-of-hac-1, /IR-book/html/htmledition/single-link-and-complete-link-clustering-1, /IR-book/html/htmledition/time-complexity-of-hac-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/centroid-clustering-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/exercises-4, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/single-link-and-complete-link-clustering-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/centroid-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/cluster-cardinality-in-k-means-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/divisive-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/k-means-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/single-link-and-complete-link-clustering-1.html
 A dendrogram
 of a 

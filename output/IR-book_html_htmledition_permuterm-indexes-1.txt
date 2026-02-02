@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/permuterm-indexes-1.html
 url_id: /IR-book/html/htmledition/permuterm-indexes-1
 title: Permuterm indexes
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/general-wildcard-queries-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/k-gram-indexes-for-wildcard-queries-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/dictionaries-and-tolerant-retrieval-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/general-wildcard-queries-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/k-gram-indexes-for-wildcard-queries-1.html
 Figure 3.3: A portion of a permuterm index. We refer to the set of rotated terms in the permuterm index as the permuterm vocabulary . How does this index help us with wildcard queries? Consider the wildcard query m*n. The key is to rotate such a wildcard query so that the * symbol appears at the end of the string - thus the rotated wildcard query becomes n$m*. Next, we look up this string in the permuterm index, where seeking n$m* (via a search tree) leads to rotations of (among others) the terms man and moron. Now that the permuterm index enables us to identify the original
 vocabulary terms matching a wildcard query, we look up these terms in

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html
 url_id: /IR-book/html/htmledition/stemming-and-lemmatization-1
 title: Stemming and lemmatization
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/list-of-tables-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/determining-the-vocabulary-of-terms-1, /IR-book/html/htmledition/faster-postings-list-intersection-via-skip-pointers-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/other-languages-1, /IR-book/html/htmledition/statistical-properties-of-terms-in-information-retrieval-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/determining-the-vocabulary-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/faster-postings-list-intersection-via-skip-pointers-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-languages-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-2.html
 For grammatical reasons, documents are going to use different forms of a
 word, such as organize , organizes , and organizing .  

@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1.html
 url_id: /IR-book/html/htmledition/normalization-equivalence-classing-of-terms-1
 title: Normalization (equivalence classing of terms)
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/dropping-common-terms-stop-words-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/list-of-figures-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1, /IR-book/html/htmledition/tokenization-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/accents-and-diacritics-1, /IR-book/html/htmledition/capitalizationcase-folding-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/determining-the-vocabulary-of-terms-1, /IR-book/html/htmledition/dropping-common-terms-stop-words-1, /IR-book/html/htmledition/footnode, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/other-issues-in-english-1, /IR-book/html/htmledition/other-languages-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/accents-and-diacritics-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/capitalizationcase-folding-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/determining-the-vocabulary-of-terms-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dropping-common-terms-stop-words-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/footnode.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-issues-in-english-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/other-languages-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/relevance-feedback-and-query-expansion-1.html
 Having broken up our documents (and also our query)
 into tokens, the easy case is if tokens in the query just match

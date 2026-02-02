@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/queries-as-vectors-1.html
 url_id: /IR-book/html/htmledition/queries-as-vectors-1
 title: Queries as vectors
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/clustering-in-information-retrieval-1, /IR-book/html/htmledition/dot-products-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1, /IR-book/html/htmledition/time-complexity-and-optimality-of-knn-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/dot-products-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1, /IR-book/html/htmledition/the-vector-space-model-for-scoring-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/computing-vector-scores-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/dot-products-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/efficient-scoring-and-ranking-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/tf-idf-weighting-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-vector-space-model-for-scoring-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/variant-tf-idf-functions-1.html
 There is a far more compelling reason to represent documents
 as vectors: we can also view a query as a

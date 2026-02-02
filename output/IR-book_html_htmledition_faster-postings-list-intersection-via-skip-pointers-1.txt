@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/faster-postings-list-intersection-via-skip-pointers-1.html
 url_id: /IR-book/html/htmledition/faster-postings-list-intersection-via-skip-pointers-1
 title: Faster postings list intersection via skip pointers
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/list-of-figures-1, /IR-book/html/htmledition/positional-postings-and-phrase-queries-1, /IR-book/html/htmledition/stemming-and-lemmatization-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/positional-postings-and-phrase-queries-1, /IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/faster-postings-list-intersection-via-skip-pointers-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hardware-basics-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-compression-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/positional-postings-and-phrase-queries-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/processing-boolean-queries-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/the-term-vocabulary-and-postings-lists-1.html
 In the remainder of this chapter, we will discuss extensions to postings
 list data structures and ways to increase the efficiency of using postings

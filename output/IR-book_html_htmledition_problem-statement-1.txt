@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/problem-statement-1.html
 url_id: /IR-book/html/htmledition/problem-statement-1
 title: Problem statement
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/cardinality---the-number-of-clusters-1, /IR-book/html/htmledition/cluster-cardinality-in-k-means-1, /IR-book/html/htmledition/clustering-in-information-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/irbook
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/a-note-on-terminology-1, /IR-book/html/htmledition/cluster-cardinality-in-k-means-1, /IR-book/html/htmledition/clustering-in-information-retrieval-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/exercises-4, /IR-book/html/htmledition/flat-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook
 links: http://nlp.stanford.edu/IR-book/html/htmledition/a-note-on-terminology-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/cardinality---the-number-of-clusters-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/clustering-in-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/document-representations-and-measures-of-relatedness-in-vector-spaces-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/flat-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/vector-space-classification-1.html
 The objective function is often defined in terms of
 similarity or distance between documents. Below, we will see

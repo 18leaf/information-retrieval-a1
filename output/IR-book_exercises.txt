@@ -1,7 +1,7 @@
 url: https://nlp.stanford.edu/IR-book/exercises.html
 url_id: /IR-book/exercises
 title: Introduction to Information Retrieval: Exercises
-read_at: 02/01/2026
+read_at: 02/02/2026
 parents: /IR-book/information-retrieval
 links: 
 Solutions

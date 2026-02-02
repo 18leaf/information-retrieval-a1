@@ -1,8 +1,8 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/references-and-further-reading-21.html
 url_id: /IR-book/html/htmledition/references-and-further-reading-21
 title: References and further reading
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/anchor-text-and-the-web-graph-1, /IR-book/html/htmledition/choosing-the-subset-of-the-web-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/link-analysis-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/anchor-text-and-the-web-graph-1, /IR-book/html/htmledition/choosing-the-subset-of-the-web-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/link-analysis-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/bibliography-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/choosing-the-subset-of-the-web-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/link-analysis-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/topic-specific-pagerank-1.html
 Garfield (1955) is seminal in the science of citation analysis.  This was built on by Pinski and Narin (1976) to develop a journal influence weight , whose definition is remarkably similar to that of the PageRank measure. The use of anchor text as an aid to searching and ranking stems from the work of McBryan (1994) . Extended anchor-text was implicit in his work, with systematic experiments reported in Chakrabarti et al. (1998) . Kemeny and Snell (1976) is a classic text on Markov chains.  The
 PageRank measure was developed in Brin and Page (1998) and in Page et al. (1998) . A number of methods for the

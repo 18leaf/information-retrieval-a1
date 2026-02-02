@@ -1,7 +1,7 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/an-appraisal-and-some-extensions-1.html
 url_id: /IR-book/html/htmledition/an-appraisal-and-some-extensions-1
 title: An appraisal and some extensions
-read_at: 02/01/2026
-parents: /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/probabilistic-information-retrieval-1
+read_at: 02/02/2026
+parents: /IR-book/html/htmledition/bayesian-network-approaches-to-ir-1, /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/probabilistic-approaches-to-relevance-feedback-1, /IR-book/html/htmledition/probabilistic-information-retrieval-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/an-appraisal-of-probabilistic-models-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/bayesian-network-approaches-to-ir-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/okapi-bm25-a-non-binary-model-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-approaches-to-relevance-feedback-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/probabilistic-information-retrieval-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/tree-structured-dependencies-between-terms-1.html
 Subsections An appraisal of probabilistic models Tree-structured dependencies between terms Okapi BM25: a non-binary model Bayesian network approaches to IR © 2008 Cambridge University Press This is an automatically generated page. In case of formatting errors you may want to look at the PDF edition of the book. 2009-04-07

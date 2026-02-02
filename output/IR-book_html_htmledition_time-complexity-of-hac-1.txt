@@ -1,7 +1,7 @@
 url: http://nlp.stanford.edu/IR-book/html/htmledition/time-complexity-of-hac-1.html
 url_id: /IR-book/html/htmledition/time-complexity-of-hac-1
 title: Time complexity of HAC
-read_at: 02/01/2026
+read_at: 02/02/2026
 parents: /IR-book/html/htmledition/contents-1, /IR-book/html/htmledition/group-average-agglomerative-clustering-1, /IR-book/html/htmledition/hierarchical-clustering-1, /IR-book/html/htmledition/index-1, /IR-book/html/htmledition/irbook, /IR-book/html/htmledition/references-and-further-reading-17, /IR-book/html/htmledition/single-link-and-complete-link-clustering-1
 links: http://nlp.stanford.edu/IR-book/html/htmledition/centroid-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/contents-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/exercises-4.html, http://nlp.stanford.edu/IR-book/html/htmledition/flat-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/group-average-agglomerative-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-agglomerative-clustering-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/index-1.html, http://nlp.stanford.edu/IR-book/html/htmledition/single-link-and-complete-link-clustering-1.html
 The complexity of the naive HAC algorithm in
