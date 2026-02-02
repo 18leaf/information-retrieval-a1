@@ -1,0 +1,245 @@
+There are 8153 distinct words in the vocab
+There are 873530 words in the corpus
+The average page length is 3001.821305841924
+Top 30 used words
+	collection frequency 55862
+the
+	document frequency 285
+-------------------------------------
+	collection frequency 32067
+of
+	document frequency 284
+-------------------------------------
+	collection frequency 22533
+in
+	document frequency 284
+-------------------------------------
+	collection frequency 21542
+a
+	document frequency 256
+-------------------------------------
+	collection frequency 18747
+is
+	document frequency 281
+-------------------------------------
+	collection frequency 18169
+to
+	document frequency 285
+-------------------------------------
+	collection frequency 17527
+and
+	document frequency 263
+-------------------------------------
+	collection frequency 12161
+for
+	document frequency 249
+-------------------------------------
+	collection frequency 9106
+that
+	document frequency 235
+-------------------------------------
+	collection frequency 9034
+we
+	document frequency 221
+-------------------------------------
+	collection frequency 8086
+this
+	document frequency 282
+-------------------------------------
+	collection frequency 6778
+are
+	document frequency 226
+-------------------------------------
+	collection frequency 6775
+as
+	document frequency 237
+-------------------------------------
+	collection frequency 5669
+0
+	document frequency 70
+-------------------------------------
+	collection frequency 5155
+an
+	document frequency 281
+-------------------------------------
+	collection frequency 5030
+be
+	document frequency 222
+-------------------------------------
+	collection frequency 4665
+with
+	document frequency 217
+-------------------------------------
+	collection frequency 4626
+documents
+	document frequency 179
+-------------------------------------
+	collection frequency 4461
+on
+	document frequency 221
+-------------------------------------
+	collection frequency 4405
+document
+	document frequency 173
+-------------------------------------
+	collection frequency 4190
+1
+	document frequency 166
+-------------------------------------
+	collection frequency 3933
+at
+	document frequency 282
+-------------------------------------
+	collection frequency 3783
+can
+	document frequency 194
+-------------------------------------
+	collection frequency 3720
+index
+	document frequency 247
+-------------------------------------
+	collection frequency 3610
+page
+	document frequency 281
+-------------------------------------
+	collection frequency 3575
+by
+	document frequency 212
+-------------------------------------
+	collection frequency 3523
+it
+	document frequency 202
+-------------------------------------
+	collection frequency 3456
+not
+	document frequency 193
+-------------------------------------
+	collection frequency 3377
+from
+	document frequency 192
+-------------------------------------
+	collection frequency 3351
+query
+	document frequency 150
+-------------------------------------
+Top 30 used words (STOPWORDS REMOVED)
+|	collection frequency 4626
+|  documents
+|	document frequency 179
+-------------------------------------
+|	collection frequency 4405
+|  document
+|	document frequency 173
+-------------------------------------
+|	collection frequency 3720
+|  index
+|	document frequency 247
+-------------------------------------
+|	collection frequency 3610
+|  page
+|	document frequency 281
+-------------------------------------
+|	collection frequency 3351
+|  query
+|	document frequency 150
+-------------------------------------
+|	collection frequency 2960
+|  figure
+|	document frequency 128
+-------------------------------------
+|	collection frequency 2785
+|  may
+|	document frequency 280
+-------------------------------------
+|	collection frequency 2682
+|  term
+|	document frequency 140
+-------------------------------------
+|	collection frequency 2666
+|  two
+|	document frequency 151
+-------------------------------------
+|	collection frequency 2663
+|  set
+|	document frequency 120
+-------------------------------------
+|	collection frequency 2656
+|  retrieval
+|	document frequency 113
+-------------------------------------
+|	collection frequency 2545
+|  classification
+|	document frequency 60
+-------------------------------------
+|	collection frequency 2460
+|  one
+|	document frequency 165
+-------------------------------------
+|	collection frequency 2458
+|  case
+|	document frequency 280
+-------------------------------------
+|	collection frequency 2407
+|  terms
+|	document frequency 143
+-------------------------------------
+|	collection frequency 2322
+|  information
+|	document frequency 127
+-------------------------------------
+|	collection frequency 2279
+|  clustering
+|	document frequency 37
+-------------------------------------
+|	collection frequency 2206
+|  book
+|	document frequency 284
+-------------------------------------
+|	collection frequency 2157
+|  example
+|	document frequency 142
+-------------------------------------
+|	collection frequency 2140
+|  model
+|	document frequency 95
+-------------------------------------
+|	collection frequency 2089
+|  text
+|	document frequency 114
+-------------------------------------
+|	collection frequency 2066
+|  number
+|	document frequency 138
+-------------------------------------
+|	collection frequency 2058
+|  want
+|	document frequency 281
+-------------------------------------
+|	collection frequency 2054
+|  training
+|	document frequency 38
+-------------------------------------
+|	collection frequency 2050
+|  next
+|	document frequency 244
+-------------------------------------
+|	collection frequency 1996
+|  look
+|	document frequency 280
+-------------------------------------
+|	collection frequency 1942
+|  section
+|	document frequency 163
+-------------------------------------
+|	collection frequency 1913
+|  data
+|	document frequency 95
+-------------------------------------
+|	collection frequency 1910
+|  generated
+|	document frequency 280
+-------------------------------------
+|	collection frequency 1895
+|  2009
+|	document frequency 282
+-------------------------------------

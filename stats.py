@@ -13,7 +13,7 @@ import numpy as np
 matrix = Preprocess(input_dir=Path.cwd() / "output").run()
 
 # The number of unique words in the corpus.
-print(f"There are {len(matrix.vocab.keys())}distinct words in the vocab")
+print(f"There are {len(matrix.vocab.keys())} distinct words in the vocab")
 # The number of words in the corpus.
 print(f"There are {np.sum(matrix.X)} words in the corpus")
 # The average page length (in words).
