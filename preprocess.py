@@ -38,7 +38,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Sequence
+from typing import Dict, Iterable, List, Sequence
 from collections import Counter
 import re
 
@@ -192,5 +192,3 @@ class Preprocess:
         return X
 
 
-matrix = Preprocess(input_dir=Path.cwd() / "output2", logging=True).run()
-print(matrix)
