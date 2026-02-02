@@ -47,9 +47,7 @@ import numpy as np
 
 @dataclass
 class PageRecord:
-    """
-    Represents the saved page from the crawler's output
-    """
+    """Represents the saved page from the crawler's output"""
     url: str
     url_id: str
     title: str
@@ -93,7 +91,7 @@ class Preprocess:
         """Entire pipeline in one function"""
         url_ids: List[str] = []
         page_counts: List[Dict[str, int]] = []
-
+    
         for path in self.iter_input_files():
             page = self.parse_file(path)
             norm = self.normalize_text(page.content)
@@ -102,7 +100,7 @@ class Preprocess:
 
             url_ids.append(page.url_id)
             page_counts.append(counts)
-
+    
         vocab = self.build_vocab(page_counts)
         X = self.vectorize(page_counts, vocab)
 
@@ -111,9 +109,11 @@ class Preprocess:
 
     def iter_input_files(self) -> Iterable[Path]:
         """Yield file paths in alphabetical order, sorted by alphabetical order"""
+        # sort files
         for p in sorted(self.input_dir.iterdir()):
             if p.is_file():
-                if p.name.startswith("bibliography-"):
+                # if there is bibliography, do not count
+                if p.name.find("bibliography") != -1:
                     continue
                 yield p
 
