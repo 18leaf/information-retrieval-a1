@@ -53,10 +53,10 @@ for term_id, word in id_to_word.items():
 
 non_stop_idx = np.array(non_stop_term_ids, dtype=int)
 
-# get the collection frequencies for just those term-ids
+# collection frequencies of stop words removed
 non_stop_cf = collection_freq[non_stop_idx]
 
-# ranks (indices into non_stop_idx) from highest cf -> lowest
+# ranks of collection freq descending orderk
 rank = np.argsort(non_stop_cf)[::-1]
 
 # take top 30 term-ids

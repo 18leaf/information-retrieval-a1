@@ -49,8 +49,6 @@ class Crawler:
     # seed input can be a bare domain (nlp.stanford.edu), domain+path, or full URL
     seed_domain: str
     seed_url: str
-    # Frontier = nodes that are discovered, but not expanded (not saved to file). They might have children, might be leaf nodes
-    frontier: deque[FrontierNode]
     # store graph_dict as uri_id -> set of child uri_id, representing outgoing edges
     graph_dict: dict[str, set[str]]
     # store regex pattern for okay url.. no need to compile many times

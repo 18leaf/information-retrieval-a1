@@ -125,7 +125,7 @@ class Preprocess:
 
         it = iter(text.splitlines())
         
-
+        # line separated key: value, until content
         url = next(it).split(":", 1)[1].strip()
         url_id = next(it).split(":", 1)[1].strip()
         title = next(it).split(":", 1)[1].strip()
@@ -135,7 +135,7 @@ class Preprocess:
         raw_links = next(it).split(":", 1)[1].strip()
         links = [] if raw_links == "" else [x.strip() for x in raw_links.split(",") if x.strip()]
 
-        # After `links:`, everything is raw content (free-form, may contain blank lines/spaces).
+        # After `links:`, everything is raw page content (free-form, may contain blank lines/spaces).
         content = "\n".join(it).strip()
 
         return PageRecord(
